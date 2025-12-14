@@ -1,0 +1,114 @@
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:       <http://data.europa.eu/949/> .
+@prefix country:   <http://publications.europa.eu/resource/authority/country/> .
+
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix wgs:       <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix era-optype:<http://data.europa.eu/949/concepts/op-types/> .
+
+###############################################################################
+# Operational Point – príklad pre “Žilina” (iba ukážka pre SHACL)
+#
+# Cieľ: aby tento OP spĺňal SHACL constraints z tvojho výrezu:
+#
+# 1) era:opName
+#    - presne 1×
+#    - datatype xsd:string
+#
+# 2) era:opType
+#    - presne 1×
+#    - objekt je IRI
+#    - a cez SPARQL constraint musí byť SKOS koncept v OP-types schéme
+#
+# 3) geosparql:hasGeometry
+#    - maxCount 1, objekt je IRI typu geosparql:Geometry
+#    - a samotná geometria musí mať:
+#        wgs:lat  (1×, xsd:double, v rozmedzí Európy)
+#        wgs:long (1×, xsd:double, v rozmedzí Európy)
+#        geosparql:asWKT (1×, datatype geosparql:wktLiteral)
+#
+# 4) era:inCountry
+#    - presne 1×
+#    - objekt je IRI
+#    - a cez SPARQL constraint musí mať skos:inScheme country scheme
+#
+# 5) era:lineReference/era:kilometer (property path)
+#    - minCount 1
+#    - xsd:double
+#
+# 6) era:lineReference/era:lineNationalId (property path)
+#    - minCount 1
+#    - objekt je IRI
+#
+# + Doplnok: era:siding -> prepojenie na Siding (kvôli tvojmu prípadu)
+###############################################################################
+
+<https://data.gov.sk/id/railway/op/example-op-zilina>
+    a era:OperationalPoint ;
+
+    # rdfs:label je “užívateľský” popis; SHACL ho tu nevyžaduje, ale je užitočný
+    rdfs:label "Žilina – príklad OP (pre siding)"@sk ;
+
+    # SHACL (1.2.0.0.0.1): opName je povinné a presne 1×, xsd:string
+    era:opName "Žilina" ;
+
+    # SHACL (1.2.0.0.0.4): opType je povinné a presne 1×, musí byť IRI + SKOS koncept
+    era:opType era-optype:OPTYPE_EXAMPLE ;
+
+    # SHACL (1.2.0.0.0.5): hasGeometry max 1×, objekt IRI typu geosparql:Geometry
+    geosparql:hasGeometry <https://data.gov.sk/id/railway/geometry/op-zilina> ;
+
+    # SHACL (inCountry): presne 1×, objekt IRI + musí byť v country scheme
+    era:inCountry country:SVK ;
+
+    # SHACL (1.2.0.0.0.6): aspoň jeden lineReference s kilometrom a linkou
+    era:lineReference <https://data.gov.sk/id/railway/lineReference/op-zilina/line180> ;
+
+    # Väzba na siding (toto je to, čo si chcel mať v príklade pre sidings)
+    era:siding <https://data.gov.sk/id/railway/siding/example-op-zilina/S1> .
+
+###############################################################################
+# LineReference pre OP (kvôli property path constraintom)
+# - musí obsahovať kilometer (xsd:double)
+# - musí obsahovať lineNationalId (IRI)
+###############################################################################
+
+<https://data.gov.sk/id/railway/lineReference/op-zilina/line180>
+    a era:LineReference ;
+    era:kilometer 0.000 ;
+    era:lineNationalId <https://data.gov.sk/id/railway/nationalLine/180> .
+
+###############################################################################
+# Geometria OP (kvôli geosparql:hasGeometry + locationShape)
+# - lat/long v rozsahu Európy
+# - WKT bod s wktLiteral
+###############################################################################
+
+<https://data.gov.sk/id/railway/geometry/op-zilina>
+    a geosparql:Geometry ;
+    wgs:lat 49.2230 ;
+    wgs:long 18.7395 ;
+    geosparql:asWKT "POINT(18.7395 49.2230)"^^geosparql:wktLiteral .
+
+###############################################################################
+# Minimálne SKOS “podklady” pre SPARQL constraints:
+# 1) country:SVK musí mať skos:inScheme country scheme
+# 2) opType koncept musí byť v OP-types schéme
+###############################################################################
+
+country:SVK
+    a skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/country> ;
+    skos:prefLabel "Slovensko"@sk ;
+    skos:prefLabel "Slovakia"@en .
+
+era-optype:OPTYPE_EXAMPLE
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/op-types/OperationalPointTypes> ;
+    skos:prefLabel "Example OP type (placeholder)"@en ;
+    skos:prefLabel "Ukážkový typ OP (placeholder)"@sk .

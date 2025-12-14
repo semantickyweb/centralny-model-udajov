@@ -1,0 +1,72 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:    <http://data.europa.eu/949/> .
+@prefix era-sn: <http://data.europa.eu/949/concepts/sol-natures/> .
+
+###############################################################################
+# Príklad: Section of Line (SoL) podľa SHACL
+#
+# Cieľ: spĺňať povinné/overované polia z výrezu:
+# - imCode (presne 1×, string dĺžky 4)
+# - lineNationalId (presne 1×, IRI)
+# - opStart (max 1×, IRI, odlišné od opEnd) + musí existovať
+# - opEnd   (max 1×, IRI, odlišné od opStart) + musí existovať
+# - length  (presne 1×, xsd:double)
+# - solNature (presne 1×, IRI) + SKOS (SoLNatures)
+#
+# Pozn.: aby sme sa nedostali do “Link applicability” pravidla,
+# použijeme SoL nature, ktorá NIE JE Link (t. j. nie rinf/20).
+###############################################################################
+
+<https://data.gov.sk/id/railway/sol/example-line180-zilina-vrutky>
+    a era:SectionOfLine ;
+    rdfs:label "SoL (príklad) – trať 180, Žilina ↔ Vrútky"@sk ;
+
+    # (1.1.0.0.0.1) imCode: presne 1×, 4 znaky
+    era:imCode "1234" ;
+
+    # (1.1.0.0.0.2) lineNationalId: presne 1×, IRI
+    era:lineNationalId <https://data.gov.sk/id/railway/nationalLine/180> ;
+
+    # (1.1.0.0.0.3) opStart: max 1×, IRI, odlišné od opEnd
+    era:opStart <https://data.gov.sk/id/railway/op/example-op-zilina> ;
+
+    # (1.1.0.0.0.4) opEnd: max 1×, IRI, odlišné od opStart
+    era:opEnd <https://data.gov.sk/id/railway/op/example-op-vrutky> ;
+
+    # (1.1.0.0.0.5) length: presne 1×, xsd:double
+    era:length 22.5 ;
+
+    # (1.1.0.0.0.6) solNature: presne 1×, IRI + SKOS v SoLNatures
+    era:solNature era-sn:SoLNATURE_EXAMPLE_STANDARD .
+
+###############################################################################
+# OP zdroje (aby “existovali” pre opStart/opEnd).
+# Tvoje SoL SHACL síce nekontroluje priamo tvar OP, ale:
+# - iné constrainty/dotazy používajú era:uopid (napr. v solNatureApplicability)
+# Takže doplníme aj uopid, aby bol príklad použiteľnejší.
+###############################################################################
+
+<https://data.gov.sk/id/railway/op/example-op-zilina>
+    a era:OperationalPoint ;
+    rdfs:label "Žilina (príklad OP)"@sk ;
+    era:uopid "SKZILINA01" .
+
+<https://data.gov.sk/id/railway/op/example-op-vrutky>
+    a era:OperationalPoint ;
+    rdfs:label "Vrútky (príklad OP)"@sk ;
+    era:uopid "SKVRUTKY01" .
+
+###############################################################################
+# Minimálne SKOS “podklady” pre solNature SKOS constraint:
+# musí byť skos:inScheme v schéme SoLNatures.
+###############################################################################
+
+era-sn:SoLNATURE_EXAMPLE_STANDARD
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/sol-natures/SoLNatures> ;
+    skos:prefLabel "Standard SoL nature (placeholder)"@en ;
+    skos:prefLabel "Štandardná povaha SoL (placeholder)"@sk .
