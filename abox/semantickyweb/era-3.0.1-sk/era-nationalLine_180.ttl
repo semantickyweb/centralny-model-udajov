@@ -1,0 +1,64 @@
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:         <http://purl.org/dc/terms/> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:         <http://data.europa.eu/949/> .
+@prefix country:     <http://publications.europa.eu/resource/authority/country/> .
+@prefix era-linecat: <http://data.europa.eu/949/concepts/line-category/> .
+@prefix era-fc:      <http://data.europa.eu/949/concepts/freight-corridor/> .
+
+###############################################################################
+# Príklad: Národná trať (NationalRailwayLine) rozšírená podľa SHACL pravidiel
+# - inCountry: max 1, IRI, a musí byť SKOS koncept v schéme country
+# - lineCategory: IRI, a musí byť SKOS koncept v schéme line-category
+# - freightCorridor: IRI, a musí byť SKOS koncept v schéme freight-corridor
+#
+# Pozn.: Aby prešli SPARQL constraints aj v izolovanom príklade (bez načítania
+# kompletných číselníkov), pridávame k použitým URI minimálne skos:inScheme.
+###############################################################################
+
+<https://data.gov.sk/id/railway/nationalLine/180>
+    a era:NationalRailwayLine ;
+    rdfs:label "ŽSR trať č. 180 Žilina – Košice"@sk ;
+    rdfs:label "National railway line 180 Žilina – Košice"@en ;
+
+    # SHACL: inCountry musí byť IRI a (cez SPARQL constraint) SKOS koncept v schéme country
+    era:inCountry country:SVK ;
+
+    # SHACL: lineCategory musí byť IRI a SKOS koncept v schéme line-category
+    era:lineCategory era-linecat:LINECAT_EXAMPLE ;
+
+    # SHACL: freightCorridor musí byť IRI a SKOS koncept v schéme freight-corridor
+    era:freightCorridor era-fc:FC_EXAMPLE ;
+
+    # Doplnkové identifikátory (nevadia SHACL-u)
+    dct:identifier "180" .
+
+###############################################################################
+# Minimálne SKOS “podklady” pre validáciu (aby SPARQL constraint neskončil Violation)
+# V reálnych dátach by si tieto koncepty typicky nepublikoval ty, ale pri validácii
+# by boli dostupné z referenčných grafov (EU CV / ERA concept schemes).
+###############################################################################
+
+# Country concept (aby prešlo: ?concept skos:inScheme <http://publications.europa.eu/resource/authority/country>)
+country:SVK
+    a skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/country> ;
+    skos:prefLabel "Slovakia"@en ;
+    skos:prefLabel "Slovensko"@sk .
+
+# Line category concept (aby prešlo: ?concept skos:inScheme ?conceptScheme)
+era-linecat:LINECAT_EXAMPLE
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/line-category/LineCategories> ;
+    skos:prefLabel "Example line category (placeholder)"@en ;
+    skos:prefLabel "Ukážková kategória trate (placeholder)"@sk .
+
+# Freight corridor concept (aby prešlo: ?concept skos:inScheme ?conceptScheme)
+era-fc:FC_EXAMPLE
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/freight-corridor/FreightCorridors> ;
+    skos:prefLabel "Example freight corridor (placeholder)"@en ;
+    skos:prefLabel "Ukážkový nákladný koridor (placeholder)"@sk .
