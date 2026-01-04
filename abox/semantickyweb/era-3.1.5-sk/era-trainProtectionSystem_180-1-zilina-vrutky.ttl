@@ -1,0 +1,36 @@
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:         <http://purl.org/dc/terms/> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:         <http://data.europa.eu/949/> .
+@prefix country:     <http://publications.europa.eu/resource/authority/country/> .
+
+# ERA controlled vocabularies (SKOS concept schemes)
+@prefix era-etcs-level:    <http://data.europa.eu/949/concepts/etcs-levels/> .
+@prefix era-etcs-baseline: <http://data.europa.eu/949/concepts/etcs-baselines/> .
+
+###############################################################################
+# Príklad: konkrétny Track s ETCS zabezpečením
+###############################################################################
+
+<https://data.gov.sk/id/railway/track/180-1>
+    a era:Track ;
+    rdfs:label "ŽSR trať 180 – track 1"@sk ;
+    era:inCountry country:SVK ;
+    era:etcsLevel <https://data.gov.sk/id/railway/etcs/180-1/1> ;
+    dct:identifier "180-1" .
+
+###############################################################################
+# Konkrétna ETCS inštancia (trackside train protection system)
+###############################################################################
+
+<https://data.gov.sk/id/railway/etcs/180-1/1>
+    a era:ETCS ;
+    rdfs:label "ETCS pre track 180-1 (ukážka)"@sk ;
+
+    # ETCS Level ako SKOS koncept zo schémy ETCSLevels
+    era:etcsLevelType era-etcs-level:ETCS_L2 ;
+    era:etcsBaseline era-etcs-baseline:BL3 ;
+    dct:source "RINF / infra evid."@sk .
