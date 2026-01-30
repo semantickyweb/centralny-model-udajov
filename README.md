@@ -1,4 +1,4 @@
-# Centrálny model údajov verejnej správy (komunitná verzia)
+# Centrálny model údajov verejnej správy (komunitná verzia semantickyweb.sk)
 
 Tento repozitár predstavuje komunitné pokračovanie projektu Centrálneho
 modelu údajov verejnej správy.
@@ -24,17 +24,18 @@ Tento repozitár obsahuje samostatné vetvy zamerané na konkrétne oblasti:
 
 Vetva rozširujúca CMÚ o ontológiu ELM:\
 👉
-https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-elm3%2B
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-elm
 
 ### 🔹 ERA
 
 Vetva rozširujúca CMÚ o ontológiu ERA:\
 👉
-https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-era3%2B
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-era
+
 
 ------------------------------------------------------------------------
 
-## O projekte
+## O projekte CMÚ
 
 Centrálny model údajov verejnej správy je budovaný vo forme
 **znalostného grafu**.\
@@ -55,14 +56,44 @@ sú definované TBOX-om a klasifikované prostredníctvom CBOX-u.
 
 ------------------------------------------------------------------------
 
+## Ciele komunity semantickyweb.sk
+
+Komunita **semantickyweb.sk** si kladie za cieľ podporovať verejnú správu pri adopcii a implementácii európskych dátových štandardov.
+
+Osobitný dôraz sa kladie na:
+
+- podporu implementácie **Aktu o interoperabilnej Európe (Interoperable Europe Act)**
+- podporu implementácie **Smernice o otvorených dátach (Open Data Directive)**
+- zosúlaďovanie národných dátových modelov s európskymi referenčnými modelmi
+- rozvoj znalostných grafov a sémantických technológií vo verejnej správe
+
+Cieľom je prispieť k vyššej interoperabilite, kvalite a opakovateľnému využívaniu dát v prostredí verejnej správy.
+
+------------------------------------------------------------------------
+
 ## Pridajte sa ku komunite
 
 Staňte sa členom komunity **semantickyweb** a prispejte:
 
--   vlastnou požiadavkou,
--   návrhom na zlepšenie,
--   ontologickým rozšírením,
--   alebo odbornou diskusiou k dátovej interoperabilite.
+- vlastnou požiadavkou
+- návrhom na zlepšenie
+- ontologickým rozšírením
+- odbornou diskusiou k dátovej interoperabilite
 
-Spoločne môžeme zlepšovať dátovú interoperabilitu informačných systémov
-verejnej správy a budovať otvorený, udržateľný znalostný model.
+Spoločne môžeme zlepšovať dátovú interoperabilitu informačných systémov verejnej správy a budovať otvorený, udržateľný znalostný model.
+
+### Ako prispieť
+
+Prispievať je možné prostredníctvom GitHubu:
+
+1. Vytvorte fork repozitára `semantickyweb/centralny-model`
+2. Vytvorte vlastnú vetvu so zmenami
+3. Otvorte Pull Request
+4. Po schválení bude zmena začlenená do hlavnej vetvy
+
+V prípade záujmu o spoluprácu alebo získanie priamych práv na zápis do repozitára nás kontaktujte na:  
+📧 contact@semantickyweb.sk
+
+---
+
+Projekt je iniciovaný a podporovaný spoločnosťou Liskatech.
