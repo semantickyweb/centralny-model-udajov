@@ -1,4 +1,4 @@
-# Centrálny model údajov verejnej správy (komunitná verzia semantickyweb.sk)
+# Centrálny model údajov verejnej správy (komunitná verzia semantickyweb.sk 2026)
 
 Tento repozitár predstavuje komunitné pokračovanie projektu Centrálneho
 modelu údajov verejnej správy.
@@ -26,12 +26,13 @@ Vetva rozširujúca CMÚ o ontológiu ELM:\
 👉
 https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-elm
 
-### 🔹 ERA
+### 🔹 ERA (European Union Agency for Railways)
 
 Vetva rozširujúca CMÚ o ontológiu ERA:\
 👉
 https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-era
 
+...
 
 ------------------------------------------------------------------------
 
@@ -73,16 +74,25 @@ Cieľom je prispieť k vyššej interoperabilite, kvalite a opakovateľnému vyu
 
 ## Pridajte sa ku komunite
 
-Staňte sa členom komunity **semantickyweb** a prispejte:
+Staňte sa členom komunity **semantickyweb.sk** a prispejte k rozvoju Centrálneho modelu údajov (CMÚ):
 
-- vlastnou požiadavkou
-- návrhom na zlepšenie
-- ontologickým rozšírením
+- vlastnou požiadavkou na rozšírenie modelu
+- návrhom na zlepšenie existujúcich ontológií
+- ontologickým rozšírením alebo novým aplikačným profilom
 - odbornou diskusiou k dátovej interoperabilite
+- implementáciou projektu s podporou CMÚ interoperability
+- prípravou návrhu konkrétneho projektu v spolupráci s vašou organizáciou
+- pilotným overením modelu v reálnom informačnom systéme
+- zdieľaním praktických skúseností z implementácie
+
+Členom komunity sa môžu stať **nielen fyzické osoby** (odborníci, architekti, analytici, vývojári),  
+ale aj **firmy, verejné inštitúcie a technologickí partneri**, ktorí chcú aktívne prispieť k rozvoju dátovej interoperability na Slovensku.
 
 Spoločne môžeme zlepšovať dátovú interoperabilitu informačných systémov verejnej správy a budovať otvorený, udržateľný znalostný model.
 
-### Ako prispieť
+---
+
+## Ako prispieť
 
 Prispievať je možné prostredníctvom GitHubu:
 
@@ -91,9 +101,16 @@ Prispievať je možné prostredníctvom GitHubu:
 3. Otvorte Pull Request
 4. Po schválení bude zmena začlenená do hlavnej vetvy
 
+Alternatívou k forkovaniu je pracovať priamo v organizácii `semantickyweb`.  
+V takom prípade stačí požiadať o prístup do repozitára.
+
+Navrhované zmeny, rozšírenia alebo nové iniciatívy radi prediskutujeme spoločne ešte pred ich zapracovaním — cieľom je hľadať konsenzus a budovať model transparentne a odborne.
+
+Dlhodobým cieľom je po odbornej dohode predkladať vybrané návrhy ako pracovné materiály do pracovnej skupiny PS1 a — v prípade ich relevancie a širšej podpory — postupne smerovať k ich zohľadneniu v oficiálnych štandardoch (napr. formou vyhlášky). Ide však o víziu do budúcnosti; aktuálnym cieľom je budovanie kvalitného a odborne podloženého modelu.
+
 V prípade záujmu o spoluprácu alebo získanie priamych práv na zápis do repozitára nás kontaktujte na:  
-📧 contact@semantickyweb.sk
+📧 **contact@semantickyweb.sk**
 
 ---
 
-Projekt je iniciovaný a podporovaný spoločnosťou Liskatech.
+Projekt Rozšírenia CMÚ 2026, ako aj komunita **semantickyweb.sk**, je iniciovaná a podporovaná spoločnosťou **Liskatech** a je otvorená spolupráci s jednotlivcami aj organizáciami, ktoré chcú aktívne participovať na budovaní interoperabilného dátového ekosystému informačných systémov verejnej správy.
