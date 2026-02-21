@@ -16,50 +16,68 @@ rozšírenia a experimentálne vetvy zamerané na konkrétne európske dátové
 
 ------------------------------------------------------------------------
 
-## Tematické rozvojové vetvy
+## Tématické rozvojové vetvy
 
 Tento repozitár obsahuje samostatné vetvy zamerané na konkrétne oblasti:
 
-### 🔹 ELM (European Learning Model)
+### 🔹 ELM - European Learning Model (Školstvo)
 
 Vetva rozširujúca CMÚ o ontológiu ELM:\
 👉
-https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-elm
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/elm
 
-### 🔹 ERA (European Union Agency for Railways)
+### 🔹 ERA - European Union Agency for Railways (Doprava)
 
 Vetva rozširujúca CMÚ o ontológiu ERA:\
 👉
-https://github.com/semantickyweb/centralny-model-udajov/tree/feature/cmu-era
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/era
 
-...
+### 🔹 ELI - European Legislation Identifier Ontology (Legislatíva)
+
+Vetva rozširujúca CMÚ o ontológiu ELI:\
+👉
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/eli
+
+### 🔹 ESCO - European Skills, Competences, Qualifications and Occupations (Zamestnanosť)
+
+Vetva rozširujúca CMÚ o ontológiu ESCO:\
+👉
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/esco
+
+### 🔹 DCAT-AP-SK Rozhranie katalógu otvorených dát DCAT-AP-SK (Otvorené údaje)
+
+Vetva rozširujúca CMÚ o DCAT-AP-SK:\
+👉
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/dcat-ap-sk
 
 ------------------------------------------------------------------------
 
-## O projekte CMÚ
+## Čo je CMÚ?
 
 Centrálny model údajov verejnej správy je budovaný vo forme
-**znalostného grafu**.\
-Znalostný graf je aplikačne prístupný prostredníctvom portálu:\
-👉 https://znalosti.gov.sk (pôvodný stav bez aktualizácií)
+**znalostného grafu**.\ a jeho funkciou je jednotná špecifikácia
+dátových štruktúr ISVS.
 
 Model sa skladá z troch hlavných častí:
 
--   **TBOX (Terminology Box)** -- množina ontológií a doménových
+-   **TBOX (Terminology Box)** -- množina ontológií (dátových modelov) a doménových
     pravidiel\
 -   **CBOX (Category Box)** -- číselníky, hierarchie, tezaury a
     klasifikačné schémy\
--   **ABOX (Assertions Box)** -- konkrétne inštančné dáta s ich
+-   **ABOX (Assertions Box)** -- konkrétne inštančné dáta (príklady) s ich
     hodnotami a vzájomnými vzťahmi
 
 V rámci CMÚ sa ABOX používa najmä na prezentáciu príkladových dát, ktoré
 sú definované TBOX-om a klasifikované prostredníctvom CBOX-u.
 
+Verzia CMÚ je aplikačne prístupná prostredníctvom portálu:\
+👉 https://znalosti.gov.sk (!pôvodný stav z roku 2023 bez aktualizácií!)
 ------------------------------------------------------------------------
 
-## Ciele komunity semantickyweb.sk
-
-Komunita **semantickyweb.sk** si kladie za cieľ podporovať verejnú správu pri adopcii a implementácii európskych dátových štandardov.
+## Komunita semantickyweb.sk
+<img src="Slovakia_EU.png" width="400"><br>
+Komunita **semantickyweb.sk** si kladie za cieľ podporovať verejnú správu pri pokračovaní adopcie 
+a implementácie európskych dátových štandardov primárne v ISVS. 
 
 Osobitný dôraz sa kladie na:
 
@@ -109,7 +127,7 @@ Navrhované zmeny, rozšírenia alebo nové iniciatívy radi prediskutujeme spol
 Dlhodobým cieľom je po odbornej dohode predkladať vybrané návrhy ako pracovné materiály do pracovnej skupiny PS1 a — v prípade ich relevancie a širšej podpory — postupne smerovať k ich zohľadneniu v oficiálnych štandardoch (napr. formou vyhlášky). Ide však o víziu do budúcnosti; aktuálnym cieľom je budovanie kvalitného a odborne podloženého modelu.
 
 V prípade záujmu o spoluprácu alebo získanie priamych práv na zápis do repozitára nás kontaktujte na:  
-📧 **contact@semantickyweb.sk**
+📧 **komunita@semantickyweb.sk**
 
 ---
 
