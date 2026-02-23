@@ -1,0 +1,60 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix era:     <http://data.europa.eu/949/> .
+@prefix country: <http://publications.europa.eu/resource/authority/country/> .
+@prefix wgs:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+
+###############################################################################
+# Inštančné dáta podľa ERA/RINF (Slovensko)
+# Tunel: Strečno I (referencia Rail.sk: /skhist/tunely/180/09.htm)
+#
+# Táto inštancia je navrhnutá tak, aby spĺňala SHACL obmedzenia:
+#  - era:imCode (presne 1×, reťazec dĺžky 4 znaky)
+#  - era:tunnelIdentification (presne 1×)
+#  - lineReferenceTunnelStart/end s kilometrom a linkou
+#  - era:length (xsd:double, maxCount 1)
+#
+# Relácia sh:conformsTo linkuje na SHACL/SPARQL definíciu tvaru z
+# https://github.com/Interoperable-data/ERA_vocabulary/blob/main/era-shacl/RINF-tunnels-sparql.ttl
+###############################################################################
+
+<https://data.gov.sk/id/railway/tunnel/strecno-i>
+    a era:Tunnel ;
+    rdfs:label "Tunel Strečno I"@sk ;
+    rdfs:label "Strečno I tunnel"@en ;
+
+    # SHACL: presne jedna hodnota, 4-znakový reťazec
+    era:imCode "1234" ;
+
+    # SHACL: presne jedna hodnota (identifikácia tunela)
+    era:tunnelIdentification "SK-180-STRECNO-I" ;
+
+    # SHACL: začiatok/koniec tunela cez LineReference (kilometer + era:lineNationalId)
+    era:lineReferenceTunnelStart <https://data.gov.sk/id/railway/lineReference/strecno-i/start> ;
+    era:lineReferenceTunnelEnd   <https://data.gov.sk/id/railway/lineReference/strecno-i/end> ;
+
+    # SHACL: dĺžka tunela ako xsd:double (v metroch)
+    era:length 318.0 ;
+
+    # Relácia na definíciu tvaru / SPARQL shapes
+    sh:conformsTo <https://github.com/Interoperable-data/ERA_vocabulary/blob/main/era-shacl/RINF-tunnels-sparql.ttl> ;
+
+    era:inCountry country:SVK ;
+    dct:identifier "180/09" ;
+    dct:source <https://www.rail.sk/skhist/tunely/180/09.htm> ;
+    dct:relation <https://data.gov.sk/id/railway/nationalLine/180> ;
+
+# --- LineReference na začiatku tunela
+<https://data.gov.sk/id/railway/lineReference/strecno-i/start>
+    a era:LineReference ;
+    era:kilometer 322.796 ;
+    era:lineNationalId <https://data.gov.sk/id/railway/nationalLine/180> .
+
+# --- LineReference na konci tunela
+<https://data.gov.sk/id/railway/lineReference/strecno-i/end>
+    a era:LineReference ;
+    era:kilometer 323.118 ;
+    era:lineNationalId <https://data.gov.sk/id/railway/nationalLine/180> .
