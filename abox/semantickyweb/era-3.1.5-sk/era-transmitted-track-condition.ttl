@@ -1,0 +1,210 @@
+@prefix era: <http://data.europa.eu/949/> .
+@prefix era-transmittedtcs: <http://data.europa.eu/949/concepts/transmitted-tcs/> .
+@prefix era-etcsttc: <http://data.europa.eu/949/concepts/etcs-transmitted-tcs/> .
+@prefix ex: <http://example.org/era-demo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# DEMO TTL – vysvetlenie domény okolo:
+# - era:RunningTrack
+# - era:ETCS
+# - era:etcsTransmitsTrackConditions
+# - era:etcsTransmittedTrackConditions
+# - era:eratvTransmittedTrackConditions
+#
+# Tento súbor je ilustračný.
+# Nie je to oficiálna produkčná ontológia, ale modelový príklad,
+# aby bolo jasné, čo je "trať", čo je "ETCS" a ako spolu súvisia
+# parent/child parametre a dve odlišné concept schemes.
+#################################################################
+
+#################################################################
+# 1. ZÁKLADNÁ INTUÍCIA
+#
+# RunningTrack = konkrétny úsek trate
+# ETCS         = ETCS subsystém / ETCS kontext viazaný na trať
+#
+# Parent parameter:
+#   era:etcsTransmitsTrackConditions
+#   -> boolean, či sa vôbec track conditions prenášajú
+#
+# Child parameter:
+#   era:etcsTransmittedTrackConditions
+#   -> konkrétna hodnota zo starej RINF concept scheme
+#
+# Nový ERATV parameter:
+#   era:eratvTransmittedTrackConditions
+#   -> konkrétna hodnota z novej ETCS concept scheme
+#################################################################
+
+#################################################################
+# 2. ILUSTRAČNÉ DEFINÍCIE PROPERTIES
+#
+# Poznámka:
+# Toto NIE SÚ celé produkčné definície. Je to len skrátené demo,
+# aby bolo vidno semantiku domény a väzbu na concept schemes.
+#################################################################
+
+era:etcsTransmitsTrackConditions a owl:DatatypeProperty ;
+    rdfs:label "Is the ETCS trackside engineered to transmit Track Conditions"@en ;
+    rdfs:comment "Boolean parameter saying whether the trackside transmits track conditions."@en ;
+    rdfs:domain era:RunningTrack ;
+    rdfs:range xsd:boolean .
+
+era:etcsTransmittedTrackConditions a owl:ObjectProperty ;
+    rdfs:label "Track conditions which can be transmitted"@en ;
+    rdfs:comment "RINF property pointing to the old concept scheme of transmitted track conditions."@en ;
+    rdfs:domain era:RunningTrack ;
+    rdfs:range skos:Concept ;
+    era:inSkosConceptScheme era-transmittedtcs:TransmittedTrackConditions .
+
+era:eratvTransmittedTrackConditions a owl:ObjectProperty ;
+    rdfs:label "ERATV track conditions which can be transmitted"@en ;
+    rdfs:comment "ERATV property pointing to the new ETCS concept scheme of transmitted track conditions."@en ;
+    rdfs:domain era:ETCS ;
+    rdfs:range skos:Concept ;
+    era:inSkosConceptScheme era-etcsttc:TransmittedTrackConditions .
+
+#################################################################
+# 3. ILUSTRAČNÉ SKOS CONCEPT SCHEMES
+#
+# Stará RINF scheme:
+#   http://data.europa.eu/949/concepts/transmitted-tcs/TransmittedTrackConditions
+#
+# Nová ETCS / ERATV scheme:
+#   http://data.europa.eu/949/concepts/etcs-transmitted-tcs/TransmittedTrackConditions
+#################################################################
+
+era-transmittedtcs:TransmittedTrackConditions a skos:ConceptScheme ;
+    rdfs:label "Track Conditions transmitted to the Onboard (RINF / old scheme)"@en ;
+    skos:prefLabel "Track Conditions transmitted to the Onboard (RINF / old scheme)"@en ;
+    rdfs:comment "Stará concept scheme používaná pre RINF variant."@sk .
+
+era-etcsttc:TransmittedTrackConditions a skos:ConceptScheme ;
+    rdfs:label "ETCS transmitted track conditions (ERATV / new scheme)"@en ;
+    skos:prefLabel "ETCS transmitted track conditions (ERATV / new scheme)"@en ;
+    rdfs:comment "Nová concept scheme používaná pre ERATV variant."@sk .
+
+#################################################################
+# 4. KONKRÉTNE HODNOTY / KONCEPTY
+#
+# a) Stará RINF scheme používa napr. hodnoty typu:
+#    5-8-12-a, 5-8-12-b, ...
+#
+# b) Nová ERATV scheme používa napr. hodnoty typu:
+#    00, 10, 20, ...
+#################################################################
+
+# ---------------------------------------------------------------
+# STARÁ RINF HODNOTA
+# ---------------------------------------------------------------
+era-transmittedtcs:5-8-12-a a skos:Concept ;
+    skos:inScheme era-transmittedtcs:TransmittedTrackConditions ;
+    skos:topConceptOf era-transmittedtcs:TransmittedTrackConditions ;
+    skos:notation "5.8.12 a"^^xsd:string ;
+    skos:prefLabel "5.8.12 a"@en ;
+    skos:definition "Powerless section with pantograph to be lowered"@en ;
+    rdfs:comment "Úsek bez napätia, kde treba zložiť zberač."@sk .
+
+era-transmittedtcs:5-8-12-b a skos:Concept ;
+    skos:inScheme era-transmittedtcs:TransmittedTrackConditions ;
+    skos:topConceptOf era-transmittedtcs:TransmittedTrackConditions ;
+    skos:notation "5.8.12 b"^^xsd:string ;
+    skos:prefLabel "5.8.12 b"@en ;
+    skos:definition "Powerless section with main power switch to be switched off"@en ;
+    rdfs:comment "Úsek bez napätia, kde treba vypnúť hlavný vypínač."@sk .
+
+era-transmittedtcs:5-8-12-c a skos:Concept ;
+    skos:inScheme era-transmittedtcs:TransmittedTrackConditions ;
+    skos:topConceptOf era-transmittedtcs:TransmittedTrackConditions ;
+    skos:notation "5.8.12 c"^^xsd:string ;
+    skos:prefLabel "5.8.12 c"@en ;
+    skos:definition "Non-stopping area"@en ;
+    rdfs:comment "Úsek, kde vlak nemá zastaviť."@sk .
+
+# ---------------------------------------------------------------
+# NOVÁ ERATV / ETCS HODNOTA
+# ---------------------------------------------------------------
+era-etcsttc:00 a skos:Concept ;
+    skos:inScheme era-etcsttc:TransmittedTrackConditions ;
+    skos:topConceptOf era-etcsttc:TransmittedTrackConditions ;
+    skos:notation "00"^^xsd:string ;
+    skos:prefLabel "powerless section with pantograph to be lowered"@en ;
+    rdfs:comment "Nová ETCS/ERATV reprezentácia toho istého významu ako staré 5.8.12 a."@sk .
+
+era-etcsttc:10 a skos:Concept ;
+    skos:inScheme era-etcsttc:TransmittedTrackConditions ;
+    skos:topConceptOf era-etcsttc:TransmittedTrackConditions ;
+    skos:notation "10"^^xsd:string ;
+    skos:prefLabel "powerless section with main power switch to be switched off"@en ;
+    rdfs:comment "Nová ETCS/ERATV reprezentácia významu podobného starému 5.8.12 b."@sk .
+
+era-etcsttc:20 a skos:Concept ;
+    skos:inScheme era-etcsttc:TransmittedTrackConditions ;
+    skos:topConceptOf era-etcsttc:TransmittedTrackConditions ;
+    skos:notation "20"^^xsd:string ;
+    skos:prefLabel "non-stopping area"@en ;
+    rdfs:comment "Nová ETCS/ERATV reprezentácia významu podobného starému 5.8.12 c."@sk .
+
+#################################################################
+# 5. MODEL INŠTANČNÝCH DÁT – SLOVENSKO
+#
+# Tento blok ukazuje:
+# - konkrétny running track
+# - boolean parent parameter
+# - konkrétnu RINF hodnotu
+# - samostatný ETCS objekt / ETCS kontext
+# - samostatnú ERATV hodnotu na ETCS objekte
+#################################################################
+
+# ---------------------------------------------------------------
+# 5.1 RunningTrack – konkrétny úsek trate na Slovensku
+# ---------------------------------------------------------------
+ex:runningTrack_BA_TT_001 a era:RunningTrack ;
+    rdfs:label "Bratislava – Trnava, running track 001"@en ;
+    rdfs:comment "Modelový úsek trate na Slovensku. Tento resource reprezentuje samotnú trať."@sk ;
+
+    # Parent parameter:
+    # Trať / trackside je schopná prenášať track conditions.
+    era:etcsTransmitsTrackConditions true ;
+
+    # Child parameter (RINF):
+    # Keďže parent je true, môžeme mať aj konkrétnu prenášanú track condition.
+    era:etcsTransmittedTrackConditions era-transmittedtcs:5-8-12-a .
+
+# ---------------------------------------------------------------
+# 5.2 ETCS objekt / ETCS kontext viazaný na tú istú trať
+# ---------------------------------------------------------------
+ex:etcs_BA_TT_001 a era:ETCS ;
+    rdfs:label "ETCS subsystem for Bratislava – Trnava, running track 001"@en ;
+    rdfs:comment "Modelový ETCS objekt. Tento resource reprezentuje ETCS pohľad / ETCS subsystém."@sk ;
+
+    # Nová ERATV property:
+    # Používa novú ETCS concept scheme.
+    era:eratvTransmittedTrackConditions era-etcsttc:00 .
+
+#################################################################
+# 6. ALTERNATÍVNY DRUHÝ PRÍKLAD – TRAŤ, KDE SA NIČ NEPRENÁŠA
+#################################################################
+
+ex:runningTrack_ZA_VR_002 a era:RunningTrack ;
+    rdfs:label "Žilina – Vrútky, running track 002"@en ;
+    rdfs:comment "Modelový úsek trate, kde sa track conditions neprenášajú."@sk ;
+    era:etcsTransmitsTrackConditions false .
+
+#################################################################
+# 8. POZNÁMKA K LOGIKE PARENT / CHILD
+#
+# Bežná semantika:
+#
+# - ak era:etcsTransmitsTrackConditions = false
+#   -> neočakáva sa konkrétna hodnota pre era:etcsTransmittedTrackConditions
+#
+# - ak era:etcsTransmitsTrackConditions = true
+#   -> môže / má existovať konkrétna track condition
+#
+# Toto vysvetľuje, prečo parent a child parametre patria spolu.
+#################################################################
