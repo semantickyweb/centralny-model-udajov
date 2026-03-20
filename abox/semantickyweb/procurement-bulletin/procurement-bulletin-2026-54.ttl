@@ -1,0 +1,207 @@
+@prefix ex:      <https://data.gov.sk/id/epo/> .
+@prefix epo:     <http://data.europa.eu/a4g/ontology#> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix locn:    <http://www.w3.org/ns/locn#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix currency: <http://publications.europa.eu/resource/authority/currency/> .
+@prefix country:  <http://publications.europa.eu/resource/authority/country/> .
+@prefix cpv:      <http://data.europa.eu/cpv/cpv/> .
+@prefix nuts:     <http://data.europa.eu/nuts/code/> .
+
+@prefix lsub: <http://data.gov.sk/def/ontology/legal-sbuject/> .
+@prefix loca: <http://data.gov.sk/def/ontology/location/> .
+@prefix fin: <http://data.gov.sk/def/ontology/finance/> .
+
+
+#################################################################
+# Bulletin
+#################################################################
+
+<https://data.gov.sk/id/epo/bulletin/2026-56>
+    a epo:Publication ;
+    dct:issued "2026-03-19T00:40:37.560910"^^xsd:dateTime ;
+    dct:identifier "2026-56" ;
+    dct:title "Vestník verejného obstarávania 2026/56"@sk ;
+    epo:hasNotice <https://data.gov.sk/id/epo/notice/eb64f4ea-4301-4689-b280-d5027c760e44> .
+
+#################################################################
+# Notice
+#################################################################
+
+<https://data.gov.sk/id/epo/notice/eb64f4ea-4301-4689-b280-d5027c760e44>
+    a epo:Notice ;
+    dct:identifier "eb64f4ea-4301-4689-b280-d5027c760e44" ;
+    dct:title "Oznámenie o výsledku verejného obstarávania (D24)"@sk ;
+    epo:refersToProcedure <https://data.gov.sk/id/epo/procedure/eb64f4ea-4301-4689-b280-d5027c760e44> ;
+    skos:notation "can-standard" ;
+    ex:noticeFormType "result" ;
+    ex:noticeVersion "01" ;
+    ex:noticeSubtype "29" ;
+    ex:eformsSdkVersion "eforms-sdk-1.13" ;
+    ex:submissionSystemId "1393738" .
+
+#################################################################
+# Procedure
+#################################################################
+
+<https://data.gov.sk/id/epo/procedure/eb64f4ea-4301-4689-b280-d5027c760e44>
+    a epo:Procedure ;
+    dct:identifier "2271719c-a0e8-47fc-a1b9-7fc097902394" ;
+    dct:title "Stavebná údržba a opravy pozemných komunikácií 2026/2027"@sk ;
+    dct:description "Stavebné práce na obnove asfaltového krytu a na poškodení konštrukčných vrstiev pozemných komunikácií a ich súčastí vrátane dodávok súvisiacich stavebných výrobkov a materiálov s ich dopravou na miesto použitia, a. i. činnosti potrebné na vykonanie predmetu zákazky a jeho odovzdanie verejnému obstarávateľovi."@sk ;
+    ex:internalIdentifier "MK/A/2026/11336" ;
+    ex:contractNature "works" ;
+    ex:procedureType "open" ;
+    ex:legalBasisCode "32014L0024" ;
+    ex:hasBuyer <https://data.gov.sk/id/legal-subject/00691135> ;
+    ex:hasServiceProvider <https://data.gov.sk/id/legal-subject/31797903> ;
+    ex:hasLot ex:lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
+    ex:mainClassification cpv:45233142 ;
+    ex:additionalClassification cpv:45332300, cpv:45232400 ;
+    ex:placeOfPerformance <https://data.gov.sk/id/epo/place-of-performance/2271719c-a0e8-47fc-a1b9-7fc097902394> ;
+    ex:estimatedValue <https://data.gov.sk/id/epo/procedure-estimated-value/2271719c-a0e8-47fc-a1b9-7fc097902394> .
+
+#################################################################
+# Procedure estimated value
+#################################################################
+
+<https://data.gov.sk/id/epo/procedure-estimated-value/2271719c-a0e8-47fc-a1b9-7fc097902394>
+    a epo:MonetaryValue ;
+    rdf:value "5856661.66"^^xsd:decimal ;
+    fin:currency currency:EUR .
+
+#################################################################
+# Procedure place
+#################################################################
+
+<https://data.gov.sk/id/epo/place-of-performance/2271719c-a0e8-47fc-a1b9-7fc097902394>
+    a locn:Location ;
+    locn:locatorName "Košice" ;
+    loca:nuts3 <https://data.gov.sk/def/nuts3/SK042> ;
+    loca:unCountry country:SVK .
+
+#################################################################
+# Lot
+#################################################################
+
+<https://data.gov.sk/id/epo/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1>
+    a epo:Lot ;
+    dct:title "Stavebná údržba a opravy pozemných komunikácií 2026/2027"@sk ;
+    dct:description "Stavebné práce na obnove asfaltového krytu a poškodení konštrukčných vrstiev pozemných komunikácií a ich súčastí vrátane dodávok súvisiacich stavebných výrobkov a materiálov s ich dopravou na miesto použitia, a. i. činnosti potrebné na vykonanie predmetu zákazky a jeho odovzdanie verejnému obstarávateľovi."@sk ;
+    ex:lotNumber "1" ;
+    ex:contextId "LOT-0001" ;
+    ex:internalIdentifier "MK/A/2026/11336" ;
+    ex:contractNature "works" ;
+    ex:mainClassification cpv:45233142 ;
+    ex:additionalClassification cpv:45332300, cpv:45232400 ;
+    ex:estimatedValue ex:value/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
+    ex:placeOfPerformance ex:place/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
+    ex:durationValue "24"^^xsd:integer ;
+    ex:durationUnit "MONTH" ;
+    ex:gpaCovered true ;
+    ex:euFunds "no-eu-funds" ;
+    ex:strategicProcurement "none" .
+
+ex:value/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1
+    a epo:MonetaryValue ;
+    rdf:value "5856661.66"^^xsd:decimal ;
+    ex:currency currency:EUR .
+
+ex:place/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1
+    a locn:Address ;
+    locn:postName "Košice" ;
+    ex:countrySubentity nuts:SK042 ;
+    ex:country country:SVK .
+
+#################################################################
+# Organizations
+#################################################################
+
+<https://data.gov.sk/id/legal-subject/31797903>
+    a lsub:LegalSubject ;
+    skos:prefLabel "Úrad pre verejné obstarávanie"@sk ;
+    ex:cin "31797903" ;
+    ex:tin "2021511008" ;
+    locn:address ex:address/organization/31797903 ;
+    ex:email "info@uvo.gov.sk" ;
+    ex:telephone "+421250264111" .
+
+ex:address/organization/31797903
+    a locn:Address ;
+    locn:thoroughfare "Ružová dolina 10" ;
+    locn:postName "Bratislava - mestská časť Ružinov" ;
+    locn:postCode "82109" ;
+    ex:countrySubentity nuts:SK010 ;
+    ex:country country:SVK .
+
+<https://data.gov.sk/id/legal-subject/00691135>
+    a lsub:LegalSubject ;
+    skos:prefLabel "Mesto Košice"@sk ;
+    ex:cin "00691135" ;
+    ex:tin "2021186904" ;
+    locn:address ex:address/organization/00691135 ;
+    ex:email "viera.galvankova@kosice.sk" ;
+    ex:telephone "+421556419185" ;
+    ex:buyerLegalType "la" ;
+    ex:buyerActivity "gen-pub" ;
+    ex:buyerProfile <https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-profilov/detail/6915> .
+
+ex:address/organization/00691135
+    a locn:Address ;
+    locn:thoroughfare "Trieda SNP 48A" ;
+    locn:postName "Košice - mestská časť Západ" ;
+    locn:postCode "04011" ;
+    ex:countrySubentity nuts:SK042 ;
+    ex:country country:SVK .
+
+ex:organization/31651402
+    a org:Organization ;
+    skos:prefLabel "COLAS Slovakia, a.s."@sk ;
+    ex:cin "31651402" ;
+    ex:tin "2020492111" ;
+    locn:address ex:address/organization/31651402 ;
+    ex:economicOperatorSize "large" .
+
+ex:address/organization/31651402
+    a locn:Address ;
+    locn:thoroughfare "Orešianska 3168/7" ;
+    locn:postName "Trnava" ;
+    locn:postCode "91701" ;
+    ex:countrySubentity nuts:SK042 ;
+    ex:country country:SVK .
+
+ex:organization/36577332
+    a org:Organization ;
+    skos:prefLabel "ASTEX s.r.o."@sk ;
+    ex:cin "36577332" ;
+    ex:tin "2021796238" ;
+    locn:address ex:address/organization/36577332 ;
+    ex:economicOperatorSize "small" .
+
+ex:address/organization/36577332
+    a locn:Address ;
+    locn:thoroughfare "Pri bitúnku 11" ;
+    locn:postName "Košice - mestská časť Juh" ;
+    locn:postCode "04001" ;
+    ex:countrySubentity nuts:SK042 ;
+    ex:country country:SVK .
+
+ex:organization/36587737
+    a org:Organization ;
+    skos:prefLabel "HK STAV s.r.o."@sk ;
+    ex:cin "36587737" ;
+    ex:tin "2021948192" ;
+    locn:address ex:address/organization/36587737 ;
+    ex:economicOperatorSize "small" .
+
+ex:address/organization/36587737
+    a locn:Address ;
+    locn:thoroughfare "Jantárová 4" ;
+    locn:postName "Košice" ;
+    locn:postCode "04001" ;
+    ex:countrySubentity nuts:SK042 ;
+    ex:country country:SVK .
