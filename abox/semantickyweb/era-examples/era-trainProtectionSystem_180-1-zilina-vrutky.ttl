@@ -15,8 +15,8 @@
 # Príklad: konkrétny Track s ETCS zabezpečením
 ###############################################################################
 
-<https://data.gov.sk/id/railway/track/180-1>
-    a era:Track ;
+<https://data.gov.sk/id/railway/running-track/180-1>
+    a era:RunningTrack ;
     rdfs:label "ŽSR trať 180 – track 1"@sk ;
     era:inCountry country:SVK ;
     era:etcsLevel <https://data.gov.sk/id/railway/etcs/180-1/1> ;

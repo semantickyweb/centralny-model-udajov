@@ -48,7 +48,7 @@
 # + Doplnok: era:siding -> prepojenie na Siding (kvôli tvojmu prípadu)
 ###############################################################################
 
-<https://data.gov.sk/id/railway/op/example-op-zilina>
+<https://data.gov.sk/id/railway/operational-point/zilina>
     a era:OperationalPoint ;
 
     # rdfs:label je “užívateľský” popis; SHACL ho tu nevyžaduje, ale je užitočný

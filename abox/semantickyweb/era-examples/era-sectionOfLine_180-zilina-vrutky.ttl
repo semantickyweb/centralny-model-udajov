@@ -1,0 +1,73 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:    <http://data.europa.eu/949/> .
+@prefix era-sn: <http://data.europa.eu/949/concepts/sol-natures/> .
+@prefix eu-country: <http://publications.europa.eu/resource/authority/country/> .
+
+###############################################################################
+# Príklad: Section of Line (SoL) podľa ERA ontológie
+###############################################################################
+
+<https://data.gov.sk/id/railway/section-of-line/180>
+    a era:SectionOfLine ;
+    rdfs:label "Trať 180, Žilina ↔ Vrútky"@sk ;
+    era:canonicalURI <https://data.gov.sk/id/railway/section-of-line/180> ;
+    era:opStart <https://data.gov.sk/id/railway/operational-point/zilina-01> ;
+    era:opEnd <https://data.gov.sk/id/railway/operational-point/vrutky-01> ;
+    era:length "22.5"^^xsd:double ;
+    era:solNature era-sn:SoLNATURE_EXAMPLE_STANDARD ;
+    era:inCountry eu-country:SVK ;
+    era:hasPart <https://data.gov.sk/id/railway/running-track/26341910092> .
+
+###############################################################################
+# Running track patriaci do SoL
+###############################################################################
+
+<https://data.gov.sk/id/railway/running-track/26341910092>
+    a era:RunningTrack ;
+    rdfs:label "Jazdná koľaj 26341910092"@sk ;
+    era:canonicalURI <https://data.gov.sk/id/railway/running-track/26341910092> ;
+    era:trackId "26341910092" ;
+    era:isPartOf <https://data.gov.sk/id/railway/section-of-line/180> ;
+    era:inCountry eu-country:SVK ;
+    era:etcs <https://data.gov.sk/id/railway/etcs/trackside/26341910092> .
+
+###############################################################################
+# Trackside ETCS na jazdnej koľaji
+###############################################################################
+
+<https://data.gov.sk/id/railway/etcs/trackside/26341910092>
+    a era:ETCS ;
+    rdfs:label "Traťové ETCS pre jazdnú koľaj 26341910092"@sk ;
+    era:etcsTransmitsTrackConditions true .
+
+###############################################################################
+# OP zdroje pre opStart/opEnd
+###############################################################################
+
+<https://data.gov.sk/id/railway/operational-point/zilina-01>
+    a era:OperationalPoint ;
+    rdfs:label "Žilina (príklad OP)"@sk ;
+    era:canonicalURI <https://data.gov.sk/id/railway/operational-point/zilina-01> ;
+    era:uopid "SKZILINA01" ;
+    era:inCountry eu-country:SVK .
+
+<https://data.gov.sk/id/railway/operational-point/vrutky-01>
+    a era:OperationalPoint ;
+    rdfs:label "Vrútky (príklad OP)"@sk ;
+    era:canonicalURI <https://data.gov.sk/id/railway/operational-point/vrutky-01> ;
+    era:uopid "SKVRUTKY01" ;
+    era:inCountry eu-country:SVK .
+
+###############################################################################
+# Minimálne SKOS podklady pre solNature
+###############################################################################
+
+era-sn:SoLNATURE_EXAMPLE_STANDARD
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/sol-natures/SoLNatures> ;
+    skos:prefLabel "Standard SoL nature (placeholder)"@en ;
+    skos:prefLabel "Štandardná povaha SoL (placeholder)"@sk .
