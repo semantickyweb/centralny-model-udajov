@@ -44,6 +44,12 @@ Vetva rozširujúca CMÚ o ontológiu ESCO:\
 👉
 https://github.com/semantickyweb/centralny-model-udajov/tree/feature/esco
 
+### 🔹 EPO Ontológia elektronického verejného obstarávania (Verejné obstarávanie)
+
+Vetva rozširujúca CMÚ o EPO:\
+👉
+https://github.com/semantickyweb/centralny-model-udajov/tree/feature/epo
+
 ### 🔹 DCAT-AP-SK Rozhranie katalógu otvorených dát DCAT-AP-SK (Otvorené údaje)
 
 Vetva rozširujúca CMÚ o DCAT-AP-SK:\
