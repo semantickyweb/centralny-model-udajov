@@ -62,7 +62,7 @@
     ex:hasLot ex:lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
     ex:mainClassification cpv:45233142 ;
     ex:additionalClassification cpv:45332300, cpv:45232400 ;
-    ex:placeOfPerformance <https://data.gov.sk/id/epo/place-of-performance/2271719c-a0e8-47fc-a1b9-7fc097902394> ;
+    loca:location <https://data.gov.sk/id/epo/place-of-performance/2271719c-a0e8-47fc-a1b9-7fc097902394> ;
     ex:estimatedValue <https://data.gov.sk/id/epo/procedure-estimated-value/2271719c-a0e8-47fc-a1b9-7fc097902394> .
 
 #################################################################
@@ -99,7 +99,7 @@
     ex:mainClassification cpv:45233142 ;
     ex:additionalClassification cpv:45332300, cpv:45232400 ;
     ex:estimatedValue ex:value/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
-    ex:placeOfPerformance ex:place/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
+    loca:location ex:place/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1 ;
     ex:durationValue "24"^^xsd:integer ;
     ex:durationUnit "MONTH" ;
     ex:gpaCovered true ;
@@ -126,12 +126,12 @@ ex:place/lot/2271719c-a0e8-47fc-a1b9-7fc097902394/1
     skos:prefLabel "Úrad pre verejné obstarávanie"@sk ;
     ex:cin "31797903" ;
     ex:tin "2021511008" ;
-    locn:address ex:address/organization/31797903 ;
+    lsub:headquarters ex:address/organization/31797903 ;
     ex:email "info@uvo.gov.sk" ;
     ex:telephone "+421250264111" .
 
 ex:address/organization/31797903
-    a locn:Address ;
+    a loca:PhysicalAddress ;
     locn:thoroughfare "Ružová dolina 10" ;
     locn:postName "Bratislava - mestská časť Ružinov" ;
     locn:postCode "82109" ;
