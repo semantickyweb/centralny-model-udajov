@@ -1,0 +1,67 @@
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:       <http://data.europa.eu/949/> .
+@prefix era-ph:    <http://data.europa.eu/949/concepts/platform-heights/> .
+@prefix era-ten:   <http://data.europa.eu/949/concepts/ten-classifications/> .
+
+###############################################################################
+# Príklad: Platform podľa SHACL (era:Platform)
+#
+# Povinné podľa tvojho výrezu:
+#  - era:platformId  (xsd:string, presne 1×)
+#  - era:imCode      (xsd:string, presne 4 znaky, presne 1×)
+#
+# Voliteľné (ak sú uvedené, musia byť validné):
+#  - era:tenClassification         IRI + SKOS concept v TENClassifications
+#  - era:length                   xsd:double v rozsahu [0,10000)
+#  - era:platformHeight           IRI + SKOS concept v PlatformHeights
+#  - era:assistanceStartingTrain  xsd:boolean
+#  - era:areaBoardingAid          xsd:integer v rozsahu [0,10000)
+###############################################################################
+
+<https://data.gov.sk/id/railway/platform/zilina-1>
+    a era:Platform ;
+    rdfs:label "Nástupište 1 – Žilina (príklad)"@sk ;
+    rdfs:label "Platform 1 – Žilina (example)"@en ;
+
+    # SHACL: platformId je povinné, presne 1×, string
+    era:platformId "1" ;
+
+    # SHACL: imCode je povinné, presne 1×, string dĺžky 4
+    era:imCode "1234" ;
+
+    # SHACL: IRI + SPARQL constraint vyžaduje skos:inScheme v TENClassifications
+    era:tenClassification era-ten:TEN_EXAMPLE ;
+
+    # SHACL: xsd:double, 0 <= x < 10000
+    era:length 350.0 ;
+
+    # SHACL: IRI + SPARQL constraint vyžaduje skos:inScheme v PlatformHeights
+    era:platformHeight era-ph:PH_EXAMPLE_550 ;
+
+    # SHACL: boolean
+    era:assistanceStartingTrain true ;
+
+    # SHACL: integer, 0 <= x < 10000
+    era:areaBoardingAid 550 .
+
+###############################################################################
+# Minimálne SKOS “podklady” pre SPARQL constraints (v izolovanom príklade)
+###############################################################################
+
+# TEN classification concept (placeholder)
+era-ten:TEN_EXAMPLE
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/ten-classifications/TENClassifications> ;
+    skos:prefLabel "Example TEN classification (placeholder)"@en ;
+    skos:prefLabel "Ukážková TEN klasifikácia (placeholder)"@sk .
+
+# Platform height concept (placeholder)
+era-ph:PH_EXAMPLE_550
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/platform-heights/PlatformHeights> ;
+    skos:prefLabel "Example platform height 550 mm (placeholder)"@en ;
+    skos:prefLabel "Ukážková výška nástupišťa 550 mm (placeholder)"@sk .

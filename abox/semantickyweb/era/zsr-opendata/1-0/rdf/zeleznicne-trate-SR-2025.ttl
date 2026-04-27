@@ -1,0 +1,1473 @@
+@prefix era: <http://data.europa.eu/949/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rail: <https://data.gov.sk/def/ontology/railways/> .
+
+
+<https://data.gov.sk/id/operational-point/00868fe70d9b> a era:OperationalPoint ;
+    era:opName "Komárno"@sk .
+
+<https://data.gov.sk/id/operational-point/0144f7632f66> a era:OperationalPoint ;
+    era:opName "Bratislava-Petržalka"@sk .
+
+<https://data.gov.sk/id/operational-point/04130b763626> a era:OperationalPoint ;
+    era:opName "Makov"@sk .
+
+<https://data.gov.sk/id/operational-point/07289f267c95> a era:OperationalPoint ;
+    era:opName "Lenartovce št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/095523188819> a era:OperationalPoint ;
+    era:opName "Žilina"@sk .
+
+<https://data.gov.sk/id/operational-point/0a37dd5fe903> a era:OperationalPoint ;
+    era:opName "Bardejov"@sk .
+
+<https://data.gov.sk/id/operational-point/0ae406d0af23> a era:OperationalPoint ;
+    era:opName "Vrútky nákladná stanica"@sk .
+
+<https://data.gov.sk/id/operational-point/0b8fce418041> a era:OperationalPoint ;
+    era:opName "Lužianky TIP"@sk .
+
+<https://data.gov.sk/id/operational-point/0c00f0d3ba54> a era:OperationalPoint ;
+    era:opName "Humenné"@sk .
+
+<https://data.gov.sk/id/operational-point/0c2569160dd8> a era:OperationalPoint ;
+    era:opName "Brezová pod Bradlom"@sk .
+
+<https://data.gov.sk/id/operational-point/0cec83ec5b1e> a era:OperationalPoint ;
+    era:opName "Bratislava-Petržalka št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/10f24f791ecd> a era:OperationalPoint ;
+    era:opName "Nové Mesto nad Váhom výh. č. 48/49"@sk .
+
+<https://data.gov.sk/id/operational-point/12935a6b10ef> a era:OperationalPoint ;
+    era:opName "Nové Mesto nad Váhom výh. č. 53/54"@sk .
+
+<https://data.gov.sk/id/operational-point/13e0d2380a94> a era:OperationalPoint ;
+    era:opName "Výh. Slivník"@sk .
+
+<https://data.gov.sk/id/operational-point/1556ddd9032e> a era:OperationalPoint ;
+    era:opName "Rožňava"@sk .
+
+<https://data.gov.sk/id/operational-point/16290fea7afc> a era:OperationalPoint ;
+    era:opName "Kozárovce"@sk .
+
+<https://data.gov.sk/id/operational-point/1795720f074e> a era:OperationalPoint ;
+    era:opName "Studený Potok"@sk .
+
+<https://data.gov.sk/id/operational-point/1798dc0aa7c7> a era:OperationalPoint ;
+    era:opName "Breznička"@sk .
+
+<https://data.gov.sk/id/operational-point/17a3b8398a70> a era:OperationalPoint ;
+    era:opName "Slovenské Nové Mesto št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/17c5bd0e0f4c> a era:OperationalPoint ;
+    era:opName "Nové Zámky"@sk .
+
+<https://data.gov.sk/id/operational-point/1950142df43a> a era:OperationalPoint ;
+    era:opName "Banská Štiavnica"@sk .
+
+<https://data.gov.sk/id/operational-point/19cb9aa84a6b> a era:OperationalPoint ;
+    era:opName "Zvolen mesto odb."@sk .
+
+<https://data.gov.sk/id/operational-point/1b16be36f097> a era:OperationalPoint ;
+    era:opName "Lenartovce"@sk .
+
+<https://data.gov.sk/id/operational-point/1b43661ee1b5> a era:OperationalPoint ;
+    era:opName "Topoľčianky"@sk .
+
+<https://data.gov.sk/id/operational-point/1c69aa1973c4> a era:OperationalPoint ;
+    era:opName "Šaľa"@sk .
+
+<https://data.gov.sk/id/operational-point/1e97b6bc1319> a era:OperationalPoint ;
+    era:opName "Kraľovany"@sk .
+
+<https://data.gov.sk/id/operational-point/289be1434eed> a era:OperationalPoint ;
+    era:opName "Štúrovo"@sk .
+
+<https://data.gov.sk/id/operational-point/2bb849ab8261> a era:OperationalPoint ;
+    era:opName "Budatín odb."@sk .
+
+<https://data.gov.sk/id/operational-point/2f04d773b91a> a era:OperationalPoint ;
+    era:opName "Prievidza St. 3"@sk .
+
+<https://data.gov.sk/id/operational-point/2f3e9e251b10> a era:OperationalPoint ;
+    era:opName ""@sk .
+
+<https://data.gov.sk/id/operational-point/2f77ef2f661e> a era:OperationalPoint ;
+    era:opName "Michaľany odb."@sk .
+
+<https://data.gov.sk/id/operational-point/307c1f3f63df> a era:OperationalPoint ;
+    era:opName "Trebišov"@sk .
+
+<https://data.gov.sk/id/operational-point/326f7b037fe6> a era:OperationalPoint ;
+    era:opName "Šahy"@sk .
+
+<https://data.gov.sk/id/operational-point/345141bf8d1a> a era:OperationalPoint ;
+    era:opName "Fiľakovo St. 3"@sk .
+
+<https://data.gov.sk/id/operational-point/348afff8d757> a era:OperationalPoint ;
+    era:opName "Zbehy"@sk .
+
+<https://data.gov.sk/id/operational-point/36852099edb7> a era:OperationalPoint ;
+    era:opName "Chynorany"@sk .
+
+<https://data.gov.sk/id/operational-point/3715f0d2991a> a era:OperationalPoint ;
+    era:opName "Čierna nad Tisou ŠRT"@sk .
+
+<https://data.gov.sk/id/operational-point/38076469db15> a era:OperationalPoint ;
+    era:opName "Barca"@sk .
+
+<https://data.gov.sk/id/operational-point/38e5dbb8b704> a era:OperationalPoint ;
+    era:opName "Bratislava predmestie"@sk .
+
+<https://data.gov.sk/id/operational-point/3ff14860f279> a era:OperationalPoint ;
+    era:opName "Brezno"@sk .
+
+<https://data.gov.sk/id/operational-point/3ffbaa94b0ce> a era:OperationalPoint ;
+    era:opName "Spišská Nová Ves"@sk .
+
+<https://data.gov.sk/id/operational-point/4076a12a808f> a era:OperationalPoint ;
+    era:opName "Čata"@sk .
+
+<https://data.gov.sk/id/operational-point/45972b9518d9> a era:OperationalPoint ;
+    era:opName "Prievidza nákladná stanica"@sk .
+
+<https://data.gov.sk/id/operational-point/47509ffc1206> a era:OperationalPoint ;
+    era:opName "Chvatimech"@sk .
+
+<https://data.gov.sk/id/operational-point/4cc37237fdc4> a era:OperationalPoint ;
+    era:opName "Potok odb. Varín"@sk .
+
+<https://data.gov.sk/id/operational-point/4ed0af627df6> a era:OperationalPoint ;
+    era:opName "Banská Bystrica"@sk .
+
+<https://data.gov.sk/id/operational-point/50f2979b0339> a era:OperationalPoint ;
+    era:opName "Trenčianska Teplá"@sk .
+
+<https://data.gov.sk/id/operational-point/533faf6085fa> a era:OperationalPoint ;
+    era:opName "Starý Smokovec"@sk .
+
+<https://data.gov.sk/id/operational-point/55e50175e201> a era:OperationalPoint ;
+    era:opName "Slavošovce"@sk .
+
+<https://data.gov.sk/id/operational-point/569105b9bf57> a era:OperationalPoint ;
+    era:opName "Plaveč št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/5794b2d83f51> a era:OperationalPoint ;
+    era:opName "Kúty št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/5acfe0829a26> a era:OperationalPoint ;
+    era:opName "Trenčianska Teplá ÚRT"@sk .
+
+<https://data.gov.sk/id/operational-point/5c2e3eab18a3> a era:OperationalPoint ;
+    era:opName "Vranov nad Topľou"@sk .
+
+<https://data.gov.sk/id/operational-point/60f80c4b0016> a era:OperationalPoint ;
+    era:opName "Komárno št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/617f97b5c301> a era:OperationalPoint ;
+    era:opName "Jablonica"@sk .
+
+<https://data.gov.sk/id/operational-point/62755b077990> a era:OperationalPoint ;
+    era:opName "Stakčín"@sk .
+
+<https://data.gov.sk/id/operational-point/6297be4b5816> a era:OperationalPoint ;
+    era:opName "Levoča"@sk .
+
+<https://data.gov.sk/id/operational-point/62e9882c7860> a era:OperationalPoint ;
+    era:opName "Čadca"@sk .
+
+<https://data.gov.sk/id/operational-point/637844873da7> a era:OperationalPoint ;
+    era:opName "Hatalov odb."@sk .
+
+<https://data.gov.sk/id/operational-point/64fa41f0c802> a era:OperationalPoint ;
+    era:opName "Plaveč výh. č. 5/6"@sk .
+
+<https://data.gov.sk/id/operational-point/67bb1d92ca3a> a era:OperationalPoint ;
+    era:opName "Spišská Belá"@sk .
+
+<https://data.gov.sk/id/operational-point/682664f8842d> a era:OperationalPoint ;
+    era:opName "Trnava"@sk .
+
+<https://data.gov.sk/id/operational-point/6adc72d2c343> a era:OperationalPoint ;
+    era:opName "Barca St. 4"@sk .
+
+<https://data.gov.sk/id/operational-point/6fee2e3f5f96> a era:OperationalPoint ;
+    era:opName "Kysak výh. č. 35/36"@sk .
+
+<https://data.gov.sk/id/operational-point/70202d7c572c> a era:OperationalPoint ;
+    era:opName "Kapušany pri Prešove"@sk .
+
+<https://data.gov.sk/id/operational-point/721333d875be> a era:OperationalPoint ;
+    era:opName "Haniska pri Košiciach ŠRT"@sk .
+
+<https://data.gov.sk/id/operational-point/723e4e9364f5> a era:OperationalPoint ;
+    era:opName "Priekopa odb."@sk .
+
+<https://data.gov.sk/id/operational-point/747e0a756ddd> a era:OperationalPoint ;
+    era:opName "Nemšová"@sk .
+
+<https://data.gov.sk/id/operational-point/77a752915504> a era:OperationalPoint ;
+    era:opName "Maťovce ŠRT št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/78c541a02eac> a era:OperationalPoint ;
+    era:opName "Utekáč"@sk .
+
+<https://data.gov.sk/id/operational-point/7972efd16ab2> a era:OperationalPoint ;
+    era:opName "Odb. Výh. Váh"@sk .
+
+<https://data.gov.sk/id/operational-point/7b4b4f3c7f84> a era:OperationalPoint ;
+    era:opName "Holíč nad Moravou"@sk .
+
+<https://data.gov.sk/id/operational-point/7ca84cc5ac2f> a era:OperationalPoint ;
+    era:opName "Vrbové"@sk .
+
+<https://data.gov.sk/id/operational-point/7cb9d8372fe6> a era:OperationalPoint ;
+    era:opName "Fiľakovo št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/7f120d264f0a> a era:OperationalPoint ;
+    era:opName "Plešivec"@sk .
+
+<https://data.gov.sk/id/operational-point/7ffe7b31eb88> a era:OperationalPoint ;
+    era:opName "Spišské Vlachy"@sk .
+
+<https://data.gov.sk/id/operational-point/8003a1e87e27> a era:OperationalPoint ;
+    era:opName "Fiľakovo"@sk .
+
+<https://data.gov.sk/id/operational-point/8089dae59858> a era:OperationalPoint ;
+    era:opName "Lednické Rovne"@sk .
+
+<https://data.gov.sk/id/operational-point/8169c833d8b3> a era:OperationalPoint ;
+    era:opName "Poprad-Tatry TEŽ"@sk .
+
+<https://data.gov.sk/id/operational-point/8613f90732f9> a era:OperationalPoint ;
+    era:opName "Bratislava-Nové Mesto"@sk .
+
+<https://data.gov.sk/id/operational-point/86751abe7a76> a era:OperationalPoint ;
+    era:opName "Jelšovce"@sk .
+
+<https://data.gov.sk/id/operational-point/86e431bbbee5> a era:OperationalPoint ;
+    era:opName "Veľký Krtíš"@sk .
+
+<https://data.gov.sk/id/operational-point/887e2d3cc6c2> a era:OperationalPoint ;
+    era:opName "Rajec"@sk .
+
+<https://data.gov.sk/id/operational-point/89409436e31c> a era:OperationalPoint ;
+    era:opName "Štúrovo št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/8b78231ce497> a era:OperationalPoint ;
+    era:opName "Štrbské Pleso"@sk .
+
+<https://data.gov.sk/id/operational-point/8b9032d63196> a era:OperationalPoint ;
+    era:opName "Plaveč výh. č. 1/3"@sk .
+
+<https://data.gov.sk/id/operational-point/8bdbe20a8178> a era:OperationalPoint ;
+    era:opName "Zvolen osobná stanica"@sk .
+
+<https://data.gov.sk/id/operational-point/9908162b121b> a era:OperationalPoint ;
+    era:opName "Nové Mesto nad Váhom"@sk .
+
+<https://data.gov.sk/id/operational-point/99a878f1b4ad> a era:OperationalPoint ;
+    era:opName "Výh. Urbánka"@sk .
+
+<https://data.gov.sk/id/operational-point/9ae3b07354d4> a era:OperationalPoint ;
+    era:opName "Strážske"@sk .
+
+<https://data.gov.sk/id/operational-point/9bafac61c7db> a era:OperationalPoint ;
+    era:opName "Bánovce nad Ondavou"@sk .
+
+<https://data.gov.sk/id/operational-point/9c6718567978> a era:OperationalPoint ;
+    era:opName "Devínska Nová Ves št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/9d280a62f086> a era:OperationalPoint ;
+    era:opName "Tatranská Lomnica"@sk .
+
+<https://data.gov.sk/id/operational-point/9dc9f0f2b49b> a era:OperationalPoint ;
+    era:opName "Červená Skala"@sk .
+
+<https://data.gov.sk/id/operational-point/9fb699da7ffd> a era:OperationalPoint ;
+    era:opName "Medzilaborce št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/a2882499da28> a era:OperationalPoint ;
+    era:opName "Medzev"@sk .
+
+<https://data.gov.sk/id/operational-point/a2c05612dcd3> a era:OperationalPoint ;
+    era:opName "Sereď"@sk .
+
+<https://data.gov.sk/id/operational-point/a3416c8395b0> a era:OperationalPoint ;
+    era:opName "Devínska Nová Ves"@sk .
+
+<https://data.gov.sk/id/operational-point/a4843d782151> a era:OperationalPoint ;
+    era:opName "Kysak výh. č. 39/40"@sk .
+
+<https://data.gov.sk/id/operational-point/a4f40c6340dd> a era:OperationalPoint ;
+    era:opName "Jesenské"@sk .
+
+<https://data.gov.sk/id/operational-point/a6b11070808d> a era:OperationalPoint ;
+    era:opName "Barca St. 1"@sk .
+
+<https://data.gov.sk/id/operational-point/ae36eb5be54c> a era:OperationalPoint ;
+    era:opName "Žilina-Teplička smerová sk."@sk .
+
+<https://data.gov.sk/id/operational-point/af7b3e3007d9> a era:OperationalPoint ;
+    era:opName "Hronec"@sk .
+
+<https://data.gov.sk/id/operational-point/b077c6b729e4> a era:OperationalPoint ;
+    era:opName "Bratislava východ odch. sk. Juh"@sk .
+
+<https://data.gov.sk/id/operational-point/b1f38d0c17f4> a era:OperationalPoint ;
+    era:opName "Trstená"@sk .
+
+<https://data.gov.sk/id/operational-point/b51178bd4b91> a era:OperationalPoint ;
+    era:opName "Kolárovo"@sk .
+
+<https://data.gov.sk/id/operational-point/b530645fd020> a era:OperationalPoint ;
+    era:opName "Odb. Močiar"@sk .
+
+<https://data.gov.sk/id/operational-point/b57db0f2f048> a era:OperationalPoint ;
+    era:opName "Úľany nad Žitavou"@sk .
+
+<https://data.gov.sk/id/operational-point/b5d74de7ef1c> a era:OperationalPoint ;
+    era:opName "Vrútky"@sk .
+
+<https://data.gov.sk/id/operational-point/b67b79d62369> a era:OperationalPoint ;
+    era:opName "Leopoldov"@sk .
+
+<https://data.gov.sk/id/operational-point/b69199d43cb4> a era:OperationalPoint ;
+    era:opName "Prešov"@sk .
+
+<https://data.gov.sk/id/operational-point/b711700cbf81> a era:OperationalPoint ;
+    era:opName "Spišské Podhradie"@sk .
+
+<https://data.gov.sk/id/operational-point/b72a66f4b620> a era:OperationalPoint ;
+    era:opName "Bratislava-Vajnory"@sk .
+
+<https://data.gov.sk/id/operational-point/b87fe6c034a8> a era:OperationalPoint ;
+    era:opName "Čadca št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/b8af4206781e> a era:OperationalPoint ;
+    era:opName "Radošina"@sk .
+
+<https://data.gov.sk/id/operational-point/bc264e232d05> a era:OperationalPoint ;
+    era:opName "Zvolen nákladná stanica"@sk .
+
+<https://data.gov.sk/id/operational-point/bc62e47acfdd> a era:OperationalPoint ;
+    era:opName "Skalica na Slovensku št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/bc8f8cfc52e4> a era:OperationalPoint ;
+    era:opName "Čierna nad Tisou št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/bd180247675f> a era:OperationalPoint ;
+    era:opName "Tatranská Lomnica TEŽ"@sk .
+
+<https://data.gov.sk/id/operational-point/bd599bbd90ef> a era:OperationalPoint ;
+    era:opName "Lúky pod Makytou št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/bed6f04a097f> a era:OperationalPoint ;
+    era:opName "Maťovce"@sk .
+
+<https://data.gov.sk/id/operational-point/c068e010ef27> a era:OperationalPoint ;
+    era:opName "Neded"@sk .
+
+<https://data.gov.sk/id/operational-point/c1697592ef4e> a era:OperationalPoint ;
+    era:opName "Lučenec"@sk .
+
+<https://data.gov.sk/id/operational-point/c322382a0a0e> a era:OperationalPoint ;
+    era:opName "Bratislava-Rača"@sk .
+
+<https://data.gov.sk/id/operational-point/c34d2c89b817> a era:OperationalPoint ;
+    era:opName "Muráň"@sk .
+
+<https://data.gov.sk/id/operational-point/c5d8700474ce> a era:OperationalPoint ;
+    era:opName "Skalité št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/c660027b43d4> a era:OperationalPoint ;
+    era:opName "Trenčín"@sk .
+
+<https://data.gov.sk/id/operational-point/c7698904874f> a era:OperationalPoint ;
+    era:opName "Horné Srnie št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/c947bc225714> a era:OperationalPoint ;
+    era:opName "Dobšiná"@sk .
+
+<https://data.gov.sk/id/operational-point/cb93a7ce5c3c> a era:OperationalPoint ;
+    era:opName "Prievidza"@sk .
+
+<https://data.gov.sk/id/operational-point/cc7da5426781> a era:OperationalPoint ;
+    era:opName "Levice"@sk .
+
+<https://data.gov.sk/id/operational-point/cdff288422be> a era:OperationalPoint ;
+    era:opName "Bánovce nad Ondavou odb."@sk .
+
+<https://data.gov.sk/id/operational-point/ce0b947b2727> a era:OperationalPoint ;
+    era:opName "Odb. Spišská Belá"@sk .
+
+<https://data.gov.sk/id/operational-point/ced5f7b5d8d3> a era:OperationalPoint ;
+    era:opName "Kysak"@sk .
+
+<https://data.gov.sk/id/operational-point/cef314a96e37> a era:OperationalPoint ;
+    era:opName "Púchov"@sk .
+
+<https://data.gov.sk/id/operational-point/cf33f6c6b57d> a era:OperationalPoint ;
+    era:opName "Galanta"@sk .
+
+<https://data.gov.sk/id/operational-point/cf9146fd68cb> a era:OperationalPoint ;
+    era:opName "Čaňa št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/d05ecc5f3e39> a era:OperationalPoint ;
+    era:opName "Plavecký Mikuláš"@sk .
+
+<https://data.gov.sk/id/operational-point/d0843f75a88c> a era:OperationalPoint ;
+    era:opName "Dražovce rampa"@sk .
+
+<https://data.gov.sk/id/operational-point/d0d704ff0162> a era:OperationalPoint ;
+    era:opName "Palárikovo"@sk .
+
+<https://data.gov.sk/id/operational-point/d13e09722324> a era:OperationalPoint ;
+    era:opName "Odb. Vinohrady"@sk .
+
+<https://data.gov.sk/id/operational-point/d2809dcba7ba> a era:OperationalPoint ;
+    era:opName "Holíč nad Moravou št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/d3fb9a8ec1be> a era:OperationalPoint ;
+    era:opName "Štrba OŽ"@sk .
+
+<https://data.gov.sk/id/operational-point/d778e889cdc6> a era:OperationalPoint ;
+    era:opName "Kúty"@sk .
+
+<https://data.gov.sk/id/operational-point/d818ae710291> a era:OperationalPoint ;
+    era:opName "Plaveč"@sk .
+
+<https://data.gov.sk/id/operational-point/d9e712e155a3> a era:OperationalPoint ;
+    era:opName "Hronská Dúbrava"@sk .
+
+<https://data.gov.sk/id/operational-point/d9f4e1ec188a> a era:OperationalPoint ;
+    era:opName "Žilina zriaďovacia stanica predmestie"@sk .
+
+<https://data.gov.sk/id/operational-point/da5a8b21ef14> a era:OperationalPoint ;
+    era:opName "Nitrianske Pravno"@sk .
+
+<https://data.gov.sk/id/operational-point/dc53eaf65bba> a era:OperationalPoint ;
+    era:opName "Margecany"@sk .
+
+<https://data.gov.sk/id/operational-point/df2fb3870d71> a era:OperationalPoint ;
+    era:opName "Žilina-Teplička Potok odb."@sk .
+
+<https://data.gov.sk/id/operational-point/e1bc163239c2> a era:OperationalPoint ;
+    era:opName "Lastovce odb."@sk .
+
+<https://data.gov.sk/id/operational-point/e500d6bdab72> a era:OperationalPoint ;
+    era:opName "Moldava nad Bodvou"@sk .
+
+<https://data.gov.sk/id/operational-point/e5e42a267967> a era:OperationalPoint ;
+    era:opName "Slovenské Nové Mesto"@sk .
+
+<https://data.gov.sk/id/operational-point/e69f751a8a17> a era:OperationalPoint ;
+    era:opName "Vrbovce št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/e7486ded0de4> a era:OperationalPoint ;
+    era:opName "Krásna nad Hornádom"@sk .
+
+<https://data.gov.sk/id/operational-point/e811ba14a696> a era:OperationalPoint ;
+    era:opName "Poprad-Tatry"@sk .
+
+<https://data.gov.sk/id/operational-point/e883d1d6cccc> a era:OperationalPoint ;
+    era:opName "Záhorská Ves"@sk .
+
+<https://data.gov.sk/id/operational-point/e8c204e9355c> a era:OperationalPoint ;
+    era:opName "Košice"@sk .
+
+<https://data.gov.sk/id/operational-point/e9540dfad15b> a era:OperationalPoint ;
+    era:opName "Čierna nad Tisou ŠRT št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/e9ed3bbede54> a era:OperationalPoint ;
+    era:opName "Piešťany"@sk .
+
+<https://data.gov.sk/id/operational-point/efda730b1607> a era:OperationalPoint ;
+    era:opName "Bratislava hlavná stanica"@sk .
+
+<https://data.gov.sk/id/operational-point/f031f06e8fce> a era:OperationalPoint ;
+    era:opName "Katarínska Huta"@sk .
+
+<https://data.gov.sk/id/operational-point/f396a33a2bac> a era:OperationalPoint ;
+    era:opName "Rusovce št. hr."@sk .
+
+<https://data.gov.sk/id/operational-point/f8d56e9270cd> a era:OperationalPoint ;
+    era:opName "Horná Štubňa"@sk .
+
+<https://data.gov.sk/id/operational-point/f8ec16778ce2> a era:OperationalPoint ;
+    era:opName "Michaľany"@sk .
+
+<https://data.gov.sk/id/operational-point/f97754b9b0e5> a era:OperationalPoint ;
+    era:opName "Odb. Dolná Štubňa"@sk .
+
+<https://data.gov.sk/id/operational-point/fc38b683780d> a era:OperationalPoint ;
+    era:opName "Trenčianske Teplice"@sk .
+
+<https://data.gov.sk/id/operational-point/fe3e67095d5d> a era:OperationalPoint ;
+    era:opName "Varín"@sk .
+
+<https://data.gov.sk/id/section-of-line/101-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/bc8f8cfc52e4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e8c204e9355c> ;
+    era:lengthOfSectionOfLine "98.730"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "101 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/101-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a6b11070808d> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e8c204e9355c> ;
+    era:lengthOfSectionOfLine "4.029"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "101 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/101-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a6b11070808d> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e8c204e9355c> ;
+    era:lengthOfSectionOfLine "3.993"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "101 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/105-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e8c204e9355c> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1e97b6bc1319> ;
+    era:lengthOfSectionOfLine "203.396"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "105 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/1e97b6bc1319> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/cef314a96e37> ;
+    era:lengthOfSectionOfLine "81.661"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/4cc37237fdc4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/7972efd16ab2> ;
+    era:lengthOfSectionOfLine "3.443"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/fe3e67095d5d> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/7972efd16ab2> ;
+    era:lengthOfSectionOfLine "3.384"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/095523188819> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b87fe6c034a8> ;
+    era:lengthOfSectionOfLine "37.369"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d9f4e1ec188a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/2bb849ab8261> ;
+    era:lengthOfSectionOfLine "1.645"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-F> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/cef314a96e37> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/bd599bbd90ef> ;
+    era:lengthOfSectionOfLine "21.049"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 F"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-G> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/df2fb3870d71> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/095523188819> ;
+    era:lengthOfSectionOfLine "10.264"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 G"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/106-H> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/ae36eb5be54c> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/095523188819> ;
+    era:lengthOfSectionOfLine "5.308"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "106 H"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/107-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/569105b9bf57> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/ced5f7b5d8d3> ;
+    era:lengthOfSectionOfLine "78.121"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "107 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/107-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8b9032d63196> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/64fa41f0c802> ;
+    era:lengthOfSectionOfLine "0.900"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "107 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/107-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a4843d782151> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/6fee2e3f5f96> ;
+    era:lengthOfSectionOfLine "0.900"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "107 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/109-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/cf9146fd68cb> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/38076469db15> ;
+    era:lengthOfSectionOfLine "18.211"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "109 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/114-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/62e9882c7860> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/c5d8700474ce> ;
+    era:lengthOfSectionOfLine "20.048"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "114 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/118-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8bdbe20a8178> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d9e712e155a3> ;
+    era:lengthOfSectionOfLine "11.044"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/118-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8bdbe20a8178> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/4ed0af627df6> ;
+    era:lengthOfSectionOfLine "21.592"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/120-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/89409436e31c> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/efda730b1607> ;
+    era:lengthOfSectionOfLine "149.056"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "120 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/120-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/60f80c4b0016> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/17c5bd0e0f4c> ;
+    era:lengthOfSectionOfLine "33.516"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "120 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/121-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d9e712e155a3> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d0d704ff0162> ;
+    era:lengthOfSectionOfLine "116.811"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "121 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/125-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/cef314a96e37> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/efda730b1607> ;
+    era:lengthOfSectionOfLine "157.461"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "125 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/126-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/efda730b1607> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/5794b2d83f51> ;
+    era:lengthOfSectionOfLine "70.615"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "126 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/126-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a3416c8395b0> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/9c6718567978> ;
+    era:lengthOfSectionOfLine "3.620"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "126 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b72a66f4b620> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d13e09722324> ;
+    era:lengthOfSectionOfLine "4.776"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b72a66f4b620> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/c322382a0a0e> ;
+    era:lengthOfSectionOfLine "4.868"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b077c6b729e4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/f396a33a2bac> ;
+    era:lengthOfSectionOfLine "34.045"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/0144f7632f66> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/0cec83ec5b1e> ;
+    era:lengthOfSectionOfLine "2.396"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b530645fd020> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/38e5dbb8b704> ;
+    era:lengthOfSectionOfLine "1.323"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-F> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b530645fd020> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d13e09722324> ;
+    era:lengthOfSectionOfLine "1.316"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 F"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/127-G> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8613f90732f9> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/efda730b1607> ;
+    era:lengthOfSectionOfLine "5.110"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "127 G"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/128-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b67b79d62369> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/cf33f6c6b57d> ;
+    era:lengthOfSectionOfLine "29.313"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "128 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/1> .
+
+<https://data.gov.sk/id/section-of-line/101-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e9540dfad15b> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/3715f0d2991a> ;
+    era:lengthOfSectionOfLine "3.208"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "101 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/102-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/77a752915504> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/721333d875be> ;
+    era:lengthOfSectionOfLine "87.471"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "102 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/103-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/9fb699da7ffd> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/f8ec16778ce2> ;
+    era:lengthOfSectionOfLine "119.972"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "103 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/103-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/307c1f3f63df> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/13e0d2380a94> ;
+    era:lengthOfSectionOfLine "16.119"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "103 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/103-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e1bc163239c2> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/2f77ef2f661e> ;
+    era:lengthOfSectionOfLine "0.719"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "103 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/107-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/9ae3b07354d4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b69199d43cb4> ;
+    era:lengthOfSectionOfLine "60.515"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "107 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/109-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e8c204e9355c> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/7f120d264f0a> ;
+    era:lengthOfSectionOfLine "83.930"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "109 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/109-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e7486ded0de4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/6adc72d2c343> ;
+    era:lengthOfSectionOfLine "2.084"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "109 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/112-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d818ae710291> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e811ba14a696> ;
+    era:lengthOfSectionOfLine "61.019"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/115-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/7f120d264f0a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/8bdbe20a8178> ;
+    era:lengthOfSectionOfLine "149.187"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "115 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/115-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/99a878f1b4ad> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/345141bf8d1a> ;
+    era:lengthOfSectionOfLine "1.872"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "115 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/115-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/7cb9d8372fe6> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/8003a1e87e27> ;
+    era:lengthOfSectionOfLine "11.763"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "115 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/118-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d9e712e155a3> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b5d74de7ef1c> ;
+    era:lengthOfSectionOfLine "85.033"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/118-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/723e4e9364f5> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/0ae406d0af23> ;
+    era:lengthOfSectionOfLine "0.677"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/118-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/bc264e232d05> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/19cb9aa84a6b> ;
+    era:lengthOfSectionOfLine "1.022"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/118-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/4ed0af627df6> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/f97754b9b0e5> ;
+    era:lengthOfSectionOfLine "40.643"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "118 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/122-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/cb93a7ce5c3c> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/17c5bd0e0f4c> ;
+    era:lengthOfSectionOfLine "114.413"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "122 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/122-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/86751abe7a76> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/348afff8d757> ;
+    era:lengthOfSectionOfLine "4.563"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "122 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/123-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/0b8fce418041> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b67b79d62369> ;
+    era:lengthOfSectionOfLine "31.313"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "123 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/124-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/00868fe70d9b> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/8613f90732f9> ;
+    era:lengthOfSectionOfLine "94.898"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "124 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/128-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a2c05612dcd3> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/682664f8842d> ;
+    era:lengthOfSectionOfLine "14.195"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "128 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/128-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/682664f8842d> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d778e889cdc6> ;
+    era:lengthOfSectionOfLine "69.088"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "128 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/130-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/c660027b43d4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/36852099edb7> ;
+    era:lengthOfSectionOfLine "48.754"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "130 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/2> .
+
+<https://data.gov.sk/id/section-of-line/101-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e5e42a267967> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/17a3b8398a70> ;
+    era:lengthOfSectionOfLine "1.242"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "101 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/104-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/bed6f04a097f> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/9bafac61c7db> ;
+    era:lengthOfSectionOfLine "28.959"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "104 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/104-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/62755b077990> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/0c00f0d3ba54> ;
+    era:lengthOfSectionOfLine "27.063"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "104 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/104-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/5c2e3eab18a3> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/307c1f3f63df> ;
+    era:lengthOfSectionOfLine "32.119"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "104 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/104-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/0a37dd5fe903> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/70202d7c572c> ;
+    era:lengthOfSectionOfLine "34.510"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "104 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/104-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/637844873da7> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/cdff288422be> ;
+    era:lengthOfSectionOfLine "0.878"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "104 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/110-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/dc53eaf65bba> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/9dc9f0f2b49b> ;
+    era:lengthOfSectionOfLine "92.727"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "110 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/113-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b1f38d0c17f4> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1e97b6bc1319> ;
+    era:lengthOfSectionOfLine "56.807"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "113 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/114-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/095523188819> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/887e2d3cc6c2> ;
+    era:lengthOfSectionOfLine "21.311"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "114 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/115-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/07289f267c95> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1b16be36f097> ;
+    era:lengthOfSectionOfLine "0.772"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "115 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/116-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/9dc9f0f2b49b> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/4ed0af627df6> ;
+    era:lengthOfSectionOfLine "85.100"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "116 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/116-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/a4f40c6340dd> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/3ff14860f279> ;
+    era:lengthOfSectionOfLine "81.878"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "116 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/116-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/af7b3e3007d9> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/47509ffc1206> ;
+    era:lengthOfSectionOfLine "1.373"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "116 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/117-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/c1697592ef4e> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/86e431bbbee5> ;
+    era:lengthOfSectionOfLine "25.467"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "117 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/119-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8bdbe20a8178> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/326f7b037fe6> ;
+    era:lengthOfSectionOfLine "74.088"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "119 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/119-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/326f7b037fe6> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/4076a12a808f> ;
+    era:lengthOfSectionOfLine "31.481"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "119 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/119-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/cc7da5426781> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/289be1434eed> ;
+    era:lengthOfSectionOfLine "52.314"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "119 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/122-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/f8d56e9270cd> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/cb93a7ce5c3c> ;
+    era:lengthOfSectionOfLine "37.785"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "122 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/122-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/2f04d773b91a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/45972b9518d9> ;
+    era:lengthOfSectionOfLine "0.725"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "122 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/122-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/da5a8b21ef14> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/cb93a7ce5c3c> ;
+    era:lengthOfSectionOfLine "10.894"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "122 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/123-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/16290fea7afc> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d0843f75a88c> ;
+    era:lengthOfSectionOfLine "51.898"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "123 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/123-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/1b43661ee1b5> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b57db0f2f048> ;
+    era:lengthOfSectionOfLine "39.077"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "123 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/129-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/9908162b121b> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e69f751a8a17> ;
+    era:lengthOfSectionOfLine "44.627"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "129 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/129-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d778e889cdc6> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/bc62e47acfdd> ;
+    era:lengthOfSectionOfLine "27.748"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "129 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/129-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/7b4b4f3c7f84> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d2809dcba7ba> ;
+    era:lengthOfSectionOfLine "3.189"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "129 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/129-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/10f24f791ecd> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/12935a6b10ef> ;
+    era:lengthOfSectionOfLine "0.880"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "129 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/130-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/50f2979b0339> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/c7698904874f> ;
+    era:lengthOfSectionOfLine "12.668"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "130 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/3> .
+
+<https://data.gov.sk/id/section-of-line/110-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/b711700cbf81> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/7ffe7b31eb88> ;
+    era:lengthOfSectionOfLine "9.314"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "110 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/110-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/6297be4b5816> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/3ffbaa94b0ce> ;
+    era:lengthOfSectionOfLine "12.630"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "110 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/111-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/c947bc225714> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1556ddd9032e> ;
+    era:lengthOfSectionOfLine "26.132"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "111 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/111-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/7f120d264f0a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/55e50175e201> ;
+    era:lengthOfSectionOfLine "23.777"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "111 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/111-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/7f120d264f0a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/c34d2c89b817> ;
+    era:lengthOfSectionOfLine "40.872"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "111 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/111-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e500d6bdab72> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/a2882499da28> ;
+    era:lengthOfSectionOfLine "15.512"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "111 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/112-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/ce0b947b2727> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/67bb1d92ca3a> ;
+    era:lengthOfSectionOfLine "2.397"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/112-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/9d280a62f086> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1795720f074e> ;
+    era:lengthOfSectionOfLine "8.847"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/114-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/62e9882c7860> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/04130b763626> ;
+    era:lengthOfSectionOfLine "25.872"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "114 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/117-A> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/78c541a02eac> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/c1697592ef4e> ;
+    era:lengthOfSectionOfLine "41.225"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "117 A"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/117-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/1798dc0aa7c7> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/f031f06e8fce> ;
+    era:lengthOfSectionOfLine "9.857"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "117 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/121-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/1950142df43a> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d9e712e155a3> ;
+    era:lengthOfSectionOfLine "19.737"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "121 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/123-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/348afff8d757> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b8af4206781e> ;
+    era:lengthOfSectionOfLine "20.200"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "123 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/124-B> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/00868fe70d9b> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/b51178bd4b91> ;
+    era:lengthOfSectionOfLine "25.844"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "124 B"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/124-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/c068e010ef27> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/1c69aa1973c4> ;
+    era:lengthOfSectionOfLine "18.960"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "124 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/126-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/d05ecc5f3e39> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/e883d1d6cccc> ;
+    era:lengthOfSectionOfLine "49.509"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "126 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/128-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/0c2569160dd8> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/617f97b5c301> ;
+    era:lengthOfSectionOfLine "11.669"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "128 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/129-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/e9ed3bbede54> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/7ca84cc5ac2f> ;
+    era:lengthOfSectionOfLine "0.000"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "129 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/130-C> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/747e0a756ddd> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/8089dae59858> ;
+    era:lengthOfSectionOfLine "17.272"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "130 C"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/4> .
+
+<https://data.gov.sk/id/section-of-line/112-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8169c833d8b3> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/8b78231ce497> ;
+    era:lengthOfSectionOfLine "29.107"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/5> .
+
+<https://data.gov.sk/id/section-of-line/112-E> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/bd180247675f> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/533faf6085fa> ;
+    era:lengthOfSectionOfLine "5.936"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 E"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/5> .
+
+<https://data.gov.sk/id/section-of-line/112-F> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/8b78231ce497> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/d3fb9a8ec1be> ;
+    era:lengthOfSectionOfLine "4.630"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "112 F"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/5> .
+
+<https://data.gov.sk/id/section-of-line/130-D> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/fc38b683780d> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/5acfe0829a26> ;
+    era:lengthOfSectionOfLine "5.427"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "130 D"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/špeciálna dráha> .
+
+<https://data.gov.sk/id/section-of-line/Spolu> a era:SectionOfLine ;
+    era:opStart <https://data.gov.sk/id/operational-point/2f3e9e251b10> ;
+    era:opEnd <https://data.gov.sk/id/operational-point/2f3e9e251b10> ;
+    era:lengthOfSectionOfLine "3644.077"^^xsd:decimal ;
+    adms:identifier [
+        skos:notation "Spolu"
+    ] ;
+    rail:lineCategory <https://data.gov.sk/def/railways-line-category/> .

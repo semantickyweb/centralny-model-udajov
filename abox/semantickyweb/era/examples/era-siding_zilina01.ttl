@@ -1,0 +1,68 @@
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix era:         <http://data.europa.eu/949/> .
+@prefix era-tenclass:<http://data.europa.eu/949/concepts/ten-classifications/> .
+
+###############################################################################
+# Príklad: Siding podľa SHACL (era:Siding) + OperationalPoint (era:OperationalPoint)
+#
+# - Siding má povinné: imCode (4 číslice) + sidingId (string)
+# - OP má väzbu era:siding na tento siding
+# - Globálne pravidlo "NoRepeatedSidingIds" je splnené tým, že v rámci OP
+#   nemáme dva rôzne sidings s rovnakým sidingId.
+#
+# Pozn.: Pre SPARQL constraint na tenClassification dopĺňame skos:inScheme.
+###############################################################################
+
+# --- Siding (koľaj na odstavenie/manipuláciu) v rámci OP
+<https://data.gov.sk/id/railway/siding/example-op-zilina/S1>
+    a era:Siding ;
+    rdfs:label "Manipulačná koľaj S1 – príklad"@sk ;
+
+    # SHACL: povinné, presne 1×, 4 číslice
+    era:imCode "1234" ;
+
+    # SHACL: povinné, presne 1×, string
+    era:sidingId "S1" ;
+
+    # SHACL: voliteľné, ale ak uvedené -> IRI + SKOS inScheme v TENClassifications
+    era:tenClassification era-tenclass:TEN_EXAMPLE ;
+
+    # SHACL: voliteľné, maxCount 1, xsd:double
+    era:length 420.0 ;
+
+    # SHACL: voliteľné, xsd:double s patternom "NN.N" (napr. 12.3)
+    era:gradient 12.3 ;
+
+    # SHACL: voliteľné, xsd:integer
+    era:minimumHorizontalRadius 300 ;
+    era:minimumVerticalRadiusCrest 500 ;
+    era:minimumVerticalRadiusHollow 450 ;
+
+    # SHACL: voliteľné, booleany
+    era:hasToiletDischarge false ;
+    era:hasExternalCleaning false ;
+    era:hasWaterRestocking true ;
+    era:hasRefuelling false ;
+    era:hasSandRestocking false ;
+    era:hasElectricShoreSupply false ;
+
+    # SHACL: voliteľné, xsd:double, (pattern povoľuje 0..999)
+    era:maxCurrentStandstillPantograph 250.0 ;
+
+    # SHACL: voliteľné, string podľa patternu:
+    # 2 písmená / 14 ľubovoľných znakov / rok 1900-2100 / 6 číslic
+    era:verificationINF "SK/ABCDEFGHIJKLMN/2024/000123" .
+
+###############################################################################
+# Minimálne SKOS “podklady” pre tenClassification (aby SPARQL constraint prešiel)
+###############################################################################
+
+era-tenclass:TEN_EXAMPLE
+    a skos:Concept ;
+    skos:inScheme <http://data.europa.eu/949/concepts/ten-classifications/TENClassifications> ;
+    skos:prefLabel "Example TEN classification (placeholder)"@en ;
+    skos:prefLabel "Ukážková TEN klasifikácia (placeholder)"@sk .

@@ -1,0 +1,177 @@
+@prefix era: <http://data.europa.eu/949/> .
+@prefix era-transmittedtcs: <http://data.europa.eu/949/concepts/transmitted-tcs/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix era-sn: <http://data.europa.eu/949/concepts/sol-natures/> .
+@prefix eu-country: <http://publications.europa.eu/resource/authority/country/> .
+
+#################################################################
+# ETCS transmitted track conditions - illustrative example
+# Slovak line 180, section of line Žilina ↔ Vrútky
+#
+# Tento príklad ukazuje:
+# - SectionOfLine ako makro infraštruktúrny objekt
+# - RunningTrack ako konkrétnu jazdnú koľaj
+# - trackside ETCS na strane infraštruktúry
+# - onboard ETCS na strane typu vozidla
+# - rozdiel medzi:
+#     era:etcsTransmittedTrackConditions
+#     era:etcsSupportedTrackConditions
+#
+# Dôležité:
+# - trackside ETCS je naviazané na era:RunningTrack
+# - onboard ETCS je naviazané na era:VehicleType
+# - tento súbor je ilustračný, ale používa ERA názvoslovie
+#################################################################
+
+#################################################################
+# Prehľad všetkých hodnôt z concept scheme
+# era-transmittedtcs:TransmittedTrackConditions
+#
+# 5.8.12 a  = Powerless section with pantograph to be lowered
+# 5.8.12 b  = Powerless section with main power switch to be switched off
+# 5.8.12 c  = Non-stopping area
+# 5.8.12 d  = Radio hole
+# 5.8.12 e  = Air tightness area
+# 5.8.12 f  = Inhibition of a defined type of brake
+# 5.8.12 g  = Tunnel stopping area
+# 5.8.12 h  = Sound horn
+# 5.8.12 i  = Change of traction system
+# bigMetalMasses = Big metal masses, ignore on-board integrity check alarm
+#                   of balise transmission
+# switchOffRegenerativeBrake = Switch off regenerative brake
+# switchOffEddyCurrentBrakeForServiceBrake =
+#     Switch off eddy current brake for service brake
+# switchOffEddyCurrentBrakeForEmergencyBrake =
+#     Switch off eddy current brake for emergency brake
+# switchOffMagneticShoeBrake =
+#     Switch off magnetic shoe brake
+#################################################################
+
+#################################################################
+# 1. Section of Line
+#
+# V tomto príklade je použitý SectionOfLine s URI /180.
+# Je to zjednodušený ilustračný príklad pre úsek Žilina ↔ Vrútky.
+#################################################################
+
+<https://data.gov.sk/id/railway/section-of-line/180>
+    a era:SectionOfLine ;
+    rdfs:label "SoL (príklad) – trať 180, Žilina ↔ Vrútky"@sk ;
+    rdfs:label "Section of line example – line 180, Žilina ↔ Vrútky"@en ;
+    era:canonicalURI <https://data.gov.sk/id/railway/section-of-line/180> ;
+    era:opStart <https://data.gov.sk/id/railway/operational-point/zilina> ;
+    era:opEnd <https://data.gov.sk/id/railway/operational-point/vrutky> ;
+    era:length "22.5"^^xsd:double ;
+    era:solNature era-sn:10 ;
+    era:inCountry eu-country:SVK ;
+    era:hasPart <https://data.gov.sk/id/railway/running-track/26341910092> .
+
+#################################################################
+# 2. Running track
+#
+# RunningTrack je konkrétna jazdná koľaj, na ktorú sa viaže trackside ETCS.
+#################################################################
+
+<https://data.gov.sk/id/railway/running-track/26341910092>
+    a era:RunningTrack ;
+    rdfs:label "Jazdná koľaj 26341910092 na trati 180 Žilina ↔ Vrútky"@sk ;
+    rdfs:label "Running track 26341910092 on line 180 Žilina ↔ Vrútky"@en ;
+    era:canonicalURI <https://data.gov.sk/id/railway/running-track/26341910092> ;
+    era:trackId "26341910092" ;
+    era:isPartOf <https://data.gov.sk/id/railway/section-of-line/180> ;
+    era:inCountry eu-country:SVK ;
+    era:etcs <https://data.gov.sk/id/railway/etcs/trackside/26341910092> .
+
+#################################################################
+# 3. Trackside ETCS
+#
+# Infraštruktúra môže prenášať viacero track conditions.
+# V tomto príklade sú na trackside ETCS zámerne uvedené všetky možné
+# hodnoty z concept scheme, aby bol príklad čo najnázornejší.
+#################################################################
+
+<https://data.gov.sk/id/railway/etcs/trackside/26341910092>
+    a era:ETCS ;
+    rdfs:label "Traťové ETCS pre jazdnú koľaj 26341910092 na trati 180"@sk ;
+    rdfs:label "Trackside ETCS for running track 26341910092 on line 180"@en ;
+    era:etcsTransmitsTrackConditions true ;
+    era:etcsTransmittedTrackConditions
+            era-transmittedtcs:5-8-12-a ,
+            era-transmittedtcs:5-8-12-b ,
+            era-transmittedtcs:5-8-12-c ,
+            era-transmittedtcs:5-8-12-d ,
+            era-transmittedtcs:5-8-12-e ,
+            era-transmittedtcs:5-8-12-f ,
+            era-transmittedtcs:5-8-12-g ,
+            era-transmittedtcs:5-8-12-h ,
+            era-transmittedtcs:5-8-12-i ,
+            era-transmittedtcs:bigMetalMasses ,
+            era-transmittedtcs:switchOffRegenerativeBrake ,
+            era-transmittedtcs:switchOffEddyCurrentBrakeForServiceBrake ,
+            era-transmittedtcs:switchOffEddyCurrentBrakeForEmergencyBrake ,
+            era-transmittedtcs:switchOffMagneticShoeBrake .
+
+#################################################################
+# 4. Operačné body
+#
+# OP sú použité ako začiatok a koniec SectionOfLine.
+#################################################################
+
+<https://data.gov.sk/id/railway/operational-point/zilina>
+    a era:OperationalPoint ;
+    rdfs:label "Žilina"@sk ;
+    rdfs:label "Žilina"@en ;
+    era:canonicalURI <https://data.gov.sk/id/railway/operational-point/zilina> ;
+    era:uopid "SKZILINA01" ;
+    era:inCountry eu-country:SVK .
+
+<https://data.gov.sk/id/railway/operational-point/vrutky>
+    a era:OperationalPoint ;
+    rdfs:label "Vrútky"@sk ;
+    rdfs:label "Vrútky"@en ;
+    era:canonicalURI <https://data.gov.sk/id/railway/operational-point/vrutky> ;
+    era:uopid "SKVRUTKY01" ;
+    era:inCountry eu-country:SVK .
+
+#################################################################
+# 5. Onboard ETCS - typ vozidla, ktorý podporuje iba podmnožinu
+#
+# Toto ukazuje rozdiel:
+# - infraštruktúra môže vysielať všetky track conditions
+# - konkrétny typ vozidla môže podporovať iba niektoré z nich
+#################################################################
+
+<https://data.gov.sk/def/railway/vehicle-type/A-BC-123>
+    a era:VehicleType ;
+    rdfs:label "Typ vozidla ZSSK A-BC-123"@sk ;
+    rdfs:label "ZSSK locomotive type A-BC-123"@en ;
+    era:onboardEtcs <https://data.gov.sk/id/railway/etcs/onboard/vehicle-type/A-BC-123> .
+
+<https://data.gov.sk/id/railway/etcs/onboard/vehicle-type/A-BC-123>
+    a era:ETCS ;
+    rdfs:label "Palubné ETCS pre typ vozidla ZSSK A-BC-123"@sk ;
+    rdfs:label "Onboard ETCS for ZSSK vehicle type A-BC-123"@en ;
+    era:etcsSupportsTrackConditions true ;
+    era:etcsSupportedTrackConditions
+            era-transmittedtcs:5-8-12-a ,
+            era-transmittedtcs:5-8-12-c ,
+            era-transmittedtcs:5-8-12-g ,
+            era-transmittedtcs:switchOffRegenerativeBrake .
+
+#################################################################
+# 6. Onboard ETCS - typ vozidla, ktorý tieto conditions nepodporuje
+#################################################################
+
+<https://data.gov.sk/def/railway/vehicle-type/A-BC-240>
+    a era:VehicleType ;
+    rdfs:label "Typ vozidla ZSSK A-BC-240"@sk ;
+    rdfs:label "ZSSK locomotive type A-BC-240"@en ;
+    era:onboardEtcs <https://data.gov.sk/id/railway/etcs/onboard/vehicle-type/A-BC-240> .
+
+<https://data.gov.sk/id/railway/etcs/onboard/vehicle-type/A-BC-240>
+    a era:ETCS ;
+    rdfs:label "Palubné ETCS pre typ vozidla ZSSK A-BC-240"@sk ;
+    rdfs:label "Onboard ETCS for ZSSK vehicle type A-BC-240"@en ;
+    era:etcsSupportsTrackConditions false .
