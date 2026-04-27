@@ -1,4 +1,4 @@
-# Interoperabilita a otvorené dáta železničnej infraštruktúry SR 2026 pomocou ERA (RINF)
+# ERA interoperabilita a nové otvorené dáta železníc SR
 
 ## Prehľad
 Tento dokument definuje návrh na spresnenie a doplnenie datasetov železničnej infraštruktúry SR.

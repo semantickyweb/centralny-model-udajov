@@ -1466,7 +1466,7 @@
 <https://data.gov.sk/id/section-of-line/Spolu> a era:SectionOfLine ;
     era:opStart <https://data.gov.sk/id/operational-point/2f3e9e251b10> ;
     era:opEnd <https://data.gov.sk/id/operational-point/2f3e9e251b10> ;
-    era:lengthOfSectionOfLine "3 644.077"^^xsd:decimal ;
+    era:lengthOfSectionOfLine "3644.077"^^xsd:decimal ;
     adms:identifier [
         skos:notation "Spolu"
     ] ;
