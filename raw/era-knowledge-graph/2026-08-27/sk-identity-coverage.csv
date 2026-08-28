@@ -1,0 +1,12 @@
+class,entities,withCanonicalURI,withCountry
+http://data.europa.eu/949/ContactLineSystem,2282,0,0
+http://data.europa.eu/949/ETCS,1333,0,0
+http://data.europa.eu/949/KilometricPost,1237,0,0
+http://data.europa.eu/949/OperationalPoint,1040,1040,1040
+http://data.europa.eu/949/PlatformEdge,1710,1710,1710
+http://data.europa.eu/949/PrimaryLocation,1040,0,1040
+http://data.europa.eu/949/RunningTrack,4822,4822,4822
+http://data.europa.eu/949/SectionOfLine,1081,1081,1081
+http://data.europa.eu/949/Siding,2470,2470,2470
+http://data.europa.eu/949/TrainDetectionSystem,1361,0,0
+http://data.europa.eu/949/Tunnel,82,82,82

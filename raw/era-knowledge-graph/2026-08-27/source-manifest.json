@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "classification": "derived-snapshot",
+  "description": "Unmodified snapshot of the ERA RINF named graph 0056. ERA entity IRIs are preserved.",
+  "retrievedAt": "2026-08-27T16:13:46Z",
+  "source": {
+    "publisher": "European Union Agency for Railways",
+    "repository": "https://graph.data.era.europa.eu/repositories/rinf-plus",
+    "namedGraph": "http://data.europa.eu/949/graph/0056",
+    "statementsEndpoint": "https://graph.data.era.europa.eu/repositories/rinf-plus/statements",
+    "requestAccept": "application/n-quads"
+  },
+  "artifact": {
+    "path": "era-rinf-sk-graph-0056.nq.gz",
+    "mediaType": "application/n-quads",
+    "compression": "gzip",
+    "triples": 332426,
+    "uncompressedBytes": 61933691,
+    "compressedBytes": 3262065,
+    "uncompressedSha256": "a51a26314847d125f7ff1b588d49617aaa012ab5db68d18930cec0bb6dfe708b",
+    "sha256": "41154206fbdfa0ca33e5af0067b3810c18f1fa8831d8bf9c3e8d9af1283b7c33"
+  },
+  "latestFullDumpAtRetrieval": {
+    "record": "https://zenodo.org/records/22018826",
+    "doi": "10.5281/zenodo.22018826",
+    "version": "v10.0",
+    "publicationDate": "2026-08-19",
+    "license": "cc-by-4.0",
+    "files": [
+      {
+        "name": "ERA-KG.zip",
+        "bytes": 676199235,
+        "checksum": "md5:b5aaff421e38d0b3b2860224f6ffb430",
+        "download": "https://zenodo.org/api/records/22018826/files/ERA-KG.zip/content"
+      }
+    ]
+  },
+  "identityPolicy": {
+    "contentEntityIrisRewritten": false,
+    "localMetadataBase": "https://slovpedia.eu/"
+  }
+}

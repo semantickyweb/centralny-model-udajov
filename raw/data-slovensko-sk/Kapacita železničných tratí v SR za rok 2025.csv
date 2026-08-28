@@ -1,0 +1,646 @@
+﻿;;;;KAPACITA  2025;;;;
+  ŽSR vyjadruje voľnú kapacitu trate:;;;;;;;;
+a)  využitím  priepustnej  výkonnosti pravidelnou vlakovou dopravou, ;;;;;;;;
+b)  počtom voľných  vlakových trás.;;;;;;;;
+;;;;;;;;
+;Vysvetlivky:;OD   - osobná doprava;;P   - párny smer;;Ppp   - párny smer, vlaky podľa potreby;;
+;;ND   - nákladná doprava;;N   - nepárny smer;;Npp   - nepárny smer, vlaky podľa potreby;;
+;;;;;;;;
+Trať;Traťový úsek;Obmedzujúci medzistaničný úsek;Smer;Počet  trás vlakov;;;Voľná kapacita (NVK);Stupeň obsadenia traťovej koľaje pravidelnou dopravou (So)
+;;;;OD;ND;Kapacita (n);Využitie praktickej priepustnosti v % (Kvp);
+;;;P;4;9;35;;0,41
+101;Čop (UA);Výh (UA) km 271,0;Ppp;1;1;;5;
+A;Čierna nad Tisou ;Čierna nad Tisou;N;4;9;;73,9;
+;;;Npp;1;1;;;
+;;;P;17;30;82;32;0,41
+101;Čierna nad Tisou;Slov. Nové Mesto;Ppp;1;2;;57,0;
+A;Michaľany;Michaľany;N;16;33;81;28;0,43
+;;;Npp;1;3;;60,9;
+;;;P;33;33;120;49;0,31
+101;Michaľany;Ruskov;Ppp;1;4;;55,1;
+A;Košice;Nižná Myšľa;N;32;34;120;48;0,41
+;;;Npp;1;5;;55,1;
+;;;P;0;8;37;;0,43
+101;Výh UZ 271,0 ŠRT;Výh UZ km 271,0 ŠRT;Ppp;0;0;;21;
+B;Čierna nad Tisou ŠRT;Čierna nad Tisou ŠRT;N;0;8;;43,4;
+;;;Npp;0;0;;;
+;;;P;0;0;146;;0,00
+101;Slov. Nové Mesto;Slov. Nové Mesto;Ppp;0;0;;146;
+C;Sátoraljaújhely (HU);Sátoraljaújhely (HU);N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;0;10;33;;0,47
+102;Užhorod PSP (UA);Pavlovo (UA);Ppp;0;2;;9;
+A;Maťovce ŠRT;Maťovce ŠRT;N;0;10;;61,0;
+;;;Npp;0;2;;;
+;Poznámka:  Vypočítaná priepustnosť sa vzťahuje len na prevádzkové zariadenie. Do výpočtu nie je zahrnutá technológia prác colnej kontroly.;;;;;;;
+;;;P;0;11;61;;0,27
+102;Maťovce ŠRT;Maťovce ŠRT;Ppp;0;2;;35;
+A;Výh Vojany ŠRT;Výh Vojany ŠRT;N;0;11;;35,9;
+;;;Npp;0;2;;;
+;;;P;0;9;31;;0,43
+102;Výh Vojany ŠRT;Výh Trebišov ŠRT;Ppp;0;1;;11;
+A;Haniska pri Koš. ŠRT;Výh Slivník ŠRT;N;0;9;;57,5;
+;;;Npp;0;1;;;
+;;;P;3;0;26;;0,15
+103;Łupków (PL);Łupków (PL);Ppp;0;0;;20;
+A;Medzilaborce;Medzilaborce;N;3;0;;23,1;
+;;;Npp;0;0;;;
+;;;P;10;2;32;;0,39
+103;Medzilaborce;Medzilaborce;Ppp;0;1;;7;
+A;Humenné;Radvaň nad Labor.;N;10;1;;71,9;
+;;;Npp;0;1;;;
+;;;P;21;6;69;;0,57
+103;Humenné;Humenné;Ppp;0;1;;15;
+A;Strážske;Strážske;N;21;4;;75,4;
+;;;Npp;0;1;;;
+;;;P;0;0;43;;0,00
+103;Strážske;Michalovce;Ppp;0;0;;43;
+A;Bánovce nad Ond.;Bánovce nad Ond.;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;17;2;61;;0,47
+103;Bánovce nad Ond.;Úpor;Ppp;0;1;;18;
+A;Michaľany;Michaľany;N;17;2;;62,5;
+;;;Npp;0;4;;;
+;;;P;13;5;108;;0,27
+103;Trebišov;Trebišov;Ppp;0;5;;61;
+B;Výh Slivník;Čeľovce;N;14;6;;35,3;
+;;;Npp;0;4;;;
+;;;P;0;2;66;;0,04
+104;Maťovce;Veľké Kapušany;Ppp;0;2;;59;
+A;Bánovce nad Ond.;Vojany;N;0;1;;4,5;
+;;;Npp;0;2;;;
+;;;P;15;1;45;;0,43
+104;Stakčín;Snina;Ppp;0;1;;11;
+B;Humenné;Dlhé nad Cirochou;N;15;1;;71,1;
+;;;Npp;0;1;;;
+;;;P;0;0;6;;0,00
+104;Vranov nad Topľou;Vranov nad Topľou;Ppp;0;2;;2;
+C;Trebišov;Sečovce;N;0;0;;0,0;
+;;;Npp;0;2;;;
+;;;P;10;1;30;;0,60
+104;Bardejov ;Bardejov ;Ppp;0;1;;6;
+D;Kapušany pri Preš.;Raslavice;N;10;1;;73,3;
+;;;Npp;0;1;;;
+;;;P;81;52;154;19;0,73
+105;Košice ;Košice;Ppp;0;2;;86,2;
+A;Kysak;Kostoľany nad  Horn.;N;84;51;165;28;0,68
+;;;Npp;0;2;;81,9;
+;;;P;45;37;116;31;0,49
+105;Kysak;Spišské Vlachy;Ppp;0;3;;70,7;
+A;Spišská Nová Ves;Markušovce;N;46;37;147;62;0,29
+;;;Npp;0;2;;56,6;
+;;;P;44;37;120;37;0,50
+105;Spišská Nová Ves;Spišská Nová Ves;Ppp;0;2;;67,6;
+A;Štrba;Vydrník;N;45;46;150;57;0,36
+;;;Npp;0;2;;60,5;
+;;;P;35;41;147;69;0,30
+105;Štrba;Štrba;Ppp;0;2;;51,8;
+A;Liptovský Mikuláš;Východná;N;35;36;131;58;0,35
+;;;Npp;0;2;;54,1;
+;;;P;44;46;131;38;0,42
+105;Liptovský Mikuláš;Ružomberok;Ppp;0;3;;68,5;
+A;Kraľovany;Ľubochňa;N;45;44;126;35;0,49
+;;;Npp;0;2;;70,9;
+;;;P;45;43;153;61;0,36
+106;Kraľovany;Kraľovany;Ppp;0;4;;57,4;
+A;Vrútky;Turany;N;46;42;150;59;0,48
+;;;Npp;0;3;;58,9;
+;;;P;50;47;147;47;0,51
+106;Vrútky;Vrútky ;Ppp;0;3;;66,2;
+A;Žilina;Varín;N;51;43;159;62;0,56
+;;;Npp;0;3;;59,1;
+;;;P;50;42;138;45;0,52
+106;Žilina;Žilina zr. st.;Ppp;0;1;;66,7;
+A;Púchov;AH Príkrik;N;50;40;132;40;0,47
+;;;Npp;0;2;;68,1;
+;Potok odb;Žilina-Teplička;P;3;22;48;21;0,36
+106;Odb Váh;Odb Váh;Ppp;0;2;;52,2;
+B, C;Varín;Žilina-Teplička;N;3;23;57;26;0,34
+;Odb Váh;Odb Váh;Npp;0;5;;46,0;
+;;;P;46;34;133;53;0,39
+106;Žilina;Krásno nad Kysucou;Ppp;0;0;;60,1;
+D;Čadca;Čadca;N;45;35;137;57;0,46
+;;;Npp;0;0;;58,4;
+;;;P;16;27;117;;0,53
+106;Čadca;Čadca;Ppp;0;0;;28;
+D;Mosty u Jabl. (CZ);Mosty u Jabl. (CZ);N;16;30;;76,1;
+;;;Npp;0;0;;;
+;;;P;0;0;0;;0,00
+106;Budatínska spojka;Žilina predmestie;Ppp;0;0;;0;
+E;;Budatín odb.;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;15;9;114;89;0,17
+106;Púchov;Púchov;Ppp;0;1;;21,0;
+F;Lúky pod Makytou;Lúky pod Makytou;N;15;9;117;92;0,18
+;;;Npp;0;1;;20,5;
+;;;P;18;7;110;85;0,19
+106;Lúky pod Makytou;Lúky pod Makytou;Ppp;0;0;;22,7;
+F;Horní Lideč (CZ);Horní Lideč (CZ);N;19;8;115;88;0,19
+;;;Npp;0;0;;23,6;
+;;;P;2;29;166;;0,78
+106;Žilina-Teplička;Žilina-Tepl. odch.sk.;Ppp;0;2;;12;
+G;Žilina;Žilina;N;54;65;;90,5;
+;;;Npp;0;2;;;
+;;;P;2;3;47;;0,19
+107;Muszyna (PL);Muszyna (PL);Ppp;0;0;;37;
+A;Plaveč;Plaveč;N;2;3;;21,3;
+;;;Npp;0;0;;;
+;;;P;19;12;88;;0,55
+107;Plaveč;Lipany;Ppp;0;4;;18;
+A;Prešov;Sabinov;N;18;14;;71,8;
+;;;Npp;0;3;;;
+;;;P;38;14;120;;0,75
+107;Prešov;Prešov;Ppp;0;3;;9;
+A;Kysak;Drienovská N. Ves;N;38;16;;88,7;
+;;;Npp;0;2;;;
+;;;P;13;2;44;;0,42
+107;Strážske;Vranov nad Topľou;Ppp;0;1;;12;
+D;Kapušany pri Preš.;Čierne nad Topľou;N;13;2;;68,2;
+;;;Npp;0;1;;;
+;;;P;23;5;101;;0,37
+107;Kapušany pri Preš.;Kapušany pri Preš.;Ppp;0;1;;44;
+D;Prešov;Šarišské Lúky;N;23;5;;55,4;
+;;;Npp;0;0;;;
+;;;P;18;43;98;33;0,45
+109;Košice;Barca St 4;Ppp;0;4;;62,0;
+A;Haniska pri Koš.;Haniska  pri Koš.;N;18;47;111;42;0,41
+;;;Npp;0;4;;58,6;
+;;;P;9;10;97;;0,33
+109;Haniska pri Koš.;Moldava nad Bodvou;Ppp;0;3;;53;
+A;Turňa nad Bodvou;Turňa nad Bodvou ;N;9;10;;39,2;
+;;;Npp;0;3;;;
+;;;P;9;8;129;;0,23
+109;Turňa nad Bodvou;Výh Tunel;Ppp;0;3;;86;
+A;Rožňava;Lipovník;N;9;11;;28,7;
+;;;Npp;0;3;;;
+;;;P;9;9;116;;0,27
+109;Rožňava;Rožňava;Ppp;0;3;;72;
+A;Plešivec;Slavec  jaskyňa;N;9;11;;32,8;
+;;;Npp;0;3;;;
+;;;P;7;10;66;;0,46
+109;Barca;Čaňa;Ppp;0;0;;29;
+B;Hidasnémeti (HU);Hidasnémeti (HU);N;7;13;;56,0;
+;;;Npp;0;0;;;
+;;;P;0;2;208;;0,05
+109;Krásna nad Horn.;Krásna nad Horn.;Ppp;0;3;;193;
+C;Barca St.4;Barca St.4;N;0;8;;4,8;
+;;;Npp;0;2;;;
+;;;P;6;0;39;;0,22
+110;Margecany;Nálepkovo;Ppp;0;2;;22;
+A;Červená Skala;Hnilec;N;7;0;;33,3;
+;;;Npp;0;2;;;
+;;;P;0;0;35;;0,00
+110;Spišské Podhradie;Spišské Podhradie;Ppp;0;1;;33;
+B;Spišské Vlachy;Spišské Vlachy;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;0;1;39;;0,04
+110;Levoča;Levoča;Ppp;0;1;;35;
+C;Spišská Nová Ves;Spišská Nová Ves;N;0;1;;5,1;
+;;;Npp;0;1;;;
+;;;P;0;1;15;;0,04
+111;Dobšiná;Dobšiná;Ppp;0;1;;11;
+A;Rožňava;Nižná Slaná;N;0;1;;13,3;
+;;;Npp;0;1;;;
+;;;P;0;1;13;;0,08
+111;Plešivec;Ochtiná;Ppp;0;1;;9;
+B;Slavošovce;Slavošovce;N;0;1;;15,4;
+;;;Npp;0;1;;;
+;;;P;0;3;25;;0,20
+111;Plešivec;Plešivec;Ppp;0;1;;18;
+C;Muraň;Hucín;N;0;2;;20,0;
+;;;Npp;0;1;;;
+;;;P;0;1;29;;0,05
+111;Medzev;Počkaj nz;Ppp;0;1;;25;
+D;Moldava nad Bodvou;Moldava nad Bodvou;N;0;1;;6,9;
+;;;Npp;0;1;;;
+;;;P;3;1;40;;0,13
+112;Plaveč;Plaveč;Ppp;0;1;;31;
+A;Studený Potok;Stará Ľubovňa;N;2;1;;17,5;
+;;;Npp;0;1;;;
+;;;P;24;2;63;;0,37
+112;Studený Potok;Matejovce pri Popr.;Ppp;0;1;;10;
+A;Poprad-Tatry;Poprad-Tatry;N;23;2;;81,0;
+;;;Npp;0;1;;;
+;;;P;0;0;12;;0,00
+112;Odb. Spišská Belá;Odb. Spišská Belá;Ppp;0;1;;10;
+B;Spišská Belá;Spišská Belá;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;8;0;34;;0,26
+112;Tatranská Lomnica;Tatranská Lomnica;Ppp;0;0;;18;
+C;Studený Potok;Studený Potok;N;8;0;;47,1;
+;;;Npp;0;0;;;
+;;;P;22;0;57;;0,30
+112;Poprad-Tatry TEŽ;Veľký Slavkov;Ppp;0;0;;13;
+D;Starý Smokovec;Pod Lesom;N;22;0;;77,0;
+;;;Npp;0;1;;;
+;;;P;22;0;57;;0,51
+112;Starý Smokovec;Vyšné Hágy;Ppp;0;0;;13;
+D;Štrbské Pleso (TEŽ);Štrbské Pleso (TEŽ);N;22;0;;76,9;
+;;;Npp;0;0;;;
+;;;P;20;0;49;;0,46
+112;Starý Smokovec;Starý Smokovec;Ppp;0;0;;9;
+E;Tatranská Lomnica;Tatranská Lomnica;N;20;0;;81,1;
+;;;Npp;0;0;;;
+;;;P;26;0;66;;0,77
+112;Štrbské Pleso OŽ;Štrbské Pleso OŽ;Ppp;0;0;;14;
+F;Štrba OŽ;Štrba OŽ;N;26;0;;78,5;
+;;;Npp;0;0;;;
+;;;P;12;2;57;;0,39
+113;Trstená;Párnica;Ppp;0;1;;27;
+A;Kraľovany;Kraľovany;N;12;2;;49,1;
+;;;Npp;0;1;;;
+;;;P;14;2;45;;0,68
+114;Žilina;Lietavská Lúčka;Ppp;1;1;;9;
+A;Rajec;Rajec;N;14;2;;71,1;
+;;;Npp;1;1;;;
+;;;P;23;0;95;;0,37
+114;Čadca;Čierne pri Čadci;Ppp;0;1;;47;
+B;Skalité;Skalité;N;23;0;;48,5;
+;;;Npp;0;1;;;
+;;;P;11;0;72;;0,28
+114;Skalité;Skalité;Ppp;0;0;;50;
+B;Zwardoń (PL);Zwardoń (PL);N;11;0;;30,6;
+;;;Npp;0;0;;;
+;;;P;15;0;42;;0,54
+114;Čadca;Turzovka;Ppp;0;2;;8;
+C;Makov;Makov;N;15;0;;71,4;
+;;;Npp;0;2;;;
+;;;P;16;7;86;;0,36
+115;Plešivec;Hajnáčka;Ppp;0;2;;37;
+A;Fiľakovo;Výh Urbánka;N;16;6;;52,3;
+;;;Npp;0;2;;;
+;;;P;23;10;98;;0,33
+115;Fiľakovo;Vígľaš;Ppp;0;2;;26;
+A;Zvolen;Výh Slatinka;N;23;12;;69,4;
+;;;Npp;0;2;;;
+;;;P;16;7;250;;0,13
+115;Výh Urbánka;Výh Urbánka;Ppp;0;2;;201;
+B;Fiľakovo St.3;Fiľakovo St.3;N;16;6;;18,0;
+;;;Npp;0;2;;;
+;;;P;0;2;126;;0,02
+115;Bánréve (HU);Bánréve (HU);Ppp;0;0;;122;
+C;Lenartovce;Lenartovce;N;0;2;;3,2;
+;;;Npp;0;0;;;
+;;;P;0;0;58;;0,00
+115;Somoskőújfalu (HU);Somoskőújfalu (HU);Ppp;0;0;;58;
+D;Fiľakovo;Fiľakovo;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;7;1;32;;0,22
+116;Červená Skala;Gašparovo;Ppp;0;1;;15;
+A;Brezno;Brezno;N;6;1;;46,9;
+;;;Npp;0;1;;;
+;;;P;17;1;53;;0,42
+116;Brezno ;Slovenská Ľupča;Ppp;0;1;;16;
+A;Banská Bystrica;Banská Bystrica;N;16;1;;66,0;
+;;;Npp;0;1;;;
+;;;P;11;1;57;;0,32
+116;Jesenské;Jesenské;Ppp;0;1;;31;
+B;Rimavská Sobota;Rimavská Sobota;N;11;1;;42,1;
+;;;Npp;1;1;;;
+;;;P;11;0;41;;0,38
+116;Rimavská Sobota;Hnúšťa;Ppp;0;2;;15;
+B;Tisovec;Tisovec;N;11;0;;53,7;
+;;;Npp;0;2;;;
+;;;P;4;0;28;;0,21
+116;Tisovec;Pohronská Polhora;Ppp;0;2;;16;
+B;Brezno;Brezno;N;4;0;;28,6;
+;;;Npp;0;2;;;
+;;;P;13;1;38;;0,51
+117;Utekáč;Breznička;Ppp;0;1;;8;
+A;Lučenec;Lučenec;N;13;1;;73,7;
+;;;Npp;0;1;;;
+;;;P;0;0;20;;0,00
+117;Breznička;Breznička ;Ppp;0;0;;20;
+B;Katarínska Huta;Katarínska Huta;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;0;0;11;;0,00
+117;Lučenec;Nógrádszakál (HU);Ppp;0;2;;7;
+C;Veľký Krtíš;Malé Straciny;N;0;0;;0,0;
+;;;Npp;0;2;;;
+;;;P;22;7;80;46;0,28
+118;Zvolen;Zvolen;Ppp;0;5;;36,5;
+A;Hronská Dúbrava;Hronská Dúbrava;N;23;9;79;42;0,29
+;;;Npp;0;5;;40,7;
+;;;P;5;1;51;;0,22
+118;Hronská Dúbrava;Hronská Dúbrava;Ppp;0;2;;33;
+A;Horná Štubňa;Bartošova Lehôtka;N;6;2;;27,5;
+;;;Npp;0;2;;;
+;;;P;23;7;82;47;0,30
+118;Horná Štubňa;Diviaky;Ppp;0;5;;36,6;
+A;Vrútky;Príbovce-Rakovo;N;23;8;81;45;0,31
+;;;Npp;0;5;;38,3;
+;;;P;40;0;96;;0,53
+118;Zvolen os. st.;Zvolen os. st.;Ppp;0;2;;13;
+D;Banská Bystrica;Sliač kúpele;N;39;0;;82,4;
+;;;Npp;0;2;;;
+;;;P;9;4;48;;0,35
+118;Banská Bystrica;Uľanka;Ppp;0;2;;18;
+D;Odb Dolná Štubňa;Harmanec Jaskyňa;N;9;4;;54,3;
+;;;Npp;0;2;;;
+;;;P;4;1;19;;0,32
+119;Zvolen os. st.;Hontianske Tesáre;Ppp;0;1;;7;
+A;Šahy;Šahy;N;4;1;;52,6;
+;;;Npp;0;1;;;
+;;;P;4;0;20;;0,35
+119;Šahy;Šahy;Ppp;0;1;;10;
+B;Čata;Čata;N;4;0;;40,0;
+;;;Npp;0;1;;;
+;;;P;8;0;27;;0,53
+119;Levice;Čata;Ppp;0;1;;8;
+C;Štúrovo;Štúrovo;N;9;0;;63,0;
+;;;Npp;;1;;;
+;;;P;9;13;80;57;0,27
+120;Szob (HU);Szob (HU);Ppp;0;1;;27,7;
+A;Štúrovo;Štúrovo;N;9;15;77;52;0,29
+;;;Npp;0;1;;31,3;
+;;;P;22;50;125;51;0,46
+120;Štúrovo;Gbelce;Ppp;0;2;;57,8;
+A;Nové Zámky;Strekov;N;21;50;124;51;0,45
+;;;Npp;0;1;;57,4;
+;;;P;30;62;158;64;0,47
+120;Nové Zámky;Nové Zámky;Ppp;0;2;;58,2;
+A;Palárikovo;Palárikovo;N;32;62;165;69;0,41
+;;;Npp;0;2;;57,0;
+;;;P;40;65;165;54;0,46
+120;Palárikovo;Šaľa;Ppp;0;6;;63,7;
+A;Galanta;Galanta;N;43;66;170;57;0,48
+;;;Npp;0;4;;64,3;
+;;;P;52;52;143;34;0,50
+120;Galanta;Sládkovičovo;Ppp;0;5;;72,8;
+A;Bratislava-Vajnory;Senec;N;52;53;158;49;0,58
+;;;Npp;0;4;;66,4;
+;;;P;52;41;150;57;0,47
+120;Bratislava-Vajnory;Odb Močiar;Ppp;0;0;;62,2;
+A;Bratislava hl. st.;Bratislava hl. st.;N;52;42;166;72;0,41
+;;;Npp;0;0;;56,7;
+;;;P;0;12;50;;0,35
+120;Komárom (HU);Komárom (HU);Ppp;0;0;;27;
+B;Komárno;Komárno;N;0;11;;46,2;
+;;;Npp;0;0;;;
+;;;P;14;13;171;;0,28
+120;Komárno;Komárno;Ppp;0;2;;115;
+B;Komárno zr. st.;Komárno zr. st.;N;14;11;;30,5;
+;;;Npp;0;2;;;
+;;;P;14;14;109;;0,43
+120;Komárno zr. st.;Bajč;Ppp;0;1;;53;
+B;Nové Zámky;Nové Zámky;N;14;12;;49,4;
+;;;Npp;0;1;;;
+;;;P;16;5;70;;0,42
+121;Hronská Dúbrava;Hronská Dúbrava;Ppp;0;4;;19;
+A;Levice;Žiar nad Hronom;N;16;6;;61,5;
+;;;Npp;0;4;;;
+;;;P;21;5;85;;0,33
+121;Levice;Beša;Ppp;0;5;;25;
+A;Úľany nad Žitavou;Podhájska;N;19;6;;59,8;
+;;;Npp;0;4;;;
+;;;P;25;7;114;;0,47
+121;Úľany nad Žitavou;Úľany nad Žitavou;Ppp;0;5;;43;
+A;Šurany;Šurany;N;23;7;;54,4;
+;;;Npp;0;4;;;
+;;;P;10;3;88;;0,26
+121;Šurany;Šurany;Ppp;0;4;;55;
+A;Palárikovo;Palárikovo;N;10;3;;29,5;
+;;;Npp;0;3;;;
+;;;P;7;1;39;;0,24
+121;Banská Štiavnica;Kozelník;Ppp;0;0;;23;
+B;Hronská Dúbrava;Banská Belá;N;7;1;;41,0;
+;;;Npp;0;1;;;
+;;;P;9;2;48;;0,43
+122;Horná Štubňa;Sklenné pri Hand.;Ppp;0;1;;22;
+A;Handlová;Handlová;N;10;3;;50,0;
+;;;Npp;0;1;;;
+;;;P;9;2;52;;0,42
+122;Handlová;Handlová;Ppp;0;2;;24;
+A;Prievidza;Chrenovec;N;10;3;;46,2;
+;;;Npp;0;2;;;
+;;;P;0;1;62;;0,03
+122;Nitrianske Pravno;Nitrianske Pravno;Ppp;0;1;;58;
+C;Prievidza;Prievidza;N;0;1;;3,2;
+;;;Npp;0;1;;;
+;;;P;18;8;84;;0,52
+122;Prievidza;Prievidza n. st.;Ppp;0;2;;29;
+C;Chynorany;Nováky;N;18;7;;60,7;
+;;;Npp;0;2;;;
+;;;P;21;3;81;;0,49
+122;Chynorany;Bošany;Ppp;0;3;;27;
+C;Topoľčany;Topoľčany;N;21;3;;59,3;
+;;;Npp;0;3;;;
+;;;P;22;3;81;;0,52
+122;Topoľčany;Ludanice;Ppp;0;3;;25;
+C;Lužianky;Koniarovce;N;22;3;;61,7;
+;;;Npp;0;3;;;
+;;;P;33;2;100;;0,61
+122;Lužianky;Lužianky;Ppp;0;1;;28;
+C;Nitra;Nitra;N;33;1;;69,0;
+;;;Npp;0;2;;;
+;;;P;16;0;72;;0,41
+122;Nitra;Ivanka pri Nitre;Ppp;0;2;;35;
+C;Šurany;Komjatice;N;16;1;;45,8;
+;;;Npp;0;2;;;
+;;;P;30;6;122;;0,52
+122;Šurany;Výh Bánov z;Ppp;0;1;;47;
+C;Nové Zámky;Nové Zámky;N;32;5;;60,0;
+;;;Npp;0;1;;;
+;;;P;8;3;144;;0,14
+122;Jelšovce;Jelšovce;Ppp;0;2;;119;
+D;Zbehy;Zbehy;N;8;2;;14,6;
+;;;Npp;0;2;;;
+;;;P;0;0;30;;0,00
+123;Kozárovce;Kozárovce;Ppp;0;1;;28;
+A;Zlaté Moravce;Zlaté Moravce;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;0;1;45;;0,03
+123;Zlaté Moravce;Zlaté Moravce;Ppp;0;1;;41;
+A;Dražovce rampa;Jelenec;N;0;1;;4,4;
+;;;Npp;0;1;;;
+;;;P;0;1;54;;0,03
+123;Topoľčianky;Topoľčianky;Ppp;0;0;;52;
+B;Zlaté Moravce;Zlaté Moravce;N;0;1;;3,7;
+;;;Npp;0;0;;;
+;;;P;4;2;24;;0,18
+123;Zlaté Moravce;Vráble;Ppp;0;1;;11;
+B;Úľany nad Žitavou;Maňa;N;4;1;;45,8;
+;;;Npp;0;1;;;
+;;;P;0;0;45;;0,00
+123;Zbehy;Kapince;Ppp;0;1;;43;
+C;Radošina;Radošina;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;27;6;97;;0,58
+123;Luźianky TIP;Rišňovce;Ppp;0;3;;23;
+D;Leopoldov;Hlohovec;N;27;8;;70,1;
+;;;Npp;0;3;;;
+;;;P;15;8;60;;0,65
+124;Komárno;Komárno;Ppp;0;1;;12;
+A;Dunajská Streda;Zlatná na Ostrove;N;15;8;;76,7;
+;;;Npp;0;1;;;
+;;;P;36;16;119;;0,78
+124;Dunajská Streda;Kvetoslavov;Ppp;0;0;;18;
+A;Bratislava-N. Mesto;Nové Košariská;N;35;13;;84,0;
+;;;Npp;0;1;;;
+;;;P;0;0;42;;0,00
+124;Neded;Neded;Ppp;0;1;;40;
+C;Šaľa;Šaľa;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;58;38;157;60;0,37
+125;Púchov;Ilava;Ppp;0;1;;61,1;
+A;Trenčianska Teplá;Dubnica nad Váhom;N;58;36;153;56;0,39
+;;;Npp;0;3;;61,3;
+;;;P;63;39;141;37;0,52
+125;Trenčianska Teplá;AH Opatová;Ppp;0;2;;72,4;
+A;Trenčín;Trenčín;N;62;38;130;27;0,67
+;;;Npp;0;3;;76,7;
+;;;P;54;38;128;35;0,50
+125;Trenčín;Tr. Bohuslavice;Ppp;0;1;;71,6;
+A;Nové Mesto nad V.;Nové Mesto nad V.;N;54;37;119;26;0,68
+;;;Npp;0;2;;76,6;
+;;;P;40;37;127;49;0,31
+125;Nové Mesto nad V.;Výh Horná Streda;Ppp;0;1;;60,9;
+A;Leopoldov;Piešťany;N;40;36;122;44;0,29
+;;;Npp;0;2;;62,4;
+;;;P;67;38;149;43;0,52
+125;Leopoldov;AH Prílohy;Ppp;0;1;;70,7;
+A;Trnava;Trnava;N;67;41;148;38;0,59
+;;;Npp;0;2;;73,2;
+;;;P;87;43;149;18;0,60
+125;Trnava;Výh Svätý Jur;Ppp;0;1;;87,5;
+A;Bratislava-Rača;Bratislava-Rača;N;87;43;150;18;0,60
+;;;Npp;0;1;;87,0;
+;;;P;71;25;141;42;0,49
+125;Bratislava-Rača;Odb Vinohrady;Ppp;0;3;;68,1;
+A;Bratislava hl. st.;Bratislava hl. st.;N;72;19;128;34;0,44
+;;;Npp;0;3;;70,9;
+;;;P;36;88;172;48;0,53
+126;Bratislava hl. st.;Bratislava hl. st.;Ppp;0;0;;72,3;
+A;Devínska Nová Ves;Bratislava-Lamač;N;34;85;176;57;0,49
+;;;Npp;0;0;;67,5;
+;;;P;36;81;158;41;0,47
+126;Devínska Nová Ves;Devínska Nová Ves;Ppp;0;0;;74,0;
+A;Zohor;Zohor;N;34;82;164;48;0,46
+;;;Npp;0;0;;70,8;
+;;;P;36;77;133;20;0,58
+126;Zohor;Veľké Leváre;Ppp;0;0;;84,8;
+A;Kúty;Sekule;N;34;75;131;22;0,61
+;;;Npp;0;0;;83,0;
+;;;P;15;57;150;;0,90
+126;Kúty;Kúty;Ppp;0;0;;7;
+A;Lanžhot (CZ);Lanžhot (CZ);N;15;56;;95,3;
+;;;Npp;0;0;;;
+;;;P;0;0;107;;0,00
+126;Devínska Nová Ves;Devínska Nová Ves;Ppp;0;3;;101;
+B;Marchegg (AT);Marchegg (AT);N;0;0;;0,0;
+;;;Npp;0;3;;;
+;;;P;0;10;18;;0,94
+126;Plavecký Mikuláš;Rohožník;Ppp;0;0;;0;
+C;Zohor;Zohor;N;0;8;;100,0;
+;;;Npp;0;0;;;
+;;;P;0;0;61;;0,00
+126;Zohor;Zohor;Ppp;0;2;;57;
+C;Záhorská Ves;Záhorská Ves;N;0;0;;0,0;
+;;;Npp;0;2;;;
+;;;P;0;3;330;;0,03
+127;Bratislava-Vajnory;Bratislava-Vajnory;Ppp;0;6;;307;
+A;Ba vých.odch.sk. Juh;Ba vých.odch.sk. Juh;N;0;6;;2,7;
+;;;Npp;0;8;;;
+;;;P;3;34;225;;0,26
+127;Ba vých.odch.sk. Juh;Ba vých.odch.sk. Juh;Ppp;0;5;;152;
+A;Odb Vinohrady;Odb Vinohrady;N;2;24;;28,0;
+;;;Npp;0;5;;;
+;;;P;0;16;223;;0,14
+127;Bratislava východ;Bratislava východ;Ppp;0;3;;186;
+B;Bratislava-Rača;Bratislava-Rača;N;0;16;;14,3;
+;;;Npp;0;2;;;
+;;;P;9;86;108;13;0,76
+127;Bratislava východ;Bratislava-N. Mesto;Ppp;0;0;;87,7;
+C;Bratislava ÚNS;Bratislava ÚNS;N;8;88;112;15;0,76
+;;;Npp;0;1;;85,6;
+;;;P;9;79;125;36;0,57
+127;Bratislava ÚNS;Bratislava ÚNS;Ppp;0;1;;70,6;
+C;Bratislava-Petržalka;Bratislava-Petržalka;N;8;84;127;33;0,61
+;;;Npp;0;2;;72,7;
+;;;P;12;32;94;;0,84
+127;Bratislava-Petržalka;Bratislava-Petržalka;Ppp;0;1;;2;
+C;Rusovce;Rusovce;N;11;35;;95,8;
+;;;Npp;0;1;;;
+;;;P;11;22;90;;0,59
+127;Rusovce;Rusovce;Ppp;0;0;;26;
+C;Rajka HU;Rajka HU;N;12;19;;71,0;
+;;;Npp;0;0;;;
+;;;P;28;28;166;;0,55
+127;Bratislava-Petržalka;Bratislava-Petržalka;Ppp;0;9;;20;
+D;Kittsee AT;Kittsee AT;N;32;32;;72,4;
+;;;Npp;0;17;;;
+;;;P;0;18;265;;0,13
+127;Odb Močiar;Odb Močiar;Ppp;0;0;;229;
+E;Bratislava predm.;Bratislava predm.;N;0;18;;13,6;
+;;;Npp;0;0;;;
+;;;P;0;5;335;;0,02
+127;Odb Močiar;Odb Močiar;Ppp;0;5;;320;
+F;Odb Vinohrady;Odb Vinohrady;N;0;2;;2,1;
+;;;Npp;0;3;;;
+;;;P;52;37;181;;0,84
+127;Bratislava-N. Mesto;Bratislava-N. Mesto;Ppp;0;0;;0;
+G;Bratislava hl. st.;Bratislava hl. st.;N;50;41;;99,4;
+;;;Npp;0;1;;;
+;;;P;20;18;154;114;0,22
+128;Galanta;Gáň;Ppp;0;2;;24,6;
+A;Leopoldov;Sereď;N;20;17;157;118;0,22
+;;;Npp;0;2;;23,5;
+;;;P;20;5;70;;0,56
+128;Sereď;Sereď;Ppp;0;1;;19;
+B;Trnava;Trnava;N;20;4;;70,0;
+;;;Npp;0;1;;;
+;;;P;16;8;115;;0,36
+128;Trnava;Jablonica;Ppp;0;2;;62;
+C;Kúty;Senica nad Myjavou;N;17;8;;42,6;
+;;;Npp;0;2;;;
+;;;P;0;0;44;;0,00
+128;Brezová pod Brad.;Brezová pod Brad.;Ppp;0;1;;42;
+D;Jablonica;Jablonica;N;0;0;;0,0;
+;;;Npp;0;1;;;
+;;;P;13;0;111;;0,25
+129;Nové Mesto nad Váh.;Poriadie;Ppp;0;2;;81;
+A;Myjava;Myjava;N;13;0;;23,4;
+;;;Npp;0;2;;;
+;;;P;8;0;84;;0,25
+129;Myjava;Myjava;Ppp;0;1;;65;
+A;Javorník nad Vel. (CZ);Vrbovce;N;9;0;;20,2;
+;;;Npp;0;1;;;
+;;;P;14;0;43;;0,43
+129;Kúty;Gbely;Ppp;0;1;;14;
+B;Skalica na Slovensku;Holíč nad Moravou;N;13;0;;63,5;
+;;;Npp;0;1;;;
+;;;P;0;0;140;;0,00
+129;Skalica na Slovensku;Skalica na Slovensku;Ppp;0;0;;140;
+B;Sudoměřice n.M. (CZ);Sudoměřice n.M. (CZ);N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;0;0;55;;0,00
+129;Hodonín (CZ);Hodonín (CZ);Ppp;0;0;;55;
+C;Holíč nad Moravou;Holíč nad Moravou;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;0;0;34;;trať prenajatá na účely cyklotrasy
+129;Piešťany;Piešťany;Ppp;0;0;;34;
+E;Vrbové;Vrbové;N;0;0;;0,0;
+;;;Npp;0;0;;;
+;;;P;4;1;19;;0,43
+130;Trenčín;Mníchova Lehota;Ppp;0;1;;7;
+A;Chynorany;Bánovce nad Béb.;N;4;1;;52,6;
+;;;Npp;0;1;;;
+;;;P;13;1;72;;0,33
+130;Trenčianska Teplá;Nemšová;Ppp;0;0;;44;
+B;Horné Srnie;Horné Srnie;N;13;1;;38,9;
+;;;Npp;0;0;;;
+;; ;P;2;0;55;;0,06
+130;Horné Srnie;Horné Srnie;Ppp;0;0;;51;
+B;Vlárský průsmyk (CZ);Vlárský průsmyk (CZ);N;2;0;;7,3;
+;;;Npp;0;0;;;
+;;;P;0;0;22;;0,00
+130;Nemšová;Nemšová ;Ppp;0;2;;18;
+C;Lednické Rovne;Pruské;N;0;0;;0,0;
+;;;Npp;0;2;;;
+;;;P;4;0;29;;0,23
+130;Trenčianske Teplice;Trenčianske Teplice;Ppp;0;0;;21;
+D;Trenč. Teplá ÚRT;Trenč. Teplá ÚRT;N;4;0;;27,8;
+;;;Npp;0;0;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;

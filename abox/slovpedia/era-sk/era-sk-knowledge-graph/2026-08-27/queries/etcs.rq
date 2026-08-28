@@ -1,0 +1,11 @@
+CONSTRUCT {
+  ?entity ?predicate ?object .
+  ?referringEntity <http://data.europa.eu/949/etcs> ?entity .
+}
+WHERE {
+  GRAPH <http://data.europa.eu/949/graph/0056> {
+    ?entity a <http://data.europa.eu/949/ETCS> ;
+            ?predicate ?object .
+    OPTIONAL { ?referringEntity <http://data.europa.eu/949/etcs> ?entity . }
+  }
+}

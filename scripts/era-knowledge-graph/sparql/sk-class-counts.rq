@@ -1,0 +1,8 @@
+SELECT ?class (COUNT(DISTINCT ?subject) AS ?count)
+WHERE {
+  GRAPH <http://data.europa.eu/949/graph/0056> {
+    ?subject a ?class .
+  }
+}
+GROUP BY ?class
+ORDER BY DESC(?count) ?class

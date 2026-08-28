@@ -1,0 +1,943 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix leg: <https://data.gov.sk/def/ontology/legislation/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix filetype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/> .
+@prefix theme: <http://publications.europa.eu/resource/authority/data-theme/> .
+@prefix licence: <http://publications.europa.eu/resource/authority/licence/> .
+
+<https://slovpedia.eu/catalog/era> a dcat:Catalog ;
+    dct:title "Slovpedia – slovenské železničné dáta ERA"@sk,
+        "Slovpedia – Slovak ERA railway data"@en ;
+    dct:description "Logické datasety slovenského grafu ERA 0056 rozdelené podľa dôležitých tried ERA. Pôvodné ERA URI sa nemenia."@sk,
+        "Logical datasets from Slovak ERA graph 0056, separated by important ERA classes. Original ERA IRIs are preserved."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    foaf:homepage <https://slovpedia.eu/> ;
+    dcat:dataset
+        <https://slovpedia.eu/dataset/era/operational-points>,
+        <https://slovpedia.eu/dataset/era/sections-of-line>,
+        <https://slovpedia.eu/dataset/era/running-tracks>,
+        <https://slovpedia.eu/dataset/era/sidings>,
+        <https://slovpedia.eu/dataset/era/platform-edges>,
+        <https://slovpedia.eu/dataset/era/tunnels>,
+        <https://slovpedia.eu/dataset/era/contact-line-systems>,
+        <https://slovpedia.eu/dataset/era/train-detection-systems>,
+        <https://slovpedia.eu/dataset/era/etcs>,
+        <https://slovpedia.eu/dataset/era/kilometric-posts>,
+        <https://slovpedia.eu/dataset/era/primary-locations> .
+
+<https://slovpedia.eu/dataset/era/operational-points> a dcat:Dataset ;
+    dct:title "Operačné body železničnej siete podľa ERA"@sk, "Railway operational points according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 040 slovenských operačných bodov typu era:OperationalPoint v grafe ERA 0056. Súvisiace entity zostávajú prepojené pôvodnými ERA URI."@sk,
+        "Direct RDF descriptions of 1,040 Slovak operational points of type era:OperationalPoint in ERA graph 0056. Related entities remain linked using original ERA IRIs."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/operational-points> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/OperationalPoint> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/operational-points/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/operational-points/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/operational-points/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/operational-points/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/operational-points.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/operational-points.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "103749"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/operational-points/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FOperationalPoint%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FOperationalPoint%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/operational-points/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/operational-points> .
+
+<https://slovpedia.eu/service/era/operational-points> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Operačné body železničnej siete podľa ERA"@sk,
+        "SPARQL view – Railway operational points according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/operational-points.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/operational-points> ;
+    foaf:page <https://slovpedia.eu/query/era/operational-points.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/sections-of-line> a dcat:Dataset ;
+    dct:title "Úseky železničných tratí podľa ERA"@sk, "Railway sections of line according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 081 slovenských úsekov tratí typu era:SectionOfLine v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 1,081 Slovak sections of line of type era:SectionOfLine in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/sections-of-line> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/SectionOfLine> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/sections-of-line/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/sections-of-line/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/sections-of-line/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/sections-of-line/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/sections-of-line.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/sections-of-line.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "102702"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/sections-of-line/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FSectionOfLine%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FSectionOfLine%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/sections-of-line/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/sections-of-line> .
+
+<https://slovpedia.eu/service/era/sections-of-line> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Úseky železničných tratí podľa ERA"@sk,
+        "SPARQL view – Railway sections of line according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/sections-of-line.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/sections-of-line> ;
+    foaf:page <https://slovpedia.eu/query/era/sections-of-line.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/running-tracks> a dcat:Dataset ;
+    dct:title "Traťové koľaje podľa ERA"@sk, "Running tracks according to ERA"@en ;
+    dct:description "Priamy RDF opis 4 822 slovenských traťových koľají typu era:RunningTrack v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 4,822 Slovak running tracks of type era:RunningTrack in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/running-tracks> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/RunningTrack> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/running-tracks/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/running-tracks/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/running-tracks/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/running-tracks/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/running-tracks.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/running-tracks.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "542519"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/running-tracks/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FRunningTrack%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FRunningTrack%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/running-tracks/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/running-tracks> .
+
+<https://slovpedia.eu/service/era/running-tracks> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Traťové koľaje podľa ERA"@sk,
+        "SPARQL view – Running tracks according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/running-tracks.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/running-tracks> ;
+    foaf:page <https://slovpedia.eu/query/era/running-tracks.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/sidings> a dcat:Dataset ;
+    dct:title "Vlečkové a odstavné koľaje podľa ERA"@sk, "Sidings according to ERA"@en ;
+    dct:description "Priamy RDF opis 2 470 slovenských koľají typu era:Siding v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 2,470 Slovak sidings of type era:Siding in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/sidings> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/Siding> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/sidings/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/sidings/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/sidings/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/sidings/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/sidings.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/sidings.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "156317"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/sidings/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FSiding%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FSiding%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/sidings/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/sidings> .
+
+<https://slovpedia.eu/service/era/sidings> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Vlečkové a odstavné koľaje podľa ERA"@sk,
+        "SPARQL view – Sidings according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/sidings.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/sidings> ;
+    foaf:page <https://slovpedia.eu/query/era/sidings.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/platform-edges> a dcat:Dataset ;
+    dct:title "Nástupištné hrany podľa ERA"@sk, "Platform edges according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 710 slovenských nástupištných hrán typu era:PlatformEdge v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 1,710 Slovak platform edges of type era:PlatformEdge in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/platform-edges> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/PlatformEdge> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/platform-edges/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/platform-edges/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/platform-edges/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/platform-edges/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/platform-edges.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/platform-edges.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "65856"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/platform-edges/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FPlatformEdge%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FPlatformEdge%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/platform-edges/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/platform-edges> .
+
+<https://slovpedia.eu/service/era/platform-edges> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Nástupištné hrany podľa ERA"@sk,
+        "SPARQL view – Platform edges according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/platform-edges.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/platform-edges> ;
+    foaf:page <https://slovpedia.eu/query/era/platform-edges.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/tunnels> a dcat:Dataset ;
+    dct:title "Železničné tunely podľa ERA"@sk, "Railway tunnels according to ERA"@en ;
+    dct:description "Priamy RDF opis 82 slovenských železničných tunelov typu era:Tunnel v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 82 Slovak railway tunnels of type era:Tunnel in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/tunnels> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/Tunnel> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/tunnels/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/tunnels/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/tunnels/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/tunnels/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/tunnels.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/tunnels.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "4984"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/tunnels/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FTunnel%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FTunnel%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/tunnels/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/tunnels> .
+
+<https://slovpedia.eu/service/era/tunnels> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Železničné tunely podľa ERA"@sk,
+        "SPARQL view – Railway tunnels according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/tunnels.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/tunnels> ;
+    foaf:page <https://slovpedia.eu/query/era/tunnels.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/contact-line-systems> a dcat:Dataset ;
+    dct:title "Systémy trakčného vedenia podľa ERA"@sk, "Contact line systems according to ERA"@en ;
+    dct:description "Priamy RDF opis 2 282 systémov trakčného vedenia typu era:ContactLineSystem v slovenskom grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 2,282 contact line systems of type era:ContactLineSystem in Slovak ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/contact-line-systems> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/ContactLineSystem> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/contact-line-systems/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/contact-line-systems/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/contact-line-systems/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/contact-line-systems/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/contact-line-systems.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/contact-line-systems.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "26481"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/contact-line-systems/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FContactLineSystem%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FContactLineSystem%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/contact-line-systems/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/contact-line-systems> .
+
+<https://slovpedia.eu/service/era/contact-line-systems> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Systémy trakčného vedenia podľa ERA"@sk,
+        "SPARQL view – Contact line systems according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/contact-line-systems.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/contact-line-systems> ;
+    foaf:page <https://slovpedia.eu/query/era/contact-line-systems.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/train-detection-systems> a dcat:Dataset ;
+    dct:title "Systémy detekcie vlakov podľa ERA"@sk, "Train detection systems according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 361 systémov detekcie vlakov typu era:TrainDetectionSystem v slovenskom grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 1,361 train detection systems of type era:TrainDetectionSystem in Slovak ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/train-detection-systems> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/TrainDetectionSystem> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/train-detection-systems/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/train-detection-systems/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/train-detection-systems/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/train-detection-systems/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/train-detection-systems.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/train-detection-systems.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "12408"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/train-detection-systems/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FTrainDetectionSystem%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FTrainDetectionSystem%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/train-detection-systems/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/train-detection-systems> .
+
+<https://slovpedia.eu/service/era/train-detection-systems> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Systémy detekcie vlakov podľa ERA"@sk,
+        "SPARQL view – Train detection systems according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/train-detection-systems.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/train-detection-systems> ;
+    foaf:page <https://slovpedia.eu/query/era/train-detection-systems.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/etcs> a dcat:Dataset ;
+    dct:title "Systémy ETCS podľa ERA"@sk, "ETCS systems according to ERA"@en ;
+    dct:description "RDF opis 1 333 záznamov parametra typu era:ETCS v slovenskom grafe ERA 0056 vrátane väzieb z príslušných traťových koľají. Nejde o evidenciu životného cyklu projektov nasadenia."@sk,
+        "RDF descriptions of 1,333 parameter records of type era:ETCS in Slovak ERA graph 0056, including links from the corresponding running tracks. This is not a deployment-project lifecycle register."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/etcs> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/ETCS> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/etcs/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/etcs/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/etcs/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/etcs/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/etcs.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/etcs.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "32188"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/etcs/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A++%3FreferringEntity+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fetcs%3E+%3Fentity+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FETCS%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++++OPTIONAL+%7B+%3FreferringEntity+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fetcs%3E+%3Fentity+.+%7D%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A++%3FreferringEntity+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fetcs%3E+%3Fentity+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FETCS%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++++OPTIONAL+%7B+%3FreferringEntity+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fetcs%3E+%3Fentity+.+%7D%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/etcs/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/etcs> .
+
+<https://slovpedia.eu/service/era/etcs> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Systémy ETCS podľa ERA"@sk,
+        "SPARQL view – ETCS systems according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/etcs.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/etcs> ;
+    foaf:page <https://slovpedia.eu/query/era/etcs.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/kilometric-posts> a dcat:Dataset ;
+    dct:title "Kilometrické body podľa ERA"@sk, "Kilometric posts according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 237 slovenských kilometrických bodov typu era:KilometricPost v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 1,237 Slovak kilometric posts of type era:KilometricPost in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/kilometric-posts> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/KilometricPost> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/kilometric-posts/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/kilometric-posts/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/kilometric-posts/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/kilometric-posts/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/kilometric-posts.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/kilometric-posts.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "23510"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/kilometric-posts/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FKilometricPost%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FKilometricPost%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/kilometric-posts/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/kilometric-posts> .
+
+<https://slovpedia.eu/service/era/kilometric-posts> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Kilometrické body podľa ERA"@sk,
+        "SPARQL view – Kilometric posts according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/kilometric-posts.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/kilometric-posts> ;
+    foaf:page <https://slovpedia.eu/query/era/kilometric-posts.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
+
+<https://slovpedia.eu/dataset/era/primary-locations> a dcat:Dataset ;
+    dct:title "Primárne železničné lokality podľa ERA"@sk, "Primary railway locations according to ERA"@en ;
+    dct:description "Priamy RDF opis 1 040 slovenských primárnych lokalít typu era:PrimaryLocation v grafe ERA 0056."@sk,
+        "Direct RDF descriptions of 1,040 Slovak primary locations of type era:PrimaryLocation in ERA graph 0056."@en ;
+    dct:publisher <https://data.gov.sk/id/legal-subject/56978090> ;
+    dct:creator <http://publications.europa.eu/resource/authority/corporate-body/ERA> ;
+    dct:issued "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dct:modified "2026-08-27T00:00:00Z"^^xsd:dateTime ;
+    dcat:theme theme:TRAN ;
+    dct:accrualPeriodicity frequency:IRREG ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/SVK> ;
+    dcat:keyword "ERA"@sk, "RINF"@sk, "železničná infraštruktúra"@sk,
+        "ERA"@en, "RINF"@en, "railway infrastructure"@en ;
+    dcat:landingPage <https://slovpedia.eu/dataset/era/primary-locations> ;
+    foaf:page <https://rinf.data.era.europa.eu/era-vocabulary/rinf-appGuide/> ;
+    dct:conformsTo <http://data.europa.eu/949/> ;
+    dct:relation <http://data.europa.eu/949/PrimaryLocation> ;
+    dct:source <https://doi.org/10.5281/zenodo.22018826> ;
+    prov:wasDerivedFrom <http://data.europa.eu/949/graph/0056> ;
+    dcat:distribution <https://slovpedia.eu/dataset/era/primary-locations/distribution/snapshot-turtle-gzip>, <https://slovpedia.eu/dataset/era/primary-locations/distribution/sparql-construct-live>, <https://slovpedia.eu/dataset/era/primary-locations/distribution/sparql-service> .
+
+<https://slovpedia.eu/dataset/era/primary-locations/distribution/snapshot-turtle-gzip> a dcat:Distribution ;
+    dct:title "Uložený výsledok datasetového CONSTRUCT dotazu"@sk,
+        "Stored result of the dataset CONSTRUCT query"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://slovpedia.eu/download/era/2026-08-27/primary-locations.ttl.gz> ;
+    dcat:downloadURL <https://slovpedia.eu/download/era/2026-08-27/primary-locations.ttl.gz> ;
+    dct:format filetype:RDF_TURTLE ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:byteSize "18863"^^xsd:nonNegativeInteger ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/primary-locations/distribution/sparql-construct-live> a dcat:Distribution ;
+    dct:title "Výsledok datasetového SPARQL CONSTRUCT v N-Triples"@sk,
+        "Dataset-specific SPARQL CONSTRUCT result in N-Triples"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FPrimaryLocation%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dcat:downloadURL <https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FPrimaryLocation%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A> ;
+    dct:format filetype:RDF_N_TRIPLES ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> ;
+    dct:conformsTo <http://data.europa.eu/949/> .
+
+<https://slovpedia.eu/dataset/era/primary-locations/distribution/sparql-service> a dcat:Distribution ;
+    dct:title "SPARQL služba pre tento dataset"@sk,
+        "SPARQL service for this dataset"@en ;
+    leg:termsOfUse [
+        a leg:TermsOfUse ;
+        leg:authorsWorkType licence:CC_BY_4_0 ;
+        leg:originalDatabaseType licence:CC_BY_4_0 ;
+        leg:databaseProtectedBySpecialRightsType licence:CC_BY_4_0 ;
+        leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ;
+        leg:authorName "European Union Agency for Railways"@en ;
+        leg:originalDatabaseAuthorName "European Union Agency for Railways"@en
+    ] ;
+    dcat:accessURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:accessService <https://slovpedia.eu/service/era/primary-locations> .
+
+<https://slovpedia.eu/service/era/primary-locations> a dcat:DataService ;
+    dct:title "SPARQL pohľad – Primárne železničné lokality podľa ERA"@sk,
+        "SPARQL view – Primary railway locations according to ERA"@en ;
+    dcat:endpointURL <https://graph.data.era.europa.eu/repositories/rinf-plus> ;
+    dcat:endpointDescription <https://slovpedia.eu/query/era/primary-locations.rq> ;
+    dcat:servesDataset <https://slovpedia.eu/dataset/era/primary-locations> ;
+    foaf:page <https://slovpedia.eu/query/era/primary-locations.rq> ;
+    dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .

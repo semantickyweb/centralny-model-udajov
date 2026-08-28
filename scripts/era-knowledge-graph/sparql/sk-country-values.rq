@@ -1,0 +1,10 @@
+PREFIX era: <http://data.europa.eu/949/>
+
+SELECT ?country (COUNT(DISTINCT ?entity) AS ?entities)
+WHERE {
+  GRAPH <http://data.europa.eu/949/graph/0056> {
+    ?entity era:inCountry ?country .
+  }
+}
+GROUP BY ?country
+ORDER BY ?country

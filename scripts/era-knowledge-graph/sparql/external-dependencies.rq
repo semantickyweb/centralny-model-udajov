@@ -1,0 +1,16 @@
+SELECT ?graph (COUNT(DISTINCT ?resource) AS ?referencedResources)
+WHERE {
+  VALUES ?graph {
+    <http://data.europa.eu/949/graph/borders>
+    <http://data.europa.eu/949/graph/rinf/skos>
+  }
+  GRAPH <http://data.europa.eu/949/graph/0056> {
+    ?subject ?predicate ?resource .
+    FILTER(isIRI(?resource))
+  }
+  GRAPH ?graph {
+    ?resource ?dependencyPredicate ?dependencyObject .
+  }
+}
+GROUP BY ?graph
+ORDER BY ?graph

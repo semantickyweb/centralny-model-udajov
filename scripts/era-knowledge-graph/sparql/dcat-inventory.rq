@@ -1,0 +1,15 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+
+SELECT ?type (COUNT(DISTINCT ?subject) AS ?count)
+WHERE {
+  VALUES ?type {
+    dcat:Catalog
+    dcat:Dataset
+    dcat:DatasetSeries
+    dcat:Distribution
+    dcat:DataService
+  }
+  ?subject a ?type .
+}
+GROUP BY ?type
+ORDER BY ?type

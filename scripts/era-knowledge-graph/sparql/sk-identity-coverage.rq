@@ -1,0 +1,35 @@
+PREFIX era: <http://data.europa.eu/949/>
+
+SELECT ?class
+       (COUNT(DISTINCT ?entity) AS ?entities)
+       (COUNT(DISTINCT ?withCanonical) AS ?withCanonicalURI)
+       (COUNT(DISTINCT ?withCountry) AS ?withCountry)
+WHERE {
+  VALUES ?class {
+    era:OperationalPoint
+    era:SectionOfLine
+    era:RunningTrack
+    era:Siding
+    era:PlatformEdge
+    era:Tunnel
+    era:ContactLineSystem
+    era:TrainDetectionSystem
+    era:ETCS
+    era:KilometricPost
+    era:PrimaryLocation
+  }
+  GRAPH <http://data.europa.eu/949/graph/0056> {
+    ?entity a ?class .
+    OPTIONAL {
+      ?entity era:canonicalURI ?canonicalURI .
+      BIND(?entity AS ?withCanonical)
+    }
+    OPTIONAL {
+      ?entity era:inCountry
+        <http://publications.europa.eu/resource/authority/country/SVK> .
+      BIND(?entity AS ?withCountry)
+    }
+  }
+}
+GROUP BY ?class
+ORDER BY ?class
