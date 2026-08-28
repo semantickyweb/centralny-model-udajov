@@ -105,6 +105,8 @@ def generate(config_path: Path, output_dir: Path) -> None:
         query_path.write_text(query, encoding="utf-8")
 
         query_url = config["sparqlEndpoint"] + "?" + urlencode({"query": query})
+        query_url_path = query_dir / f'{item["id"]}.url'
+        query_url_path.write_text(query_url + "\n", encoding="utf-8")
         query_doc_url = f'{config["queryDocumentBaseUrl"]}/{item["id"]}.rq'
         snapshot_distribution = f"{dataset_iri}/distribution/snapshot-turtle-gzip"
         live_distribution = f"{dataset_iri}/distribution/sparql-construct-live"

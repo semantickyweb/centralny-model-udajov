@@ -51,6 +51,11 @@ scripts/era-knowledge-graph/generate-dcat.py \
   --output abox/slovpedia/era-sk/era-sk-knowledge-graph/2026-08-27
 ```
 
+Pre každý dataset generátor vytvorí čitateľný SPARQL dotaz `queries/*.rq` aj
+jednoriadkovú URL-encoded podobu `queries/*.url`. Súbor `.url` obsahuje celú
+spustiteľnú URL endpointu s parametrom `query`, vhodnú na vloženie do metadát
+na `data.slovensko.sk`.
+
 Výsledky dotazov sa fyzicky uložia takto:
 
 ```bash

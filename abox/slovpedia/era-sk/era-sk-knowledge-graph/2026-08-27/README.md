@@ -12,6 +12,7 @@ European Union Agency for Railways.
 
 - `catalog.ttl` – DCAT katalóg 11 tematických datasetov;
 - `queries/*.rq` – presný `CONSTRUCT` dotaz definujúci každý dataset;
+- `queries/*.url` – celá jednoriadková URL s percent-encoded SPARQL dotazom;
 - `data/*.ttl.gz` – uložený výsledok príslušného dotazu v komprimovanom
   Turtle;
 - `data/manifest.json` – počty entít a statementov, veľkosti a SHA-256;
