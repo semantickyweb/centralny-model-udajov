@@ -40,6 +40,14 @@ ERA SKOS graf a na spoločný graf hraničných bodov. Ich počty sú v
 `external-dependencies.csv`; tieto URI majú pri importe zostať referenciami na
 ERA zdroje.
 
+`sk-related-graphs.csv` inventarizuje všetky triedy s explicitným
+`era:inCountry` nastaveným na `SVK` naprieč celým repozitárom. Kontrola
+2026-08-28 našla okrem grafu `0056` aj 24 entít
+`era:ReferenceBorderPoint` v spoločnom grafe `graph/borders` a 25 slovenských
+SKOS konceptov s jednou kolekciou v `graph/rinf/skos`. Hraničné body sú
+kandidátom na doplnkový slovenský dataset; SKOS zdroje majú zostať
+referenčnými číselníkmi.
+
 ## Generovanie Slovpedia katalógu a triedových pohľadov
 
 Konfigurácia `dcat-datasets.json` rozdeľuje fyzický graf `0056` na logické

@@ -62,6 +62,7 @@ curl --fail --silent --show-error --get \
 for query_name in \
   sk-class-counts \
   sk-identity-coverage \
+  sk-related-graphs \
   dcat-inventory \
   external-dependencies; do
   curl --fail --silent --show-error --get \
@@ -153,6 +154,7 @@ jq -n \
     sk-country-values.csv \
     sk-class-counts.csv \
     sk-identity-coverage.csv \
+    sk-related-graphs.csv \
     dcat-inventory.csv \
     external-dependencies.csv \
     zenodo-latest.json \
