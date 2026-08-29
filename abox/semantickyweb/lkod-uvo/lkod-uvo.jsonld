@@ -1,0 +1,28 @@
+{
+  "@context": "https://data.slovensko.sk/dcat3.jsonld",
+  "iri": "https://data.gov.sk/set/lkod/uvo/katalog",
+  "typ": "Katalóg",
+  "názov": {
+    "sk": "Katalóg otvorených dát Úradu pre verejné obstarávanie",
+    "en": "Open Data Catalog of the Public Procurement Office"
+  },
+  "popis": {
+    "sk": "Otvorené dáta Úradu pre verejné obstarávanie. Obsahuje vybrané datasety z oblasti verejného obstarávania.",
+    "en": "Open data of the Public Procurement Office. It contains selected datasets related to public procurement."
+  },
+  "kontaktný_bod": {
+    "typ": "Organizácia",
+    "meno": {
+      "sk": "Úrad pre verejné obstarávanie",
+      "en": "Public Procurement Office"
+    },
+    "e-mail": "mailto:info@uvo.gov.sk"
+  },
+  "domovská_stránka": "https://www.uvo.gov.sk",
+  "poskytovateľ": "https://data.gov.sk/id/legal-subject/31797903",
+  "dataset": [
+    "https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430",
+    "https://data.gov.sk/set/969bd280-96f7-4d3b-8b2b-0f3b4fb5f4d6",
+    "https://data.gov.sk/set/259b62d4-a0c5-4ddf-aeb4-5cb8bc8a3910"
+  ]
+}

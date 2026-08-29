@@ -1,0 +1,802 @@
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/title> "Vestník 12/2026"@sk .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 12/2026 zo dňa 19.1.2026."@sk .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/issued> "2026-01-20T09:10:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/modified> "2026-01-20T09:12:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/temporal> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/contact-point> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/resource/28452b7a-9c82-4025-b4af-bd34d3f5e3a1> .
+<https://data.gov.sk/id/legal-subject/31797903> <http://xmlns.com/foaf/0.1/name> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/resource/28452b7a-9c82-4025-b4af-bd34d3f5e3a1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=047634a8-722f-4d6b-8301-34fb8f21ebd0> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/resource/28452b7a-9c82-4025-b4af-bd34d3f5e3a1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=047634a8-722f-4d6b-8301-34fb8f21ebd0> .
+<https://data.gov.sk/set/efd2163b-63e6-462f-aeb8-296f930523bc/resource/28452b7a-9c82-4025-b4af-bd34d3f5e3a1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/title> "Vestník 11/2026"@sk .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 11/2026 zo dňa 19.1.2026."@sk .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/issued> "2026-01-20T08:58:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/modified> "2026-01-20T09:00:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/temporal> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/contact-point> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/resource/0c878ed2-38b2-428c-94d3-a57a8c9f820d> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/resource/0c878ed2-38b2-428c-94d3-a57a8c9f820d> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=d877cd8e-9a2e-41e2-a89f-c1c280d4dd76> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/resource/0c878ed2-38b2-428c-94d3-a57a8c9f820d> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=d877cd8e-9a2e-41e2-a89f-c1c280d4dd76> .
+<https://data.gov.sk/set/c852158f-f2c9-45bc-8993-4032a9615c20/resource/0c878ed2-38b2-428c-94d3-a57a8c9f820d> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/title> "Vestník 15/2026"@sk .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 15/2026 zo dňa 22.1.2026."@sk .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/issued> "2026-01-23T07:11:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/modified> "2026-01-23T07:11:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/temporal> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/resource/7bf9e36d-7a15-4d37-9b1e-8998e821b867> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/resource/7bf9e36d-7a15-4d37-9b1e-8998e821b867> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=a690e009-dd7c-431e-b2d4-475cd028af65> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/resource/7bf9e36d-7a15-4d37-9b1e-8998e821b867> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=a690e009-dd7c-431e-b2d4-475cd028af65> .
+<https://data.gov.sk/set/9d8d3329-773b-4fcf-aa8c-9568ad004e77/resource/7bf9e36d-7a15-4d37-9b1e-8998e821b867> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/title> "Vestník 14/2026"@sk .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 14/2026 zo dňa 21.1.2026."@sk .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/issued> "2026-01-23T07:09:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/modified> "2026-01-23T07:10:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/temporal> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/resource/06840382-f147-4471-8aac-9013e598ccc7> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/resource/06840382-f147-4471-8aac-9013e598ccc7> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=3511895a-6d4a-444d-8825-1476097e4eb4> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/resource/06840382-f147-4471-8aac-9013e598ccc7> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=3511895a-6d4a-444d-8825-1476097e4eb4> .
+<https://data.gov.sk/set/e25a5184-1cbe-47e0-8af4-aa8b1472f38c/resource/06840382-f147-4471-8aac-9013e598ccc7> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/title> "Vestník 16/2026"@sk .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 16/2026 zo dňa 23.1.2026.\n"@sk .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/issued> "2026-01-23T07:13:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/modified> "2026-01-23T07:13:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/temporal> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/resource/2ce2436a-df4c-48bf-90b8-2865c054e0bb> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/resource/2ce2436a-df4c-48bf-90b8-2865c054e0bb> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=7ad2a076-2d4e-43dd-b8b1-4ed8b46c3ff6> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/resource/2ce2436a-df4c-48bf-90b8-2865c054e0bb> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=7ad2a076-2d4e-43dd-b8b1-4ed8b46c3ff6> .
+<https://data.gov.sk/set/49dec726-526c-4b99-90b7-c8d150d99a2b/resource/2ce2436a-df4c-48bf-90b8-2865c054e0bb> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/title> "Vestník 17/2026"@sk .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 17/2026 zo dňa 26.1.2026. "@sk .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/issued> "2026-01-26T06:50:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/modified> "2026-01-29T09:41:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/temporal> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/resource/fce9918e-49f6-41fd-a280-32dbe0818224> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/resource/fce9918e-49f6-41fd-a280-32dbe0818224> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=b65eecef-33da-496b-a078-d756aaedb693> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/resource/fce9918e-49f6-41fd-a280-32dbe0818224> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=b65eecef-33da-496b-a078-d756aaedb693> .
+<https://data.gov.sk/set/2a1c81fb-44ce-4750-85b7-4bb4aaeac5ca/resource/fce9918e-49f6-41fd-a280-32dbe0818224> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/title> "Vestník 18/2026"@sk .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 18/2026 zo dňa 27.1.2026. "@sk .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/issued> "2026-01-29T09:43:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/modified> "2026-01-29T09:44:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/temporal> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/contact-point> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/resource/ec976583-3660-44a7-857d-1efe2c5e6153> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/resource/ec976583-3660-44a7-857d-1efe2c5e6153> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=850bffe4-7c76-44a4-9e7f-212e7a1c0cfc> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/resource/ec976583-3660-44a7-857d-1efe2c5e6153> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=850bffe4-7c76-44a4-9e7f-212e7a1c0cfc> .
+<https://data.gov.sk/set/98bd8d8b-7e86-4fd2-b073-45f75472aed0/resource/ec976583-3660-44a7-857d-1efe2c5e6153> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/title> "Vestník 20/2026"@sk .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 20/2026 zo dňa 29.1.2026. "@sk .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/issued> "2026-01-29T09:49:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/modified> "2026-02-11T06:08:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/temporal> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/contact-point> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/resource/d0e7781b-ec64-4005-9697-2b46f1d3ec2a> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/resource/d0e7781b-ec64-4005-9697-2b46f1d3ec2a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=6d540161-2236-4ea2-bb49-98240aafed5f> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/resource/d0e7781b-ec64-4005-9697-2b46f1d3ec2a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=6d540161-2236-4ea2-bb49-98240aafed5f> .
+<https://data.gov.sk/set/23f2c3b8-36d1-41b3-96e5-d0e0beff09b7/resource/d0e7781b-ec64-4005-9697-2b46f1d3ec2a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/title> "Vestník 19/2026"@sk .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 19/2026 zo dňa 28.1.2026. "@sk .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/issued> "2026-01-29T09:46:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/modified> "2026-01-29T09:47:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/temporal> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/contact-point> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/resource/cda65b0d-6085-4092-b608-affb27b60c39> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/resource/cda65b0d-6085-4092-b608-affb27b60c39> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=208e2e44-1931-4ff3-baaa-c6bad213eee6> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/resource/cda65b0d-6085-4092-b608-affb27b60c39> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=208e2e44-1931-4ff3-baaa-c6bad213eee6> .
+<https://data.gov.sk/set/19860d64-2780-40b8-ba89-ab1514ecec0e/resource/cda65b0d-6085-4092-b608-affb27b60c39> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/title> "Vestník 21/2026"@sk .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 21/2026 zo dňa 30.1.2026. "@sk .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/issued> "2026-01-30T11:49:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/modified> "2026-02-11T06:09:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/temporal> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/contact-point> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/resource/aafdca6b-a437-46e9-b7af-de15c9bd25e1> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-01-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-01-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/resource/aafdca6b-a437-46e9-b7af-de15c9bd25e1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=ca5d1ce9-bb52-40bc-b000-08134c122176> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/resource/aafdca6b-a437-46e9-b7af-de15c9bd25e1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=ca5d1ce9-bb52-40bc-b000-08134c122176> .
+<https://data.gov.sk/set/9757b359-a825-4b52-9045-32a3c8d98c9b/resource/aafdca6b-a437-46e9-b7af-de15c9bd25e1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/title> "Vestník 23/2026"@sk .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 23/2026 zo dňa 3.2.2026. "@sk .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/issued> "2026-02-03T12:45:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/modified> "2026-02-03T12:51:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/temporal> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/contact-point> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/resource/41b11fef-e55c-41de-841a-7876881698e1> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/resource/41b11fef-e55c-41de-841a-7876881698e1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=153b2afe-0eef-45c3-904e-ce9ac05c424c> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/resource/41b11fef-e55c-41de-841a-7876881698e1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=153b2afe-0eef-45c3-904e-ce9ac05c424c> .
+<https://data.gov.sk/set/1e3d8608-c6b3-4629-80c3-abe3d5482bfa/resource/41b11fef-e55c-41de-841a-7876881698e1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/title> "Vestník 22/2026"@sk .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 22/2026 zo dňa 2.2.2026. "@sk .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/issued> "2026-02-03T12:38:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/modified> "2026-02-03T12:40:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/temporal> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/contact-point> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/resource/7c9a1a33-435c-4274-af92-64d919517031> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/resource/7c9a1a33-435c-4274-af92-64d919517031> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=cdc6e605-d0d7-4435-8676-de642304fd2e> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/resource/7c9a1a33-435c-4274-af92-64d919517031> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=cdc6e605-d0d7-4435-8676-de642304fd2e> .
+<https://data.gov.sk/set/08822bf5-3b68-4f87-ba78-1bc62fefe2e9/resource/7c9a1a33-435c-4274-af92-64d919517031> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/title> "Vestník 24/2026"@sk .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 24/2026 zo dňa 4.2.2026. "@sk .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/issued> "2026-02-04T09:45:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/modified> "2026-02-04T09:45:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/temporal> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/contact-point> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/resource/e24d11f6-2918-490f-9a9e-fd3e668961ec> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/resource/e24d11f6-2918-490f-9a9e-fd3e668961ec> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=7103fcfc-78f1-4c16-90b7-e868635e14b1> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/resource/e24d11f6-2918-490f-9a9e-fd3e668961ec> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=7103fcfc-78f1-4c16-90b7-e868635e14b1> .
+<https://data.gov.sk/set/bcebc98f-c4e7-415a-b6df-e2dfa69c7d76/resource/e24d11f6-2918-490f-9a9e-fd3e668961ec> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/title> "Vestník 25/2026"@sk .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 25/2026 zo dňa 5.2.2026. "@sk .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/issued> "2026-02-05T13:14:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/modified> "2026-02-05T13:14:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/temporal> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/contact-point> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/resource/a3936115-014c-489c-b0b2-efe30f7fc1b8> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/resource/a3936115-014c-489c-b0b2-efe30f7fc1b8> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=5e1d0e29-9cf5-4b8a-b182-5b79c254073c> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/resource/a3936115-014c-489c-b0b2-efe30f7fc1b8> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=5e1d0e29-9cf5-4b8a-b182-5b79c254073c> .
+<https://data.gov.sk/set/466a6b8d-0e3f-481a-8d68-8e00c6cb0717/resource/a3936115-014c-489c-b0b2-efe30f7fc1b8> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/title> "Vestník 26/2026"@sk .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 26/2026 zo dňa 6.2.2026"@sk .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/issued> "2026-02-09T07:10:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/modified> "2026-02-09T07:10:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/temporal> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/resource/273e13b9-a254-4e15-b151-f7baba431ba7> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/resource/273e13b9-a254-4e15-b151-f7baba431ba7> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=0779e264-89c9-4863-8a8d-d384d4c95e86> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/resource/273e13b9-a254-4e15-b151-f7baba431ba7> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=0779e264-89c9-4863-8a8d-d384d4c95e86> .
+<https://data.gov.sk/set/00f6f8b1-e84e-4da2-bdb0-2d6e1efb609a/resource/273e13b9-a254-4e15-b151-f7baba431ba7> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/title> "Vestník 27/2026"@sk .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 27/2026 zo dňa 9.2.2026"@sk .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/issued> "2026-02-09T07:12:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/modified> "2026-02-09T07:12:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/temporal> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/resource/9ba84c12-9196-4509-b7ec-8f66c3161d4c> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/resource/9ba84c12-9196-4509-b7ec-8f66c3161d4c> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=7e11b7ba-60fb-4165-be7c-9ee508eb800c> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/resource/9ba84c12-9196-4509-b7ec-8f66c3161d4c> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=7e11b7ba-60fb-4165-be7c-9ee508eb800c> .
+<https://data.gov.sk/set/5dc5fdd3-320c-4e13-8684-a69b8691e357/resource/9ba84c12-9196-4509-b7ec-8f66c3161d4c> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/title> "Vestník 28/2026"@sk .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 28/2026 zo dňa 10.02.2026."@sk .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/issued> "2026-02-10T07:24:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/modified> "2026-02-10T07:25:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/temporal> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/resource/d28cb453-c8e0-4c6f-a71d-a3b9bf5e4277> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/resource/d28cb453-c8e0-4c6f-a71d-a3b9bf5e4277> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=4cba456d-9dc7-4b31-960d-072a9d2d1c1b> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/resource/d28cb453-c8e0-4c6f-a71d-a3b9bf5e4277> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=4cba456d-9dc7-4b31-960d-072a9d2d1c1b> .
+<https://data.gov.sk/set/c05949fe-e9a5-4a2d-868c-6b63ab476950/resource/d28cb453-c8e0-4c6f-a71d-a3b9bf5e4277> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/title> "Vestník 29/2026"@sk .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 29/2026 zo dňa 11.02.2026."@sk .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/issued> "2026-02-11T06:11:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/modified> "2026-02-11T06:12:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/temporal> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/resource/4f071841-30a9-41ab-897a-a968c7f27208> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/resource/4f071841-30a9-41ab-897a-a968c7f27208> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=d6a5f923-5f38-4047-9338-27e62ad0bd94> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/resource/4f071841-30a9-41ab-897a-a968c7f27208> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=d6a5f923-5f38-4047-9338-27e62ad0bd94> .
+<https://data.gov.sk/set/49e2bad9-5d79-45e8-b00b-a2d9418654e6/resource/4f071841-30a9-41ab-897a-a968c7f27208> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/title> "Vestník 30/2026"@sk .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 30/2026 zo dňa 12.02.2026."@sk .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/issued> "2026-02-12T07:14:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/modified> "2026-02-12T10:40:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/temporal> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/contact-point> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/resource/dd8a67ad-ef46-4a76-8de8-a89e3b92f69f> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/resource/dd8a67ad-ef46-4a76-8de8-a89e3b92f69f> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=bb94fe0c-dbe1-4629-a8b2-bc503d54be49> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/resource/dd8a67ad-ef46-4a76-8de8-a89e3b92f69f> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=bb94fe0c-dbe1-4629-a8b2-bc503d54be49> .
+<https://data.gov.sk/set/d1c36ab3-8014-4b1e-b0f3-6a3d4d1710ce/resource/dd8a67ad-ef46-4a76-8de8-a89e3b92f69f> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/title> "Vestník 31/2026"@sk .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 31/2026 zo dňa 13.2.2026."@sk .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/issued> "2026-02-13T06:29:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/modified> "2026-02-13T06:29:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/temporal> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/resource/b703564d-cf36-4b48-9fac-a9449f9c2a07> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/resource/b703564d-cf36-4b48-9fac-a9449f9c2a07> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=c0e40161-29f0-4aac-81a1-0672538818d2> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/resource/b703564d-cf36-4b48-9fac-a9449f9c2a07> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=c0e40161-29f0-4aac-81a1-0672538818d2> .
+<https://data.gov.sk/set/83c09767-1d61-4a54-99a8-dd7c08d7117f/resource/b703564d-cf36-4b48-9fac-a9449f9c2a07> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/title> "Vestník 32/2026"@sk .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 32/2026 zo dňa 16.2.2026."@sk .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/issued> "2026-02-16T10:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/modified> "2026-02-16T10:55:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/temporal> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/contact-point> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/resource/d3b31878-1c53-41db-a2a4-855a2fdc151f> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/resource/d3b31878-1c53-41db-a2a4-855a2fdc151f> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=c9a6500f-e1e0-4c65-af80-d558a66cfc03> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/resource/d3b31878-1c53-41db-a2a4-855a2fdc151f> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=c9a6500f-e1e0-4c65-af80-d558a66cfc03> .
+<https://data.gov.sk/set/c3154834-706c-4ba9-afa8-b7e4295a47de/resource/d3b31878-1c53-41db-a2a4-855a2fdc151f> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/title> "Vestník 33/2026"@sk .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 33/2026 zo dňa 17.2.2026."@sk .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/issued> "2026-02-17T11:38:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/modified> "2026-02-17T11:39:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/temporal> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/contact-point> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/resource/82aee9ab-8c35-4735-8888-f7e4f324ed8a> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/resource/82aee9ab-8c35-4735-8888-f7e4f324ed8a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=25c0f382-3b0e-40c2-9408-419f81c5d434> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/resource/82aee9ab-8c35-4735-8888-f7e4f324ed8a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=25c0f382-3b0e-40c2-9408-419f81c5d434> .
+<https://data.gov.sk/set/148c5fe0-c375-4c49-bc7f-7d6b5dcd1728/resource/82aee9ab-8c35-4735-8888-f7e4f324ed8a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/title> "Vestník 34/2026"@sk .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 34/2026 zo dňa 18.2.2026."@sk .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/issued> "2026-02-18T09:31:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/modified> "2026-02-18T09:32:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/temporal> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/contact-point> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/resource/e158acdb-2e79-452c-9f2d-3ab5d1674a94> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/resource/e158acdb-2e79-452c-9f2d-3ab5d1674a94> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=3d5021a9-19ac-470e-a11f-28c4ee2c2994> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/resource/e158acdb-2e79-452c-9f2d-3ab5d1674a94> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=3d5021a9-19ac-470e-a11f-28c4ee2c2994> .
+<https://data.gov.sk/set/b5cfb874-ebea-426b-b265-e7ea603bacd9/resource/e158acdb-2e79-452c-9f2d-3ab5d1674a94> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/title> "Vestník 35/2026"@sk .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 35/2026 zo dňa 19.2.2026."@sk .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/issued> "2026-02-19T06:21:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/modified> "2026-02-19T06:21:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/temporal> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/resource/bb647453-ba0c-404c-8b47-38cab3be8b8b> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/resource/bb647453-ba0c-404c-8b47-38cab3be8b8b> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=65fa2b1e-d14e-417d-87af-ae465382c9e0> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/resource/bb647453-ba0c-404c-8b47-38cab3be8b8b> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=65fa2b1e-d14e-417d-87af-ae465382c9e0> .
+<https://data.gov.sk/set/a12d73dd-2428-49e1-bad4-94711e1b89a2/resource/bb647453-ba0c-404c-8b47-38cab3be8b8b> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/title> "Vestník 37/2026"@sk .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 37/2026 zo dňa 23.2.2026."@sk .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/issued> "2026-02-23T08:10:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/modified> "2026-02-23T08:11:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/temporal> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/contact-point> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/resource/32002690-74bf-4176-90b5-7a97f10e8d02> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/resource/32002690-74bf-4176-90b5-7a97f10e8d02> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=e791f2f5-6481-463e-b8a0-9f2a2f45773d> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/resource/32002690-74bf-4176-90b5-7a97f10e8d02> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=e791f2f5-6481-463e-b8a0-9f2a2f45773d> .
+<https://data.gov.sk/set/40351702-a26f-4c92-854a-1c30faa5114c/resource/32002690-74bf-4176-90b5-7a97f10e8d02> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/title> "Vestník 36/2026"@sk .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 36/2026 zo dňa 20.2.2026."@sk .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/issued> "2026-02-23T08:05:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/modified> "2026-02-23T08:06:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/temporal> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/contact-point> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/resource/54b3f440-a526-437c-8204-843c35517398> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/resource/54b3f440-a526-437c-8204-843c35517398> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=1623a87a-b9d0-4708-b811-310a9399c647> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/resource/54b3f440-a526-437c-8204-843c35517398> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=1623a87a-b9d0-4708-b811-310a9399c647> .
+<https://data.gov.sk/set/74f860a1-3b0e-47a2-b9f7-eb3140164582/resource/54b3f440-a526-437c-8204-843c35517398> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/title> "Vestník 38/2026"@sk .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 38/2026 zo dňa 24.2.2026."@sk .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/issued> "2026-02-24T11:56:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/modified> "2026-02-24T11:57:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/temporal> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/contact-point> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/resource/ce37cd1c-a3c8-4216-99c8-3b37f0661e61> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/resource/ce37cd1c-a3c8-4216-99c8-3b37f0661e61> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=b5388ce2-bd18-4ae4-961e-517c80a44f1f> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/resource/ce37cd1c-a3c8-4216-99c8-3b37f0661e61> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=b5388ce2-bd18-4ae4-961e-517c80a44f1f> .
+<https://data.gov.sk/set/87c95ce5-6b02-4ea8-addd-75f4bb39dce4/resource/ce37cd1c-a3c8-4216-99c8-3b37f0661e61> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/title> "Vestník 39/2026"@sk .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 39/2026 zo dňa 25.2.2026."@sk .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/issued> "2026-02-25T14:01:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/modified> "2026-02-25T14:02:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/temporal> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/contact-point> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/resource/e584d891-c1ed-4ea3-bff0-9ce1b94b2c3f> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/resource/e584d891-c1ed-4ea3-bff0-9ce1b94b2c3f> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=2c1a782e-38be-4476-8290-552e7ff18a47> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/resource/e584d891-c1ed-4ea3-bff0-9ce1b94b2c3f> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=2c1a782e-38be-4476-8290-552e7ff18a47> .
+<https://data.gov.sk/set/65272ec9-d614-4e40-a6a6-d4fc23bda642/resource/e584d891-c1ed-4ea3-bff0-9ce1b94b2c3f> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/title> "Vestník 40/2026"@sk .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 40/2026 zo dňa 26.2.2026."@sk .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/issued> "2026-02-26T06:30:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/modified> "2026-02-26T06:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/temporal> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/resource/d226ce86-6af7-457c-8efe-2b591f233885> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/resource/d226ce86-6af7-457c-8efe-2b591f233885> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=cb246e97-b097-4f7f-bc48-14ab79b30e72> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/resource/d226ce86-6af7-457c-8efe-2b591f233885> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=cb246e97-b097-4f7f-bc48-14ab79b30e72> .
+<https://data.gov.sk/set/d77c2664-63a9-4694-82d0-4cb6bb77dad0/resource/d226ce86-6af7-457c-8efe-2b591f233885> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/title> "Vestník 41/2026"@sk .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 41/2026 zo dňa 27.2.2026."@sk .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/issued> "2026-03-03T07:37:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/modified> "2026-03-03T07:38:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/temporal> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/contact-point> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/resource/81d26eb0-b58e-4060-bf86-4c8fb725d9b1> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-02-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-02-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/resource/81d26eb0-b58e-4060-bf86-4c8fb725d9b1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=1e0d38e2-620f-4126-a6ce-baf181a41ec6> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/resource/81d26eb0-b58e-4060-bf86-4c8fb725d9b1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=1e0d38e2-620f-4126-a6ce-baf181a41ec6> .
+<https://data.gov.sk/set/d2e31a49-8c77-42fb-9847-b0aef1387b20/resource/81d26eb0-b58e-4060-bf86-4c8fb725d9b1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/title> "Vestník 43/2026"@sk .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 43/2026 zo dňa 3.3.2026."@sk .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/issued> "2026-03-03T08:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/modified> "2026-03-04T06:05:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/temporal> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/contact-point> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/resource/de69a4ed-8537-4598-baf7-a5cbef581f6a> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/resource/de69a4ed-8537-4598-baf7-a5cbef581f6a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=cf116180-f457-4fad-a42f-3c6b8b0b5cd5> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/resource/de69a4ed-8537-4598-baf7-a5cbef581f6a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=cf116180-f457-4fad-a42f-3c6b8b0b5cd5> .
+<https://data.gov.sk/set/d154b8c3-c8c9-494b-b368-76aea9b0f197/resource/de69a4ed-8537-4598-baf7-a5cbef581f6a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/title> "Vestník 42/2026"@sk .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 42/2026 zo dňa 2.3.2026."@sk .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/issued> "2026-03-03T07:39:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/modified> "2026-03-03T07:40:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/temporal> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/contact-point> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/resource/a13c847b-dcd3-4228-887c-cef5a1e508a4> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/resource/a13c847b-dcd3-4228-887c-cef5a1e508a4> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=47a1fa6c-d4cb-4c36-bc25-f56a4b181c1f> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/resource/a13c847b-dcd3-4228-887c-cef5a1e508a4> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=47a1fa6c-d4cb-4c36-bc25-f56a4b181c1f> .
+<https://data.gov.sk/set/999a237d-c0bf-4371-8407-f51cb936f429/resource/a13c847b-dcd3-4228-887c-cef5a1e508a4> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/title> "Vestník 44/2026"@sk .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 44/2026 zo dňa 4.3.2026."@sk .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/issued> "2026-03-04T12:17:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/modified> "2026-03-04T12:18:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/temporal> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/resource/5f264257-79f9-4b9a-a1b0-d6eae69ed588> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/resource/5f264257-79f9-4b9a-a1b0-d6eae69ed588> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=f8251c60-d5f5-4316-8377-a39efd5c4939> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/resource/5f264257-79f9-4b9a-a1b0-d6eae69ed588> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=f8251c60-d5f5-4316-8377-a39efd5c4939> .
+<https://data.gov.sk/set/4ded6c2e-938f-4e90-8c22-5d557e68cb34/resource/5f264257-79f9-4b9a-a1b0-d6eae69ed588> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/title> "Vestník 45/2026"@sk .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 45/2026 zo dňa 5.3.2026."@sk .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/issued> "2026-03-06T08:43:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/modified> "2026-03-06T08:44:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/temporal> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/contact-point> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/resource/6f1c2ab6-976e-4d94-a6d3-03645ae92da3> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/resource/6f1c2ab6-976e-4d94-a6d3-03645ae92da3> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=e10b919e-7023-48a4-99ef-63365756909b> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/resource/6f1c2ab6-976e-4d94-a6d3-03645ae92da3> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=e10b919e-7023-48a4-99ef-63365756909b> .
+<https://data.gov.sk/set/8e3e28eb-44a5-4bb7-8557-677054244e44/resource/6f1c2ab6-976e-4d94-a6d3-03645ae92da3> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/title> "Vestník 46/2026"@sk .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 46/2026 zo dňa 6.3.2026."@sk .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/issued> "2026-03-09T11:02:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/modified> "2026-03-09T11:02:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/temporal> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/contact-point> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/resource/1659a5d8-16d8-465f-9bbd-baf74cfc671b> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/resource/1659a5d8-16d8-465f-9bbd-baf74cfc671b> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=c0f718f1-24ec-4e62-8c89-0eeddb3876ff> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/resource/1659a5d8-16d8-465f-9bbd-baf74cfc671b> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=c0f718f1-24ec-4e62-8c89-0eeddb3876ff> .
+<https://data.gov.sk/set/8f8303da-47db-4eca-a86b-4d09f76c1b17/resource/1659a5d8-16d8-465f-9bbd-baf74cfc671b> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/title> "Vestník 49/2026"@sk .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 49/2026 zo dňa 11.3.2026."@sk .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/issued> "2026-03-11T12:12:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/modified> "2026-03-11T14:02:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/temporal> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/contact-point> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/resource/dd864908-5d68-490e-8c29-318930a5c64a> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/resource/dd864908-5d68-490e-8c29-318930a5c64a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=3d49b7fe-2c8e-4527-aca1-5811b22db9b7> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/resource/dd864908-5d68-490e-8c29-318930a5c64a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=3d49b7fe-2c8e-4527-aca1-5811b22db9b7> .
+<https://data.gov.sk/set/861241f7-818b-43c3-b5b5-175826801285/resource/dd864908-5d68-490e-8c29-318930a5c64a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/title> "Vestník 48/2026"@sk .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 48/2026 zo dňa 10.3.2026."@sk .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/issued> "2026-03-11T10:48:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/modified> "2026-03-11T10:48:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/temporal> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/contact-point> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/resource/149c6aa2-edcc-4572-8e71-ba8ee7d20978> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/resource/149c6aa2-edcc-4572-8e71-ba8ee7d20978> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=b8c80a40-62c6-4cc6-99f1-66a7d81fdde2> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/resource/149c6aa2-edcc-4572-8e71-ba8ee7d20978> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=b8c80a40-62c6-4cc6-99f1-66a7d81fdde2> .
+<https://data.gov.sk/set/4fa9e74b-1fd5-4f6e-9799-ea4768c8f151/resource/149c6aa2-edcc-4572-8e71-ba8ee7d20978> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/title> "Vestník 47/2026"@sk .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 47/2026 zo dňa 9.3.2026."@sk .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/issued> "2026-03-11T10:45:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/modified> "2026-03-11T10:46:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/temporal> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/contact-point> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/resource/c5425a47-9268-42d3-9538-f62031eb98b1> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/resource/c5425a47-9268-42d3-9538-f62031eb98b1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=57a899f8-9173-4e7e-814b-c1864ca4c256> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/resource/c5425a47-9268-42d3-9538-f62031eb98b1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=57a899f8-9173-4e7e-814b-c1864ca4c256> .
+<https://data.gov.sk/set/0162855a-0db3-46c7-8584-8dc9670627de/resource/c5425a47-9268-42d3-9538-f62031eb98b1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/title> "Vestník 51/2026"@sk .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 51/2026 zo dňa 13.3.2026."@sk .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/issued> "2026-03-17T08:20:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/modified> "2026-03-17T08:20:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/temporal> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/contact-point> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/resource/bfe7a63e-14dd-45de-a93f-438341582599> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/resource/bfe7a63e-14dd-45de-a93f-438341582599> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=511bcc5f-760f-4d34-936a-0bf0ddba15bc> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/resource/bfe7a63e-14dd-45de-a93f-438341582599> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=511bcc5f-760f-4d34-936a-0bf0ddba15bc> .
+<https://data.gov.sk/set/fc4bac36-1151-4d21-bd94-f45c8078de3f/resource/bfe7a63e-14dd-45de-a93f-438341582599> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/title> "Vestník 50/2026"@sk .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 50/2026 zo dňa 12.3.2026."@sk .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/issued> "2026-03-17T08:19:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/modified> "2026-03-17T08:19:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/temporal> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/contact-point> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/resource/3b4abce9-d670-49c9-97ed-4c7cb9164dd1> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/resource/3b4abce9-d670-49c9-97ed-4c7cb9164dd1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=b5a15884-0bfc-4a8c-81c4-36adb8071109> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/resource/3b4abce9-d670-49c9-97ed-4c7cb9164dd1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=b5a15884-0bfc-4a8c-81c4-36adb8071109> .
+<https://data.gov.sk/set/bd51b996-9970-4059-ae9b-f94ea4cc0168/resource/3b4abce9-d670-49c9-97ed-4c7cb9164dd1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/title> "Vestník 53/2026"@sk .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 53/2026 zo dňa 17.3.2026."@sk .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/issued> "2026-03-17T08:26:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/modified> "2026-03-19T07:32:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/temporal> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/contact-point> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/resource/bc8b7225-7073-4ae3-9b2d-39a126fdd581> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/resource/bc8b7225-7073-4ae3-9b2d-39a126fdd581> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=64a9c3c4-2acb-445a-976f-e9653e91dbd2> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/resource/bc8b7225-7073-4ae3-9b2d-39a126fdd581> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=64a9c3c4-2acb-445a-976f-e9653e91dbd2> .
+<https://data.gov.sk/set/6d17d9ce-0d7e-4d94-9ba3-476c183b8deb/resource/bc8b7225-7073-4ae3-9b2d-39a126fdd581> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/title> "Vestník 52/2026"@sk .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 52/2026 zo dňa 16.3.2026."@sk .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/issued> "2026-03-17T08:23:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/modified> "2026-03-17T08:23:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/temporal> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/contact-point> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/resource/923ee274-909f-4556-b9f8-d996a1b43488> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/resource/923ee274-909f-4556-b9f8-d996a1b43488> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=7d0589ff-938b-45cf-bf04-5506b5fdf74c> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/resource/923ee274-909f-4556-b9f8-d996a1b43488> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=7d0589ff-938b-45cf-bf04-5506b5fdf74c> .
+<https://data.gov.sk/set/2d255db7-43ab-4539-9078-fdac87131d9e/resource/923ee274-909f-4556-b9f8-d996a1b43488> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/title> "Vestník 54/2026"@sk .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 54/2026 zo dňa 17.3.2026."@sk .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/issued> "2026-03-18T08:12:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/modified> "2026-03-19T14:59:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/temporal> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/contact-point> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/resource/6e7985db-c6c2-462b-a688-183989eb9955> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/resource/6e7985db-c6c2-462b-a688-183989eb9955> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=9006f3c8-63cb-439b-9167-5164e42717d3> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/resource/6e7985db-c6c2-462b-a688-183989eb9955> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=9006f3c8-63cb-439b-9167-5164e42717d3> .
+<https://data.gov.sk/set/ab1b94a1-8e13-4590-a67c-ea45e6e30f58/resource/6e7985db-c6c2-462b-a688-183989eb9955> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/title> "Vestník 55/2026"@sk .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 55/2026 zo dňa 18.3.2026."@sk .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/issued> "2026-03-18T08:13:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/modified> "2026-03-19T15:00:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/temporal> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/contact-point> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/resource/004dd25e-0211-4145-942f-9c7c75a1cece> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/resource/004dd25e-0211-4145-942f-9c7c75a1cece> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=9c670127-baea-48eb-8664-86a4018aa0c4> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/resource/004dd25e-0211-4145-942f-9c7c75a1cece> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=9c670127-baea-48eb-8664-86a4018aa0c4> .
+<https://data.gov.sk/set/cf6719b5-9caa-4ed7-8f9d-bb4c6af456d3/resource/004dd25e-0211-4145-942f-9c7c75a1cece> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/title> "Vestník 56/2026"@sk .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 56/2026 zo dňa 19.3.2026."@sk .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/issued> "2026-03-19T15:05:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/modified> "2026-03-19T15:06:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/temporal> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/contact-point> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/resource/28e070bd-b312-4830-8313-32785cdb0348> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/resource/28e070bd-b312-4830-8313-32785cdb0348> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=10ffefb0-9eeb-4965-b0d9-6a2fd0894373> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/resource/28e070bd-b312-4830-8313-32785cdb0348> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=10ffefb0-9eeb-4965-b0d9-6a2fd0894373> .
+<https://data.gov.sk/set/0c2472f5-c74b-49e5-821d-5f275214ca7d/resource/28e070bd-b312-4830-8313-32785cdb0348> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/title> "Vestník 57/2026"@sk .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 57/2026 zo dňa 20.3.2026."@sk .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/issued> "2026-03-23T09:44:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/modified> "2026-03-23T09:45:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/temporal> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/contact-point> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/resource/dbabc440-fd11-41e2-8bdd-0b293b67accf> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/resource/dbabc440-fd11-41e2-8bdd-0b293b67accf> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=556db466-d20a-4b72-ac11-7ebb7be390b2> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/resource/dbabc440-fd11-41e2-8bdd-0b293b67accf> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=556db466-d20a-4b72-ac11-7ebb7be390b2> .
+<https://data.gov.sk/set/ea7c3a0c-4ed4-409f-ac1d-35285b7a87f5/resource/dbabc440-fd11-41e2-8bdd-0b293b67accf> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/title> "Vestník 58/2026"@sk .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 58/2026 zo dňa 23.3.2026."@sk .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/issued> "2026-03-23T09:46:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/modified> "2026-03-23T09:46:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/temporal> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/contact-point> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/resource/ed25be69-2417-42a3-8206-19e9f31b6d89> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/resource/ed25be69-2417-42a3-8206-19e9f31b6d89> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=47529585-93fd-4c42-af20-98c0ac09a22e> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/resource/ed25be69-2417-42a3-8206-19e9f31b6d89> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=47529585-93fd-4c42-af20-98c0ac09a22e> .
+<https://data.gov.sk/set/35bd34b9-0140-4326-a0e0-3ad3d700517f/resource/ed25be69-2417-42a3-8206-19e9f31b6d89> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/title> "Vestník 59/2026"@sk .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 59/2026 zo dňa 24.3.2026."@sk .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/issued> "2026-03-25T15:46:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/modified> "2026-03-25T15:47:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/temporal> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/contact-point> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/resource/b1380c3d-4962-4bc5-9627-916846598256> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/resource/b1380c3d-4962-4bc5-9627-916846598256> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=d9669d11-db53-4453-b9a4-913f4f60fde1> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/resource/b1380c3d-4962-4bc5-9627-916846598256> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=d9669d11-db53-4453-b9a4-913f4f60fde1> .
+<https://data.gov.sk/set/dee298dc-0f5f-4124-9cc8-13f8b3e7f39b/resource/b1380c3d-4962-4bc5-9627-916846598256> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/title> "Vestník 60/2026"@sk .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 60/2026 zo dňa 25.3.2026."@sk .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/issued> "2026-03-25T15:49:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/modified> "2026-03-25T15:49:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/temporal> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/contact-point> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/resource/e1185681-d977-4f4e-b04e-af8d5ec3ebe1> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/resource/e1185681-d977-4f4e-b04e-af8d5ec3ebe1> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=a5b489dd-8756-4b57-a1bf-43edee9a63bc> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/resource/e1185681-d977-4f4e-b04e-af8d5ec3ebe1> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=a5b489dd-8756-4b57-a1bf-43edee9a63bc> .
+<https://data.gov.sk/set/c8bc6d02-b19b-497c-a3ae-01f7b40217c2/resource/e1185681-d977-4f4e-b04e-af8d5ec3ebe1> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/title> "Vestník 62/2026"@sk .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 62/2026 zo dňa 27.3.2026."@sk .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/issued> "2026-03-27T12:42:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/modified> "2026-03-27T12:42:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/temporal> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/contact-point> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/resource/ceacf836-d1fb-454f-a36a-d6df818b010d> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/resource/ceacf836-d1fb-454f-a36a-d6df818b010d> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=84e6a75e-2130-4926-8324-0e6693d94b93> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/resource/ceacf836-d1fb-454f-a36a-d6df818b010d> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=84e6a75e-2130-4926-8324-0e6693d94b93> .
+<https://data.gov.sk/set/4932131e-7af3-40c4-8039-2e3c702a1ae1/resource/ceacf836-d1fb-454f-a36a-d6df818b010d> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/title> "Vestník 61/2026"@sk .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 61/2026 zo dňa 26.3.2026."@sk .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/issued> "2026-03-27T12:40:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/modified> "2026-03-27T12:40:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/temporal> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/contact-point> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/resource/a47efe2c-d8a1-40b7-8828-430151899b9d> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/resource/a47efe2c-d8a1-40b7-8828-430151899b9d> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=78975118-9929-4bac-a294-02cd4bedbfc4> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/resource/a47efe2c-d8a1-40b7-8828-430151899b9d> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=78975118-9929-4bac-a294-02cd4bedbfc4> .
+<https://data.gov.sk/set/2b9fd933-c958-4089-8ad8-4ae95354ec5c/resource/a47efe2c-d8a1-40b7-8828-430151899b9d> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/title> "Vestník 65/2026"@sk .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 65/2026 zo dňa 1.4.2026."@sk .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/issued> "2026-04-01T05:48:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/modified> "2026-04-01T05:49:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/temporal> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/contact-point> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/resource/473142ab-6ba9-47e6-bd61-9f46fc6762cd> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/resource/473142ab-6ba9-47e6-bd61-9f46fc6762cd> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=38be075b-5e78-4f4c-98e0-29b008a9d4c1> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/resource/473142ab-6ba9-47e6-bd61-9f46fc6762cd> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=38be075b-5e78-4f4c-98e0-29b008a9d4c1> .
+<https://data.gov.sk/set/7c1fcee2-a95b-43e9-80d1-9bdaf0d7385f/resource/473142ab-6ba9-47e6-bd61-9f46fc6762cd> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/CSV> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/title> "Vestník 63/2026"@sk .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 63/2026 zo dňa 30.3.2026."@sk .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/issued> "2026-04-01T05:44:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/modified> "2026-04-01T05:45:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/temporal> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/contact-point> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/resource/59dc9196-95c5-4d47-a49e-111e0f4cff3a> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/resource/59dc9196-95c5-4d47-a49e-111e0f4cff3a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=713feaa3-f000-4389-975b-51f61e859460> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/resource/59dc9196-95c5-4d47-a49e-111e0f4cff3a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=713feaa3-f000-4389-975b-51f61e859460> .
+<https://data.gov.sk/set/fc3f7fdb-2b73-4796-b9d6-f3255b66861e/resource/59dc9196-95c5-4d47-a49e-111e0f4cff3a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/title> "Vestník 64/2026"@sk .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 64/2026 zo dňa 31.3.2026."@sk .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/issued> "2026-04-01T05:45:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/modified> "2026-04-01T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/temporal> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/contact-point> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/resource/28ab19bd-ad9c-46e7-9caa-30eb7832d61a> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/resource/28ab19bd-ad9c-46e7-9caa-30eb7832d61a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=91bc7cec-67ea-4ff1-883f-347879f3bfea> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/resource/28ab19bd-ad9c-46e7-9caa-30eb7832d61a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=91bc7cec-67ea-4ff1-883f-347879f3bfea> .
+<https://data.gov.sk/set/59a3d772-83d9-4dc9-b480-e97ea6a4c289/resource/28ab19bd-ad9c-46e7-9caa-30eb7832d61a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/title> "Vestník 66/2026"@sk .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/description> "Vestník verejného obstarávania č. 66/2026 zo dňa 2.4.2026."@sk .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/31797903> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/issued> "2026-04-02T11:26:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/modified> "2026-04-02T11:26:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://purl.org/dc/terms/temporal> <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://www.w3.org/ns/dcat#contactPoint> <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/contact-point> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> <http://www.w3.org/ns/dcat#distribution> <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal> <http://www.w3.org/ns/dcat#startDate> "2026-04-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal> <http://www.w3.org/ns/dcat#endDate> "2026-04-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/contact-point> <http://www.w3.org/2006/vcard/ns#fn> "Úrad pre verejné obstarávanie"@sk .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a> <http://www.w3.org/ns/dcat#accessURL> <https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a> <http://www.w3.org/ns/dcat#downloadURL> <https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe> .
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON> .

@@ -1,0 +1,81 @@
+curl -X POST 'https://data.slovensko.sk/api/sparql' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Accept: text/turtle' \
+  --data-urlencode 'query=
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX leg:  <https://data.gov.sk/def/legislation/terms-of-use#>
+
+CONSTRUCT {
+  <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430>
+      a ?datasetType ;
+      dct:title ?title ;
+      dct:description ?description ;
+      dct:publisher ?publisher ;
+      dct:issued ?issued ;
+      dct:modified ?modified ;
+      dcat:theme ?theme ;
+      dct:temporal ?temporal ;
+      dcat:contactPoint ?contactPoint ;
+      dcat:distribution ?distribution .
+
+  ?temporal dcat:startDate ?startDate ;
+            dcat:endDate ?endDate .
+
+  ?contactPoint vcard:fn ?contactName ;
+                vcard:hasEmail ?contactEmail .
+
+  ?publisher foaf:name ?publisherName .
+
+  ?distribution dct:title ?distributionTitle ;
+                dct:description ?distributionDescription ;
+                dcat:accessURL ?accessURL ;
+                dcat:downloadURL ?downloadURL ;
+                dct:format ?format ;
+                leg:termsOfUse ?termsOfUse ;
+                dcat:accessService ?accessService .
+
+  ?accessService dct:title ?serviceTitle ;
+                 dcat:endpointURL ?endpointURL .
+}
+WHERE {
+  BIND(<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> AS ?dataset)
+
+  ?dataset a ?datasetType .
+  OPTIONAL { ?dataset dct:title ?title }
+  OPTIONAL { ?dataset dct:description ?description }
+  OPTIONAL { ?dataset dct:publisher ?publisher .
+             OPTIONAL { ?publisher foaf:name ?publisherName } }
+  OPTIONAL { ?dataset dct:issued ?issued }
+  OPTIONAL { ?dataset dct:modified ?modified }
+  OPTIONAL { ?dataset dcat:theme ?theme }
+
+  OPTIONAL {
+    ?dataset dct:temporal ?temporal .
+    OPTIONAL { ?temporal dcat:startDate ?startDate }
+    OPTIONAL { ?temporal dcat:endDate ?endDate }
+  }
+
+  OPTIONAL {
+    ?dataset dcat:contactPoint ?contactPoint .
+    OPTIONAL { ?contactPoint vcard:fn ?contactName }
+    OPTIONAL { ?contactPoint vcard:hasEmail ?contactEmail }
+  }
+
+  OPTIONAL {
+    ?dataset dcat:distribution ?distribution .
+    OPTIONAL { ?distribution dct:title ?distributionTitle }
+    OPTIONAL { ?distribution dct:description ?distributionDescription }
+    OPTIONAL { ?distribution dcat:accessURL ?accessURL }
+    OPTIONAL { ?distribution dcat:downloadURL ?downloadURL }
+    OPTIONAL { ?distribution dct:format ?format }
+    OPTIONAL { ?distribution leg:termsOfUse ?termsOfUse }
+    OPTIONAL {
+      ?distribution dcat:accessService ?accessService .
+      OPTIONAL { ?accessService dct:title ?serviceTitle }
+      OPTIONAL { ?accessService dcat:endpointURL ?endpointURL }
+    }
+  }
+}'

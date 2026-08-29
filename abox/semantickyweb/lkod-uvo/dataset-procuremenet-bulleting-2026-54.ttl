@@ -1,0 +1,36 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix leg: <https://data.gov.sk/def/legislation/terms-of-use#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430> a dcat:Dataset;
+    dct:title "Vestník 66/2026"@sk;
+    dct:description "Vestník verejného obstarávania č. 66/2026 zo dňa 2.4.2026."@sk;
+    dct:publisher <https://data.gov.sk/id/legal-subject/31797903>;
+    dct:issued "2026-04-02T11:26:22Z"^^xsd:dateTime;
+    dct:modified "2026-04-02T11:26:53Z"^^xsd:dateTime;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+    dct:temporal <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal>;
+    dcat:contactPoint <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/contact-point>;
+    dcat:distribution <https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a> .
+
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal>
+    dcat:startDate "2026-04-02"^^xsd:date;
+    dcat:endDate "2026-04-02"^^xsd:date .
+
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/contact-point> vcard:fn "Úrad pre verejné obstarávanie"@sk .
+
+<https://data.gov.sk/id/legal-subject/31797903> foaf:name "Úrad pre verejné obstarávanie"@sk .
+
+<https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a>
+    dcat:accessURL <https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe>;
+    dcat:downloadURL <https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe>;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON> .

@@ -1,0 +1,39 @@
+{
+  "@context": "https://raw.githubusercontent.com/slovak-egov/centralny-model-udajov/develop/tbox/national/dcat-ap-sk/kontexty/rozhranie-katal%C3%B3gu-otvoren%C3%BDch-d%C3%A1t.jsonld",
+  "iri": "https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430",
+  "typ": "Dataset",
+  "názov": {
+    "sk": "Vestník 66/2026"
+  },
+  "popis": {
+    "sk": "Vestník verejného obstarávania č. 66/2026 zo dňa 2.4.2026."
+  },
+  "poskytovateľ": "https://data.gov.sk/id/legal-subject/31797903",
+  "dátum_publikácie": "2026-04-02T11:26:22Z",
+  "dátum_modifikácie": "2026-04-02T11:26:53Z",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "časové_pokrytie": {
+    "iri": "https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/temporal",
+    "typ": "Časový interval",
+    "začiatok": "2026-04-02",
+    "koniec": "2026-04-02"
+  },
+  "kontaktný_bod": {
+    "iri": "https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/contact-point",
+    "typ": "Organizácia",
+    "meno": {
+      "sk": "Úrad pre verejné obstarávanie"
+    }
+  },
+  "distribúcia": [
+    {
+      "iri": "https://data.gov.sk/set/eeded93a-d375-4b13-a6c9-75ddec24c430/resource/41f2c94f-d99b-4707-ae6b-5ef81bb50b6a",
+      "typ": "Distribúcia",
+      "prístupové_url": "https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe",
+      "súbor_na_stiahnutie": "https://data.slovensko.sk/download?id=bcc87738-6f6a-4abe-aeda-007ef7a81bfe",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON"
+    }
+  ]
+}
