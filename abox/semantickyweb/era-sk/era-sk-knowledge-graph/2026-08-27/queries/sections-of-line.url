@@ -1,0 +1,1 @@
+https://graph.data.era.europa.eu/repositories/rinf-plus?query=CONSTRUCT+%7B%0A++%3Fentity+%3Fpredicate+%3Fobject+.%0A%7D%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2Fgraph%2F0056%3E+%7B%0A++++%3Fentity+a+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FSectionOfLine%3E+%3B%0A++++++++++++%3Fpredicate+%3Fobject+.%0A++%7D%0A%7D%0A

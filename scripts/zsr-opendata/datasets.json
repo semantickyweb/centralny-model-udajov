@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "uriTemplate": "https://data.gov.sk/{type}/era/{class}/{id}",
+  "catalogIri": "https://data.gov.sk/set/era/catalog/zsr-open-data",
+  "sources": [
+    {
+      "id": "era-rinf-0056",
+      "kind": "eu",
+      "title": "ERA RINF graph for infrastructure manager 0056",
+      "graphIri": "http://data.europa.eu/949/graph/0056",
+      "snapshotDate": "2026-08-27",
+      "artifact": "raw/era-knowledge-graph/2026-08-27/era-rinf-sk-graph-0056.nq.gz",
+      "publisherIri": "http://publications.europa.eu/resource/authority/corporate-body/ERA",
+      "status": "available"
+    },
+    {
+      "id": "zsr-infomapa-layer-3",
+      "kind": "national",
+      "role": "auxiliary-input",
+      "title": "ŽSR InfoMapa, layer 3",
+      "artifacts": {
+        "transportPoints": "raw/zsr-infomapa/doprbody_idvrstva_3.json",
+        "networkSections": "raw/zsr-infomapa/dopruseky_idvrstva_3.json"
+      },
+      "applicationUrl": "https://aplikacie.zsr.sk/InfoMapaInternet/",
+      "identityAuthority": "ŽSR InfoMapa",
+      "identityStatus": "candidate-for-open-data-design",
+      "publisherIri": "https://data.gov.sk/id/legal-subject/31364501",
+      "publisherName": "Železnice Slovenskej republiky",
+      "sourceUrl": null,
+      "dereferenceEndpoint": null,
+      "licence": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "licenceName": "Creative Commons CC0 1.0 Universal",
+      "status": "available-input-only"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "operational-points",
+      "class": "operational-point",
+      "classIri": "http://data.europa.eu/949/OperationalPoint",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "sections-of-line",
+      "class": "section-of-line",
+      "classIri": "http://data.europa.eu/949/SectionOfLine",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "running-tracks",
+      "class": "running-track",
+      "classIri": "http://data.europa.eu/949/RunningTrack",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "sidings",
+      "class": "siding",
+      "classIri": "http://data.europa.eu/949/Siding",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "platform-edges",
+      "class": "platform-edge",
+      "classIri": "http://data.europa.eu/949/PlatformEdge",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "tunnels",
+      "class": "tunnel",
+      "classIri": "http://data.europa.eu/949/Tunnel",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "contact-line-systems",
+      "class": "contact-line-system",
+      "classIri": "http://data.europa.eu/949/ContactLineSystem",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "train-detection-systems",
+      "class": "train-detection-system",
+      "classIri": "http://data.europa.eu/949/TrainDetectionSystem",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "etcs",
+      "class": "etcs",
+      "classIri": "http://data.europa.eu/949/ETCS",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "incomingPropertyIri": "http://data.europa.eu/949/etcs",
+      "status": "ready"
+    },
+    {
+      "id": "kilometric-posts",
+      "class": "kilometric-post",
+      "classIri": "http://data.europa.eu/949/KilometricPost",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    },
+    {
+      "id": "primary-locations",
+      "class": "primary-location",
+      "classIri": "http://data.europa.eu/949/PrimaryLocation",
+      "source": "era-rinf-0056",
+      "idStrategy": "source-uri-last-segment",
+      "status": "ready"
+    }
+  ]
+}

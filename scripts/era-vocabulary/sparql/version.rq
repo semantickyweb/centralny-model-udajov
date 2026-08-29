@@ -1,0 +1,6 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?version
+WHERE {
+  <http://data.europa.eu/949/> owl:versionInfo ?version .
+}

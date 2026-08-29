@@ -1,0 +1,12 @@
+PREFIX era: <http://data.europa.eu/949/>
+
+SELECT ?graph ?class (COUNT(DISTINCT ?entity) AS ?entities)
+WHERE {
+  GRAPH ?graph {
+    ?entity era:inCountry
+      <http://publications.europa.eu/resource/authority/country/SVK> ;
+      a ?class .
+  }
+}
+GROUP BY ?graph ?class
+ORDER BY ?graph ?class

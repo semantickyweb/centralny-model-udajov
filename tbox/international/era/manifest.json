@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "version": "v3.3.4",
+  "artifacts": [
+    {
+      "path": "ontology.ttl",
+      "domain": "shared",
+      "source": {
+        "repository": "https://graph.data.era.europa.eu/repositories/ERA-Onto",
+        "namedGraph": "http://data.europa.eu/949/graph/ontology"
+      },
+      "triples": 14974,
+      "sha256": "955dc3aa4f268f1f92dc1f4c7b99a7bcc3cbc02772979045771861509f81bda2"
+    },
+    {
+      "path": "shacl/ERA-RINF-shapes.ttl",
+      "domain": "RINF",
+      "source": {
+        "repository": "https://graph.data.era.europa.eu/repositories/ERA-Onto",
+        "namedGraph": "http://data.europa.eu/949/graph/shacl"
+      },
+      "triples": 7569,
+      "sha256": "df370f0ba6cc03874e819d0c1409d00b3d9bb88da781dfc1fdfbb1c0c1422b62"
+    },
+    {
+      "path": "shacl/ERA-ERATV-shapes.ttl",
+      "domain": "ERATV",
+      "source": {
+        "release": "https://gitlab.com/era-europa-eu/public/interoperable-data-programme/era-ontology/era-ontology/-/releases/v3.3.4"
+      },
+      "triples": 2992,
+      "sha256": "c5f6eb4a81baa80f7c32f0a21c909780c7fa430030183827dd199fa23a358e02"
+    },
+    {
+      "path": "shacl/ERA-EVR-shapes.ttl",
+      "domain": "EVR",
+      "source": {
+        "release": "https://gitlab.com/era-europa-eu/public/interoperable-data-programme/era-ontology/era-ontology/-/releases/v3.3.4"
+      },
+      "triples": 916,
+      "sha256": "f9bdee59ca35d6596dc62e58608dd025827206ac577e94d7ea2c2cc712c3c237"
+    },
+    {
+      "path": "shacl/ERA-ERADIS-shapes.ttl",
+      "domain": "ERADIS",
+      "source": {
+        "release": "https://gitlab.com/era-europa-eu/public/interoperable-data-programme/era-ontology/era-ontology/-/releases/v3.3.4"
+      },
+      "triples": 3557,
+      "sha256": "b62543d7a6795ef44fc50a1b2b924ada2a99ede4aa763ad5d7c56f231a06637c"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+<https://data.gov.sk/set/era/distribution/tunnels-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/train-detection-systems-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/sidings-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/sections-of-line-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/running-tracks-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/primary-locations-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/platform-edges-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/operational-points-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/kilometric-posts-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/etcs-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/distribution/contact-line-systems-2026-08-27-turtle-gzip>
+        a       <http://www.w3.org/ns/dcat#Distribution>;
+        <http://purl.org/dc/terms/format>
+                <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
+        <http://www.w3.org/ns/dcat#compressFormat>
+                <http://www.iana.org/assignments/media-types/application/gzip>;
+        <http://www.w3.org/ns/dcat#mediaType>
+                <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://data.gov.sk/set/era/dataset/tunnels>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/Tunnel>;
+        <http://purl.org/dc/terms/identifier>
+                "tunnels";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/tunnels-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/train-detection-systems>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/TrainDetectionSystem>;
+        <http://purl.org/dc/terms/identifier>
+                "train-detection-systems";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/train-detection-systems-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/sidings>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/Siding>;
+        <http://purl.org/dc/terms/identifier>
+                "sidings";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/sidings-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/sections-of-line>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/SectionOfLine>;
+        <http://purl.org/dc/terms/identifier>
+                "sections-of-line";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/sections-of-line-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/running-tracks>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/RunningTrack>;
+        <http://purl.org/dc/terms/identifier>
+                "running-tracks";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/running-tracks-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/primary-locations>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/PrimaryLocation>;
+        <http://purl.org/dc/terms/identifier>
+                "primary-locations";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/primary-locations-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/platform-edges>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/PlatformEdge>;
+        <http://purl.org/dc/terms/identifier>
+                "platform-edges";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/platform-edges-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/operational-points>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/OperationalPoint>;
+        <http://purl.org/dc/terms/identifier>
+                "operational-points";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/operational-points-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/kilometric-posts>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/KilometricPost>;
+        <http://purl.org/dc/terms/identifier>
+                "kilometric-posts";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/kilometric-posts-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/etcs>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/ETCS>;
+        <http://purl.org/dc/terms/identifier>
+                "etcs";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/etcs-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/dataset/contact-line-systems>
+        a       <http://www.w3.org/ns/dcat#Dataset>;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://data.europa.eu/949/ContactLineSystem>;
+        <http://purl.org/dc/terms/identifier>
+                "contact-line-systems";
+        <http://purl.org/dc/terms/modified>
+                "2026-08-27"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://purl.org/dc/terms/source>
+                <http://data.europa.eu/949/graph/0056>;
+        <http://www.w3.org/ns/dcat#distribution>
+                <https://data.gov.sk/set/era/distribution/contact-line-systems-2026-08-27-turtle-gzip>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
+
+<https://data.gov.sk/set/era/catalog/zsr-open-data>
+        a       <http://www.w3.org/ns/dcat#Catalog>;
+        <http://www.w3.org/ns/dcat#dataset>
+                <https://data.gov.sk/set/era/dataset/tunnels> , <https://data.gov.sk/set/era/dataset/train-detection-systems> , <https://data.gov.sk/set/era/dataset/sidings> , <https://data.gov.sk/set/era/dataset/sections-of-line> , <https://data.gov.sk/set/era/dataset/running-tracks> , <https://data.gov.sk/set/era/dataset/primary-locations> , <https://data.gov.sk/set/era/dataset/platform-edges> , <https://data.gov.sk/set/era/dataset/operational-points> , <https://data.gov.sk/set/era/dataset/kilometric-posts> , <https://data.gov.sk/set/era/dataset/etcs> , <https://data.gov.sk/set/era/dataset/contact-line-systems>;
+        <http://www.w3.org/ns/prov#wasDerivedFrom>
+                <http://data.europa.eu/949/graph/0056> .
