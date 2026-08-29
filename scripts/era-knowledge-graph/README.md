@@ -48,32 +48,13 @@ SKOS konceptov s jednou kolekciou v `graph/rinf/skos`. Hraničné body sú
 kandidátom na doplnkový slovenský dataset; SKOS zdroje majú zostať
 referenčnými číselníkmi.
 
-## Generovanie Slovpedia katalógu a triedových pohľadov
+## Nadväzujúce spracovanie
 
-Konfigurácia `dcat-datasets.json` rozdeľuje fyzický graf `0056` na logické
-datasety podľa dôležitých tried ERA. Katalóg a samostatné `CONSTRUCT` dotazy sa
-obnovia príkazom:
+Downloader vytvára iba overený zdrojový snapshot a inventáre. Starý generátor
+Slovpedia katalógu a triedových pohľadov bol odstránený.
 
-```bash
-scripts/era-knowledge-graph/generate-dcat.py \
-  --output abox/slovpedia/era-sk/era-sk-knowledge-graph/2026-08-27
-```
-
-Pre každý dataset generátor vytvorí čitateľný SPARQL dotaz `queries/*.rq` aj
-jednoriadkovú URL-encoded podobu `queries/*.url`. Súbor `.url` obsahuje celú
-spustiteľnú URL endpointu s parametrom `query`, vhodnú na vloženie do metadát
-na `data.slovensko.sk`.
-
-Výsledky dotazov sa fyzicky uložia takto:
-
-```bash
-scripts/era-knowledge-graph/materialize-datasets.py \
-  --source raw/era-knowledge-graph/2026-08-27/era-rinf-sk-graph-0056.nq.gz \
-  --output abox/slovpedia/era-sk/era-sk-knowledge-graph/2026-08-27
-```
-
-Potom treba generátor spustiť ešte raz, aby do DCAT doplnil veľkosti súborov.
-Každý dataset dostane uloženú `.ttl.gz` distribúciu (Turtle komprimovaný
-pomocou gzip), priamu živú SPARQL distribúciu aj distribúciu cez
-`dcat:DataService`. Lokálne metadátové URI sú
-pod `https://slovpedia.eu/`; obsahové ERA URI sa nemenia.
+Nový publikačný proces ŽSR je evidovaný v `scripts/zsr-opendata/`. Bude
+vychádzať z tohto snapshotu a používať URI
+`https://data.gov.sk/{type}/era/{class}/{id}`. Implementuje sa po určení
+stabilnej stratégie `{id}` pre každú triedu; pôvodné URI ERA zostanú
+zachované ako zdroj a provenance.

@@ -142,7 +142,7 @@ jq -n \
     },
     identityPolicy: {
       contentEntityIrisRewritten: false,
-      localMetadataBase: "https://slovpedia.eu/"
+      intendedLocalUriTemplate: "https://data.gov.sk/{type}/era/{class}/{id}"
     }
   }' > "${output_dir}/source-manifest.json"
 
